@@ -1,0 +1,112 @@
+inversion_3k
+    35, 10
+    4, 10
+    46, 10
+inversion_4k
+    357, 10
+    56, 10
+    34, 10
+    2, 10
+inversion_3k_4k
+    {inversion_3k}, 10
+    [inversion_4k}, 10
+cadV
+    cadV_type1, 10
+        V46
+        V35
+    cadV_type2, 10
+        V46
+        V357
+V
+    V, 10
+        {inversion_3k_4k}
+    cadV, 10
+phrase
+    major, 10
+        key
+            c, 10
+            g, 10
+            d, 10
+            a, 10
+            e, 10
+            b, 10
+            f#, 10
+            c#, 10
+            f, 10
+            bb, 10
+            eb, 10
+            ab, 10
+            db, 10
+            gb, 10
+            cb, 10
+        meter
+            4/4, 10
+            3/4, 10
+            2/4, 10
+            6/4, 10
+        predominant
+            none, 10
+            {V}, 10
+        start
+            tonic_prolongation
+                I, 10
+                    {inversion_3k}
+                SOP, 10
+                    SOP_type1, 10
+                        I
+                            {inversion_3k}
+                        ii
+                            {inversion_3k_4k}
+                        V
+                            {inversion_3k_4k}
+                        I
+                            {inversion_3k}
+                    SOP_type2, 10
+                        I
+                            {inversion_3k}
+                        IV
+                            {inversion_3k}
+                        V
+                            {inversion_3k_4k}
+                        I
+                            {inversion_3k}
+        conn
+            none, 10
+            ii, 10
+                {inversion_3k_4k}
+            IV, 10
+                {inversion_3k_4k}
+        end
+            none, 10
+            I, 10
+                {inversion_3k}
+            cad, 10
+                AC, 10
+                    {V}
+                    I
+                        {inversion_3k}
+                HC, 10
+                    {V}
+                DC, 10
+            plagal_tag, 10
+                IV
+                    {inversion_3k}
+                I
+                    {inversion_3k}
+    minor, 10
+        key
+            a, 10
+            e, 10
+            b, 10
+            f#, 10
+            c#, 10
+            g#, 10
+            d#, 10
+            a#, 10
+            d, 10
+            g, 10
+            c, 10
+            f, 10
+            bb, 10
+            eb, 10
+            ab, 10
