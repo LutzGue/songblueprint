@@ -31,7 +31,7 @@ def traverse(node, path=[]):
         traverse(next_node, path)
     return path
 
-with open('output_total.json') as f:
+with open('json\\output_total.json') as f:
     data = json.load(f)
 
 start_description = 'cadV'
