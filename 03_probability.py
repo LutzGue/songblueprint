@@ -3,7 +3,7 @@ Calculate the sum of 'value' of nested nodes in the same indent level with the s
 if “isprobability” is true, and writes the total into a new key 'total'. It then adds this 
 sum to a new ‘total’ field in each node and writes the updated JSON data back to the file.
 
-!!!LIST OF BUGS TO BE FIXED:
+LIST OF BUGS TO BE FIXED:
 - not all nested values are calculated probabilities
 """
 

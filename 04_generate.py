@@ -5,7 +5,7 @@ output. The inherent layers in the JSON structure are kept for output.
 
 !!!TODOS:
 - the chain containing values -1 are missing
-- output stucture has to be original json schema<
+- output stucture has to be original json schema
 - possible solution: REDESIGN -- drop in json schema rnd not choosen items
 """
 
