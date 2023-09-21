@@ -1,44 +1,39 @@
 """
-This script will traverse the JSON structure based on the probability chain and concatenate 
-descriptions. If “isprobability” is False, the description of the node will be part of the 
-output. The inherent layers in the JSON structure are kept for output.
-
-!!!TODOS:
-- the chain containing values -1 are missing
-- output stucture has to be original json schema
-- possible solution: REDESIGN -- drop in json schema rnd not choosen items
+It reads a JSON file, iterates over the nodes, and based on the ‘probability’ value, it 
+uses a random function to decide whether to keep or delete nodes. If ‘isprobability’ is 
+false, the entry is always retained. It starts processing from a specific node by matching 
+the “description”. It removes parent nodes that are not the defined starting node but keeps 
+the nested children nodes.
 """
-
 import json
 import random
 
-def find_start(data, start):
-    for item in data:
-        if item['description'] == start:
-            return item
-        if 'children' in item:
-            result = find_start(item['children'], start)
-            if result is not None:
-                return result
-    return None
+def process_node(node, start_node):
+    if node['description'] == start_node:
+        if 'children' in node:
+            node['children'] = [process_node(child, start_node) for child in node['children']]
+            node['children'] = [child for child in node['children'] if child is not None]
+        return node
+    else:
+        if 'isprobability' in node and node['isprobability']:
+            if random.random() < node.get('probability', 0):
+                if 'children' in node:
+                    node['children'] = [process_node(child, start_node) for child in node['children']]
+                    node['children'] = [child for child in node['children'] if child is not None]
+                return node
+        else:
+            if 'children' in node:
+                node['children'] = [process_node(child, start_node) for child in node['children']]
+                return node
 
-def traverse(node, path=[]):
-    if not node.get('isprobability', False):
-        path.append(node['description'])
-    if 'children' in node:
-        next_node = random.choices(node['children'], 
-                                   weights=[child.get('probability', 1) for child in node['children']])[0]
-        traverse(next_node, path)
-    return path
+def process_json(json_file, start_node):
+    with open(json_file, 'r') as f:
+        data = json.load(f)
 
-with open('json\\output_total.json') as f:
-    data = json.load(f)
+    processed_data = process_node(data[0], start_node)
 
-start_description = 'cadV'
-start_node = find_start(data, start_description)
+    with open('json\\output_generated.json', 'w') as f:
+        json.dump(processed_data, f, indent=4)
 
-if start_node is not None:
-    output = traverse(start_node)
-    print(' -> '.join(output))
-else:
-    print(f"No node with description '{start_description}' found.")
+# Call the function with your JSON file and the description of the starting node
+process_json('json\\output_total.json', 'interval_3k_4k')

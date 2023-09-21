@@ -1,0 +1,14 @@
+{
+    "description": "interval_3k",
+    "isreplacecandidate": false,
+    "isreplaced": false,
+    "value": -1,
+    "isprobability": false,
+    "isoriginal": true,
+    "children": [
+        null,
+        null,
+        null
+    ],
+    "total": 30
+}
