@@ -1,11 +1,42 @@
+interval_3k
+    35,10
+    6,10
+    46,10
+interval_4k
+    357,10
+    56,10
+    34,10
+    2,10
+interval_3k_4k
+    {interval_3k},10
+    {interval_4k},10
 cadV
-    cadV_type1, 10
+    type1,10
         V
             46
         V
             35
-    cadV_type2, 10
+    type2,10
         V
             46
         V
             357
+SOP
+    type1,10
+        I
+            {interval_3k}
+        ii
+            {interval_3k_4k}
+        V
+            {interval_3k_4k}
+        I
+            {interval_3k}
+    type2,10
+        I
+            {interval_3k}
+        IV
+            {interval_3k_4k}
+        V
+            {interval_3k_4k}
+        I
+            {interval_3k}

@@ -10,11 +10,15 @@ A Python module that generates songs from chord progressions and song structures
 ### Input (TXT-file)
 cadV
     cadV_type1, 10
-        V46
-        V35
+        V
+            46
+        V
+            35
     cadV_type2, 10
-        V46
-        V357
+        V
+            46
+        V
+            357
 ### Result (nested dictionary in py)
 {
     'cadV': {
