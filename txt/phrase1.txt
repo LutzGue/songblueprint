@@ -10,6 +10,43 @@ interval_4k
 interval_3k_4k
     {interval_3k},10
     {interval_4k},10
+key_major
+    c,10
+    g,10
+    d,10
+    a,10
+    e,10
+    b,10
+    f#,10
+    c#,10
+    f,10
+    bb,10
+    eb,10
+    ab,10
+    db,10
+    gb,10
+    cb,10
+key_minor
+    a,10
+    e,10
+    b,10
+    f#,10
+    c#,10
+    g#,10
+    d#,10
+    a#,10
+    d,10
+    g,10
+    c,10
+    f,10
+    bb,10
+    eb,10
+    ab,10
+meter
+    4/4,10
+    3/4,10
+    2/4,10
+    6/4,10
 cadV
     type1,10
         V
@@ -40,3 +77,20 @@ SOP
             {interval_3k_4k}
         I
             {interval_3k}
+phrase_major_minor
+    phrase_major,10
+        meta
+            {key_major}
+            {meter}
+        song
+            start
+            conn
+            end
+    phrase_minor,10
+        meta
+            {key_minor}
+            {meter}
+        song
+            start
+            conn
+            end

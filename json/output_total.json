@@ -183,6 +183,345 @@
         "total": 20
     },
     {
+        "description": "key_major",
+        "isreplacecandidate": false,
+        "isreplaced": false,
+        "value": -1,
+        "isprobability": false,
+        "isoriginal": true,
+        "children": [
+            {
+                "description": "c",
+                "isreplacecandidate": false,
+                "isreplaced": false,
+                "value": 10,
+                "isprobability": true,
+                "isoriginal": false,
+                "probability": 0.06666666666666667
+            },
+            {
+                "description": "g",
+                "isreplacecandidate": false,
+                "isreplaced": false,
+                "value": 10,
+                "isprobability": true,
+                "isoriginal": false,
+                "probability": 0.06666666666666667
+            },
+            {
+                "description": "d",
+                "isreplacecandidate": false,
+                "isreplaced": false,
+                "value": 10,
+                "isprobability": true,
+                "isoriginal": false,
+                "probability": 0.06666666666666667
+            },
+            {
+                "description": "a",
+                "isreplacecandidate": false,
+                "isreplaced": false,
+                "value": 10,
+                "isprobability": true,
+                "isoriginal": false,
+                "probability": 0.06666666666666667
+            },
+            {
+                "description": "e",
+                "isreplacecandidate": false,
+                "isreplaced": false,
+                "value": 10,
+                "isprobability": true,
+                "isoriginal": false,
+                "probability": 0.06666666666666667
+            },
+            {
+                "description": "b",
+                "isreplacecandidate": false,
+                "isreplaced": false,
+                "value": 10,
+                "isprobability": true,
+                "isoriginal": false,
+                "probability": 0.06666666666666667
+            },
+            {
+                "description": "f#",
+                "isreplacecandidate": false,
+                "isreplaced": false,
+                "value": 10,
+                "isprobability": true,
+                "isoriginal": false,
+                "probability": 0.06666666666666667
+            },
+            {
+                "description": "c#",
+                "isreplacecandidate": false,
+                "isreplaced": false,
+                "value": 10,
+                "isprobability": true,
+                "isoriginal": false,
+                "probability": 0.06666666666666667
+            },
+            {
+                "description": "f",
+                "isreplacecandidate": false,
+                "isreplaced": false,
+                "value": 10,
+                "isprobability": true,
+                "isoriginal": false,
+                "probability": 0.06666666666666667
+            },
+            {
+                "description": "bb",
+                "isreplacecandidate": false,
+                "isreplaced": false,
+                "value": 10,
+                "isprobability": true,
+                "isoriginal": false,
+                "probability": 0.06666666666666667
+            },
+            {
+                "description": "eb",
+                "isreplacecandidate": false,
+                "isreplaced": false,
+                "value": 10,
+                "isprobability": true,
+                "isoriginal": false,
+                "probability": 0.06666666666666667
+            },
+            {
+                "description": "ab",
+                "isreplacecandidate": false,
+                "isreplaced": false,
+                "value": 10,
+                "isprobability": true,
+                "isoriginal": false,
+                "probability": 0.06666666666666667
+            },
+            {
+                "description": "db",
+                "isreplacecandidate": false,
+                "isreplaced": false,
+                "value": 10,
+                "isprobability": true,
+                "isoriginal": false,
+                "probability": 0.06666666666666667
+            },
+            {
+                "description": "gb",
+                "isreplacecandidate": false,
+                "isreplaced": false,
+                "value": 10,
+                "isprobability": true,
+                "isoriginal": false,
+                "probability": 0.06666666666666667
+            },
+            {
+                "description": "cb",
+                "isreplacecandidate": false,
+                "isreplaced": false,
+                "value": 10,
+                "isprobability": true,
+                "isoriginal": false,
+                "probability": 0.06666666666666667
+            }
+        ],
+        "total": 150
+    },
+    {
+        "description": "key_minor",
+        "isreplacecandidate": false,
+        "isreplaced": false,
+        "value": -1,
+        "isprobability": false,
+        "isoriginal": true,
+        "children": [
+            {
+                "description": "a",
+                "isreplacecandidate": false,
+                "isreplaced": false,
+                "value": 10,
+                "isprobability": true,
+                "isoriginal": false,
+                "probability": 0.06666666666666667
+            },
+            {
+                "description": "e",
+                "isreplacecandidate": false,
+                "isreplaced": false,
+                "value": 10,
+                "isprobability": true,
+                "isoriginal": false,
+                "probability": 0.06666666666666667
+            },
+            {
+                "description": "b",
+                "isreplacecandidate": false,
+                "isreplaced": false,
+                "value": 10,
+                "isprobability": true,
+                "isoriginal": false,
+                "probability": 0.06666666666666667
+            },
+            {
+                "description": "f#",
+                "isreplacecandidate": false,
+                "isreplaced": false,
+                "value": 10,
+                "isprobability": true,
+                "isoriginal": false,
+                "probability": 0.06666666666666667
+            },
+            {
+                "description": "c#",
+                "isreplacecandidate": false,
+                "isreplaced": false,
+                "value": 10,
+                "isprobability": true,
+                "isoriginal": false,
+                "probability": 0.06666666666666667
+            },
+            {
+                "description": "g#",
+                "isreplacecandidate": false,
+                "isreplaced": false,
+                "value": 10,
+                "isprobability": true,
+                "isoriginal": false,
+                "probability": 0.06666666666666667
+            },
+            {
+                "description": "d#",
+                "isreplacecandidate": false,
+                "isreplaced": false,
+                "value": 10,
+                "isprobability": true,
+                "isoriginal": false,
+                "probability": 0.06666666666666667
+            },
+            {
+                "description": "a#",
+                "isreplacecandidate": false,
+                "isreplaced": false,
+                "value": 10,
+                "isprobability": true,
+                "isoriginal": false,
+                "probability": 0.06666666666666667
+            },
+            {
+                "description": "d",
+                "isreplacecandidate": false,
+                "isreplaced": false,
+                "value": 10,
+                "isprobability": true,
+                "isoriginal": false,
+                "probability": 0.06666666666666667
+            },
+            {
+                "description": "g",
+                "isreplacecandidate": false,
+                "isreplaced": false,
+                "value": 10,
+                "isprobability": true,
+                "isoriginal": false,
+                "probability": 0.06666666666666667
+            },
+            {
+                "description": "c",
+                "isreplacecandidate": false,
+                "isreplaced": false,
+                "value": 10,
+                "isprobability": true,
+                "isoriginal": false,
+                "probability": 0.06666666666666667
+            },
+            {
+                "description": "f",
+                "isreplacecandidate": false,
+                "isreplaced": false,
+                "value": 10,
+                "isprobability": true,
+                "isoriginal": false,
+                "probability": 0.06666666666666667
+            },
+            {
+                "description": "bb",
+                "isreplacecandidate": false,
+                "isreplaced": false,
+                "value": 10,
+                "isprobability": true,
+                "isoriginal": false,
+                "probability": 0.06666666666666667
+            },
+            {
+                "description": "eb",
+                "isreplacecandidate": false,
+                "isreplaced": false,
+                "value": 10,
+                "isprobability": true,
+                "isoriginal": false,
+                "probability": 0.06666666666666667
+            },
+            {
+                "description": "ab",
+                "isreplacecandidate": false,
+                "isreplaced": false,
+                "value": 10,
+                "isprobability": true,
+                "isoriginal": false,
+                "probability": 0.06666666666666667
+            }
+        ],
+        "total": 150
+    },
+    {
+        "description": "meter",
+        "isreplacecandidate": false,
+        "isreplaced": false,
+        "value": -1,
+        "isprobability": false,
+        "isoriginal": true,
+        "children": [
+            {
+                "description": "4/4",
+                "isreplacecandidate": false,
+                "isreplaced": false,
+                "value": 10,
+                "isprobability": true,
+                "isoriginal": false,
+                "probability": 0.25
+            },
+            {
+                "description": "3/4",
+                "isreplacecandidate": false,
+                "isreplaced": false,
+                "value": 10,
+                "isprobability": true,
+                "isoriginal": false,
+                "probability": 0.25
+            },
+            {
+                "description": "2/4",
+                "isreplacecandidate": false,
+                "isreplaced": false,
+                "value": 10,
+                "isprobability": true,
+                "isoriginal": false,
+                "probability": 0.25
+            },
+            {
+                "description": "6/4",
+                "isreplacecandidate": false,
+                "isreplaced": false,
+                "value": 10,
+                "isprobability": true,
+                "isoriginal": false,
+                "probability": 0.25
+            }
+        ],
+        "total": 40
+    },
+    {
         "description": "cadV",
         "isreplacecandidate": false,
         "isreplaced": false,
@@ -949,6 +1288,519 @@
                                     }
                                 ],
                                 "total": 30
+                            }
+                        ],
+                        "total": 0
+                    }
+                ],
+                "total": 0,
+                "probability": 0.5
+            }
+        ],
+        "total": 20
+    },
+    {
+        "description": "phrase_major_minor",
+        "isreplacecandidate": false,
+        "isreplaced": false,
+        "value": -1,
+        "isprobability": false,
+        "isoriginal": true,
+        "children": [
+            {
+                "description": "phrase_major",
+                "isreplacecandidate": false,
+                "isreplaced": false,
+                "value": 10,
+                "isprobability": true,
+                "isoriginal": false,
+                "children": [
+                    {
+                        "description": "meta",
+                        "isreplacecandidate": false,
+                        "isreplaced": false,
+                        "value": -1,
+                        "isprobability": false,
+                        "isoriginal": false,
+                        "children": [
+                            {
+                                "description": "key_major",
+                                "isreplacecandidate": true,
+                                "isreplaced": true,
+                                "value": -1,
+                                "isprobability": false,
+                                "isoriginal": false,
+                                "children": [
+                                    {
+                                        "description": "c",
+                                        "isreplacecandidate": false,
+                                        "isreplaced": false,
+                                        "value": 10,
+                                        "isprobability": true,
+                                        "isoriginal": false,
+                                        "probability": 0.06666666666666667
+                                    },
+                                    {
+                                        "description": "g",
+                                        "isreplacecandidate": false,
+                                        "isreplaced": false,
+                                        "value": 10,
+                                        "isprobability": true,
+                                        "isoriginal": false,
+                                        "probability": 0.06666666666666667
+                                    },
+                                    {
+                                        "description": "d",
+                                        "isreplacecandidate": false,
+                                        "isreplaced": false,
+                                        "value": 10,
+                                        "isprobability": true,
+                                        "isoriginal": false,
+                                        "probability": 0.06666666666666667
+                                    },
+                                    {
+                                        "description": "a",
+                                        "isreplacecandidate": false,
+                                        "isreplaced": false,
+                                        "value": 10,
+                                        "isprobability": true,
+                                        "isoriginal": false,
+                                        "probability": 0.06666666666666667
+                                    },
+                                    {
+                                        "description": "e",
+                                        "isreplacecandidate": false,
+                                        "isreplaced": false,
+                                        "value": 10,
+                                        "isprobability": true,
+                                        "isoriginal": false,
+                                        "probability": 0.06666666666666667
+                                    },
+                                    {
+                                        "description": "b",
+                                        "isreplacecandidate": false,
+                                        "isreplaced": false,
+                                        "value": 10,
+                                        "isprobability": true,
+                                        "isoriginal": false,
+                                        "probability": 0.06666666666666667
+                                    },
+                                    {
+                                        "description": "f#",
+                                        "isreplacecandidate": false,
+                                        "isreplaced": false,
+                                        "value": 10,
+                                        "isprobability": true,
+                                        "isoriginal": false,
+                                        "probability": 0.06666666666666667
+                                    },
+                                    {
+                                        "description": "c#",
+                                        "isreplacecandidate": false,
+                                        "isreplaced": false,
+                                        "value": 10,
+                                        "isprobability": true,
+                                        "isoriginal": false,
+                                        "probability": 0.06666666666666667
+                                    },
+                                    {
+                                        "description": "f",
+                                        "isreplacecandidate": false,
+                                        "isreplaced": false,
+                                        "value": 10,
+                                        "isprobability": true,
+                                        "isoriginal": false,
+                                        "probability": 0.06666666666666667
+                                    },
+                                    {
+                                        "description": "bb",
+                                        "isreplacecandidate": false,
+                                        "isreplaced": false,
+                                        "value": 10,
+                                        "isprobability": true,
+                                        "isoriginal": false,
+                                        "probability": 0.06666666666666667
+                                    },
+                                    {
+                                        "description": "eb",
+                                        "isreplacecandidate": false,
+                                        "isreplaced": false,
+                                        "value": 10,
+                                        "isprobability": true,
+                                        "isoriginal": false,
+                                        "probability": 0.06666666666666667
+                                    },
+                                    {
+                                        "description": "ab",
+                                        "isreplacecandidate": false,
+                                        "isreplaced": false,
+                                        "value": 10,
+                                        "isprobability": true,
+                                        "isoriginal": false,
+                                        "probability": 0.06666666666666667
+                                    },
+                                    {
+                                        "description": "db",
+                                        "isreplacecandidate": false,
+                                        "isreplaced": false,
+                                        "value": 10,
+                                        "isprobability": true,
+                                        "isoriginal": false,
+                                        "probability": 0.06666666666666667
+                                    },
+                                    {
+                                        "description": "gb",
+                                        "isreplacecandidate": false,
+                                        "isreplaced": false,
+                                        "value": 10,
+                                        "isprobability": true,
+                                        "isoriginal": false,
+                                        "probability": 0.06666666666666667
+                                    },
+                                    {
+                                        "description": "cb",
+                                        "isreplacecandidate": false,
+                                        "isreplaced": false,
+                                        "value": 10,
+                                        "isprobability": true,
+                                        "isoriginal": false,
+                                        "probability": 0.06666666666666667
+                                    }
+                                ],
+                                "total": 150
+                            },
+                            {
+                                "description": "meter",
+                                "isreplacecandidate": true,
+                                "isreplaced": true,
+                                "value": -1,
+                                "isprobability": false,
+                                "isoriginal": false,
+                                "children": [
+                                    {
+                                        "description": "4/4",
+                                        "isreplacecandidate": false,
+                                        "isreplaced": false,
+                                        "value": 10,
+                                        "isprobability": true,
+                                        "isoriginal": false,
+                                        "probability": 0.25
+                                    },
+                                    {
+                                        "description": "3/4",
+                                        "isreplacecandidate": false,
+                                        "isreplaced": false,
+                                        "value": 10,
+                                        "isprobability": true,
+                                        "isoriginal": false,
+                                        "probability": 0.25
+                                    },
+                                    {
+                                        "description": "2/4",
+                                        "isreplacecandidate": false,
+                                        "isreplaced": false,
+                                        "value": 10,
+                                        "isprobability": true,
+                                        "isoriginal": false,
+                                        "probability": 0.25
+                                    },
+                                    {
+                                        "description": "6/4",
+                                        "isreplacecandidate": false,
+                                        "isreplaced": false,
+                                        "value": 10,
+                                        "isprobability": true,
+                                        "isoriginal": false,
+                                        "probability": 0.25
+                                    }
+                                ],
+                                "total": 40
+                            }
+                        ],
+                        "total": 0
+                    },
+                    {
+                        "description": "song",
+                        "isreplacecandidate": false,
+                        "isreplaced": false,
+                        "value": -1,
+                        "isprobability": false,
+                        "isoriginal": false,
+                        "children": [
+                            {
+                                "description": "start",
+                                "isreplacecandidate": false,
+                                "isreplaced": false,
+                                "value": -1,
+                                "isprobability": false,
+                                "isoriginal": false
+                            },
+                            {
+                                "description": "conn",
+                                "isreplacecandidate": false,
+                                "isreplaced": false,
+                                "value": -1,
+                                "isprobability": false,
+                                "isoriginal": false
+                            },
+                            {
+                                "description": "end",
+                                "isreplacecandidate": false,
+                                "isreplaced": false,
+                                "value": -1,
+                                "isprobability": false,
+                                "isoriginal": false
+                            }
+                        ],
+                        "total": 0
+                    }
+                ],
+                "total": 0,
+                "probability": 0.5
+            },
+            {
+                "description": "phrase_minor",
+                "isreplacecandidate": false,
+                "isreplaced": false,
+                "value": 10,
+                "isprobability": true,
+                "isoriginal": false,
+                "children": [
+                    {
+                        "description": "meta",
+                        "isreplacecandidate": false,
+                        "isreplaced": false,
+                        "value": -1,
+                        "isprobability": false,
+                        "isoriginal": false,
+                        "children": [
+                            {
+                                "description": "key_minor",
+                                "isreplacecandidate": true,
+                                "isreplaced": true,
+                                "value": -1,
+                                "isprobability": false,
+                                "isoriginal": false,
+                                "children": [
+                                    {
+                                        "description": "a",
+                                        "isreplacecandidate": false,
+                                        "isreplaced": false,
+                                        "value": 10,
+                                        "isprobability": true,
+                                        "isoriginal": false,
+                                        "probability": 0.06666666666666667
+                                    },
+                                    {
+                                        "description": "e",
+                                        "isreplacecandidate": false,
+                                        "isreplaced": false,
+                                        "value": 10,
+                                        "isprobability": true,
+                                        "isoriginal": false,
+                                        "probability": 0.06666666666666667
+                                    },
+                                    {
+                                        "description": "b",
+                                        "isreplacecandidate": false,
+                                        "isreplaced": false,
+                                        "value": 10,
+                                        "isprobability": true,
+                                        "isoriginal": false,
+                                        "probability": 0.06666666666666667
+                                    },
+                                    {
+                                        "description": "f#",
+                                        "isreplacecandidate": false,
+                                        "isreplaced": false,
+                                        "value": 10,
+                                        "isprobability": true,
+                                        "isoriginal": false,
+                                        "probability": 0.06666666666666667
+                                    },
+                                    {
+                                        "description": "c#",
+                                        "isreplacecandidate": false,
+                                        "isreplaced": false,
+                                        "value": 10,
+                                        "isprobability": true,
+                                        "isoriginal": false,
+                                        "probability": 0.06666666666666667
+                                    },
+                                    {
+                                        "description": "g#",
+                                        "isreplacecandidate": false,
+                                        "isreplaced": false,
+                                        "value": 10,
+                                        "isprobability": true,
+                                        "isoriginal": false,
+                                        "probability": 0.06666666666666667
+                                    },
+                                    {
+                                        "description": "d#",
+                                        "isreplacecandidate": false,
+                                        "isreplaced": false,
+                                        "value": 10,
+                                        "isprobability": true,
+                                        "isoriginal": false,
+                                        "probability": 0.06666666666666667
+                                    },
+                                    {
+                                        "description": "a#",
+                                        "isreplacecandidate": false,
+                                        "isreplaced": false,
+                                        "value": 10,
+                                        "isprobability": true,
+                                        "isoriginal": false,
+                                        "probability": 0.06666666666666667
+                                    },
+                                    {
+                                        "description": "d",
+                                        "isreplacecandidate": false,
+                                        "isreplaced": false,
+                                        "value": 10,
+                                        "isprobability": true,
+                                        "isoriginal": false,
+                                        "probability": 0.06666666666666667
+                                    },
+                                    {
+                                        "description": "g",
+                                        "isreplacecandidate": false,
+                                        "isreplaced": false,
+                                        "value": 10,
+                                        "isprobability": true,
+                                        "isoriginal": false,
+                                        "probability": 0.06666666666666667
+                                    },
+                                    {
+                                        "description": "c",
+                                        "isreplacecandidate": false,
+                                        "isreplaced": false,
+                                        "value": 10,
+                                        "isprobability": true,
+                                        "isoriginal": false,
+                                        "probability": 0.06666666666666667
+                                    },
+                                    {
+                                        "description": "f",
+                                        "isreplacecandidate": false,
+                                        "isreplaced": false,
+                                        "value": 10,
+                                        "isprobability": true,
+                                        "isoriginal": false,
+                                        "probability": 0.06666666666666667
+                                    },
+                                    {
+                                        "description": "bb",
+                                        "isreplacecandidate": false,
+                                        "isreplaced": false,
+                                        "value": 10,
+                                        "isprobability": true,
+                                        "isoriginal": false,
+                                        "probability": 0.06666666666666667
+                                    },
+                                    {
+                                        "description": "eb",
+                                        "isreplacecandidate": false,
+                                        "isreplaced": false,
+                                        "value": 10,
+                                        "isprobability": true,
+                                        "isoriginal": false,
+                                        "probability": 0.06666666666666667
+                                    },
+                                    {
+                                        "description": "ab",
+                                        "isreplacecandidate": false,
+                                        "isreplaced": false,
+                                        "value": 10,
+                                        "isprobability": true,
+                                        "isoriginal": false,
+                                        "probability": 0.06666666666666667
+                                    }
+                                ],
+                                "total": 150
+                            },
+                            {
+                                "description": "meter",
+                                "isreplacecandidate": true,
+                                "isreplaced": true,
+                                "value": -1,
+                                "isprobability": false,
+                                "isoriginal": false,
+                                "children": [
+                                    {
+                                        "description": "4/4",
+                                        "isreplacecandidate": false,
+                                        "isreplaced": false,
+                                        "value": 10,
+                                        "isprobability": true,
+                                        "isoriginal": false,
+                                        "probability": 0.25
+                                    },
+                                    {
+                                        "description": "3/4",
+                                        "isreplacecandidate": false,
+                                        "isreplaced": false,
+                                        "value": 10,
+                                        "isprobability": true,
+                                        "isoriginal": false,
+                                        "probability": 0.25
+                                    },
+                                    {
+                                        "description": "2/4",
+                                        "isreplacecandidate": false,
+                                        "isreplaced": false,
+                                        "value": 10,
+                                        "isprobability": true,
+                                        "isoriginal": false,
+                                        "probability": 0.25
+                                    },
+                                    {
+                                        "description": "6/4",
+                                        "isreplacecandidate": false,
+                                        "isreplaced": false,
+                                        "value": 10,
+                                        "isprobability": true,
+                                        "isoriginal": false,
+                                        "probability": 0.25
+                                    }
+                                ],
+                                "total": 40
+                            }
+                        ],
+                        "total": 0
+                    },
+                    {
+                        "description": "song",
+                        "isreplacecandidate": false,
+                        "isreplaced": false,
+                        "value": -1,
+                        "isprobability": false,
+                        "isoriginal": false,
+                        "children": [
+                            {
+                                "description": "start",
+                                "isreplacecandidate": false,
+                                "isreplaced": false,
+                                "value": -1,
+                                "isprobability": false,
+                                "isoriginal": false
+                            },
+                            {
+                                "description": "conn",
+                                "isreplacecandidate": false,
+                                "isreplaced": false,
+                                "value": -1,
+                                "isprobability": false,
+                                "isoriginal": false
+                            },
+                            {
+                                "description": "end",
+                                "isreplacecandidate": false,
+                                "isreplaced": false,
+                                "value": -1,
+                                "isprobability": false,
+                                "isoriginal": false
                             }
                         ],
                         "total": 0

@@ -3,12 +3,20 @@ import json
 def text_to_json(file_path):
     """
     Convert a text file with indentation to a nested JSON structure.
+    This script is useful for converting structured text files into a hierarchical JSON format.
+    If the label is between { }, it is considered as a replace candidate and isreplacecandidate 
+    is set to True, otherwise False. If a value is present, it is converted to an integer and 
+    isprobability is set to True, otherwise False. If the node is in the first level hierarchy, 
+    isoriginal is set to True, otherwise False.
 
     Parameters:
-    file_path (str): The path to the input text file.
+    file_path (str): This is the path to the input text file that needs to be converted into 
+    a JSON structure.
 
     Returns:
-    dict: The root of the resulting JSON structure.
+    The function returns a dictionary which represents the root of the resulting JSON 
+    structure. If an error occurs during the processing of the file, the function will 
+    print an error message and return None.
     """
     try:
         # Initialize the root of the JSON structure and a dictionary to keep track of the current node at each indentation level

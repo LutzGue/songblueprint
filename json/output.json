@@ -102,6 +102,308 @@
         ]
     },
     {
+        "description": "key_major",
+        "isreplacecandidate": false,
+        "isreplaced": false,
+        "value": -1,
+        "isprobability": false,
+        "isoriginal": true,
+        "children": [
+            {
+                "description": "c",
+                "isreplacecandidate": false,
+                "isreplaced": false,
+                "value": 10,
+                "isprobability": true,
+                "isoriginal": false
+            },
+            {
+                "description": "g",
+                "isreplacecandidate": false,
+                "isreplaced": false,
+                "value": 10,
+                "isprobability": true,
+                "isoriginal": false
+            },
+            {
+                "description": "d",
+                "isreplacecandidate": false,
+                "isreplaced": false,
+                "value": 10,
+                "isprobability": true,
+                "isoriginal": false
+            },
+            {
+                "description": "a",
+                "isreplacecandidate": false,
+                "isreplaced": false,
+                "value": 10,
+                "isprobability": true,
+                "isoriginal": false
+            },
+            {
+                "description": "e",
+                "isreplacecandidate": false,
+                "isreplaced": false,
+                "value": 10,
+                "isprobability": true,
+                "isoriginal": false
+            },
+            {
+                "description": "b",
+                "isreplacecandidate": false,
+                "isreplaced": false,
+                "value": 10,
+                "isprobability": true,
+                "isoriginal": false
+            },
+            {
+                "description": "f#",
+                "isreplacecandidate": false,
+                "isreplaced": false,
+                "value": 10,
+                "isprobability": true,
+                "isoriginal": false
+            },
+            {
+                "description": "c#",
+                "isreplacecandidate": false,
+                "isreplaced": false,
+                "value": 10,
+                "isprobability": true,
+                "isoriginal": false
+            },
+            {
+                "description": "f",
+                "isreplacecandidate": false,
+                "isreplaced": false,
+                "value": 10,
+                "isprobability": true,
+                "isoriginal": false
+            },
+            {
+                "description": "bb",
+                "isreplacecandidate": false,
+                "isreplaced": false,
+                "value": 10,
+                "isprobability": true,
+                "isoriginal": false
+            },
+            {
+                "description": "eb",
+                "isreplacecandidate": false,
+                "isreplaced": false,
+                "value": 10,
+                "isprobability": true,
+                "isoriginal": false
+            },
+            {
+                "description": "ab",
+                "isreplacecandidate": false,
+                "isreplaced": false,
+                "value": 10,
+                "isprobability": true,
+                "isoriginal": false
+            },
+            {
+                "description": "db",
+                "isreplacecandidate": false,
+                "isreplaced": false,
+                "value": 10,
+                "isprobability": true,
+                "isoriginal": false
+            },
+            {
+                "description": "gb",
+                "isreplacecandidate": false,
+                "isreplaced": false,
+                "value": 10,
+                "isprobability": true,
+                "isoriginal": false
+            },
+            {
+                "description": "cb",
+                "isreplacecandidate": false,
+                "isreplaced": false,
+                "value": 10,
+                "isprobability": true,
+                "isoriginal": false
+            }
+        ]
+    },
+    {
+        "description": "key_minor",
+        "isreplacecandidate": false,
+        "isreplaced": false,
+        "value": -1,
+        "isprobability": false,
+        "isoriginal": true,
+        "children": [
+            {
+                "description": "a",
+                "isreplacecandidate": false,
+                "isreplaced": false,
+                "value": 10,
+                "isprobability": true,
+                "isoriginal": false
+            },
+            {
+                "description": "e",
+                "isreplacecandidate": false,
+                "isreplaced": false,
+                "value": 10,
+                "isprobability": true,
+                "isoriginal": false
+            },
+            {
+                "description": "b",
+                "isreplacecandidate": false,
+                "isreplaced": false,
+                "value": 10,
+                "isprobability": true,
+                "isoriginal": false
+            },
+            {
+                "description": "f#",
+                "isreplacecandidate": false,
+                "isreplaced": false,
+                "value": 10,
+                "isprobability": true,
+                "isoriginal": false
+            },
+            {
+                "description": "c#",
+                "isreplacecandidate": false,
+                "isreplaced": false,
+                "value": 10,
+                "isprobability": true,
+                "isoriginal": false
+            },
+            {
+                "description": "g#",
+                "isreplacecandidate": false,
+                "isreplaced": false,
+                "value": 10,
+                "isprobability": true,
+                "isoriginal": false
+            },
+            {
+                "description": "d#",
+                "isreplacecandidate": false,
+                "isreplaced": false,
+                "value": 10,
+                "isprobability": true,
+                "isoriginal": false
+            },
+            {
+                "description": "a#",
+                "isreplacecandidate": false,
+                "isreplaced": false,
+                "value": 10,
+                "isprobability": true,
+                "isoriginal": false
+            },
+            {
+                "description": "d",
+                "isreplacecandidate": false,
+                "isreplaced": false,
+                "value": 10,
+                "isprobability": true,
+                "isoriginal": false
+            },
+            {
+                "description": "g",
+                "isreplacecandidate": false,
+                "isreplaced": false,
+                "value": 10,
+                "isprobability": true,
+                "isoriginal": false
+            },
+            {
+                "description": "c",
+                "isreplacecandidate": false,
+                "isreplaced": false,
+                "value": 10,
+                "isprobability": true,
+                "isoriginal": false
+            },
+            {
+                "description": "f",
+                "isreplacecandidate": false,
+                "isreplaced": false,
+                "value": 10,
+                "isprobability": true,
+                "isoriginal": false
+            },
+            {
+                "description": "bb",
+                "isreplacecandidate": false,
+                "isreplaced": false,
+                "value": 10,
+                "isprobability": true,
+                "isoriginal": false
+            },
+            {
+                "description": "eb",
+                "isreplacecandidate": false,
+                "isreplaced": false,
+                "value": 10,
+                "isprobability": true,
+                "isoriginal": false
+            },
+            {
+                "description": "ab",
+                "isreplacecandidate": false,
+                "isreplaced": false,
+                "value": 10,
+                "isprobability": true,
+                "isoriginal": false
+            }
+        ]
+    },
+    {
+        "description": "meter",
+        "isreplacecandidate": false,
+        "isreplaced": false,
+        "value": -1,
+        "isprobability": false,
+        "isoriginal": true,
+        "children": [
+            {
+                "description": "4/4",
+                "isreplacecandidate": false,
+                "isreplaced": false,
+                "value": 10,
+                "isprobability": true,
+                "isoriginal": false
+            },
+            {
+                "description": "3/4",
+                "isreplacecandidate": false,
+                "isreplaced": false,
+                "value": 10,
+                "isprobability": true,
+                "isoriginal": false
+            },
+            {
+                "description": "2/4",
+                "isreplacecandidate": false,
+                "isreplaced": false,
+                "value": 10,
+                "isprobability": true,
+                "isoriginal": false
+            },
+            {
+                "description": "6/4",
+                "isreplacecandidate": false,
+                "isreplaced": false,
+                "value": 10,
+                "isprobability": true,
+                "isoriginal": false
+            }
+        ]
+    },
+    {
         "description": "cadV",
         "isreplacecandidate": false,
         "isreplaced": false,
@@ -366,6 +668,156 @@
                             {
                                 "description": "interval_3k",
                                 "isreplacecandidate": true,
+                                "isreplaced": false,
+                                "value": -1,
+                                "isprobability": false,
+                                "isoriginal": false
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "description": "phrase_major_minor",
+        "isreplacecandidate": false,
+        "isreplaced": false,
+        "value": -1,
+        "isprobability": false,
+        "isoriginal": true,
+        "children": [
+            {
+                "description": "phrase_major",
+                "isreplacecandidate": false,
+                "isreplaced": false,
+                "value": 10,
+                "isprobability": true,
+                "isoriginal": false,
+                "children": [
+                    {
+                        "description": "meta",
+                        "isreplacecandidate": false,
+                        "isreplaced": false,
+                        "value": -1,
+                        "isprobability": false,
+                        "isoriginal": false,
+                        "children": [
+                            {
+                                "description": "key_major",
+                                "isreplacecandidate": true,
+                                "isreplaced": false,
+                                "value": -1,
+                                "isprobability": false,
+                                "isoriginal": false
+                            },
+                            {
+                                "description": "meter",
+                                "isreplacecandidate": true,
+                                "isreplaced": false,
+                                "value": -1,
+                                "isprobability": false,
+                                "isoriginal": false
+                            }
+                        ]
+                    },
+                    {
+                        "description": "song",
+                        "isreplacecandidate": false,
+                        "isreplaced": false,
+                        "value": -1,
+                        "isprobability": false,
+                        "isoriginal": false,
+                        "children": [
+                            {
+                                "description": "start",
+                                "isreplacecandidate": false,
+                                "isreplaced": false,
+                                "value": -1,
+                                "isprobability": false,
+                                "isoriginal": false
+                            },
+                            {
+                                "description": "conn",
+                                "isreplacecandidate": false,
+                                "isreplaced": false,
+                                "value": -1,
+                                "isprobability": false,
+                                "isoriginal": false
+                            },
+                            {
+                                "description": "end",
+                                "isreplacecandidate": false,
+                                "isreplaced": false,
+                                "value": -1,
+                                "isprobability": false,
+                                "isoriginal": false
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "description": "phrase_minor",
+                "isreplacecandidate": false,
+                "isreplaced": false,
+                "value": 10,
+                "isprobability": true,
+                "isoriginal": false,
+                "children": [
+                    {
+                        "description": "meta",
+                        "isreplacecandidate": false,
+                        "isreplaced": false,
+                        "value": -1,
+                        "isprobability": false,
+                        "isoriginal": false,
+                        "children": [
+                            {
+                                "description": "key_minor",
+                                "isreplacecandidate": true,
+                                "isreplaced": false,
+                                "value": -1,
+                                "isprobability": false,
+                                "isoriginal": false
+                            },
+                            {
+                                "description": "meter",
+                                "isreplacecandidate": true,
+                                "isreplaced": false,
+                                "value": -1,
+                                "isprobability": false,
+                                "isoriginal": false
+                            }
+                        ]
+                    },
+                    {
+                        "description": "song",
+                        "isreplacecandidate": false,
+                        "isreplaced": false,
+                        "value": -1,
+                        "isprobability": false,
+                        "isoriginal": false,
+                        "children": [
+                            {
+                                "description": "start",
+                                "isreplacecandidate": false,
+                                "isreplaced": false,
+                                "value": -1,
+                                "isprobability": false,
+                                "isoriginal": false
+                            },
+                            {
+                                "description": "conn",
+                                "isreplacecandidate": false,
+                                "isreplaced": false,
+                                "value": -1,
+                                "isprobability": false,
+                                "isoriginal": false
+                            },
+                            {
+                                "description": "end",
+                                "isreplacecandidate": false,
                                 "isreplaced": false,
                                 "value": -1,
                                 "isprobability": false,
