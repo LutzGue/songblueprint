@@ -1,6 +1,6 @@
 [
     {
-        "description": "cadV",
+        "description": "phrase_major_minor",
         "isreplacecandidate": false,
         "isreplaced": false,
         "value": -1,
@@ -8,7 +8,7 @@
         "isoriginal": true,
         "children": [
             {
-                "description": "type2",
+                "description": "phrase_major",
                 "isreplacecandidate": false,
                 "isreplaced": false,
                 "value": 10,
@@ -16,7 +16,7 @@
                 "isoriginal": false,
                 "children": [
                     {
-                        "description": "V",
+                        "description": "meta",
                         "isreplacecandidate": false,
                         "isreplaced": false,
                         "value": -1,
@@ -24,18 +24,50 @@
                         "isoriginal": false,
                         "children": [
                             {
-                                "description": "46",
-                                "isreplacecandidate": false,
-                                "isreplaced": false,
+                                "description": "key_major",
+                                "isreplacecandidate": true,
+                                "isreplaced": true,
                                 "value": -1,
                                 "isprobability": false,
-                                "isoriginal": false
+                                "isoriginal": false,
+                                "children": [
+                                    {
+                                        "description": "e",
+                                        "isreplacecandidate": false,
+                                        "isreplaced": false,
+                                        "value": 10,
+                                        "isprobability": true,
+                                        "isoriginal": false,
+                                        "probability": 0.06666666666666667
+                                    }
+                                ],
+                                "total": 150
+                            },
+                            {
+                                "description": "meter",
+                                "isreplacecandidate": true,
+                                "isreplaced": true,
+                                "value": -1,
+                                "isprobability": false,
+                                "isoriginal": false,
+                                "children": [
+                                    {
+                                        "description": "6/4",
+                                        "isreplacecandidate": false,
+                                        "isreplaced": false,
+                                        "value": 10,
+                                        "isprobability": true,
+                                        "isoriginal": false,
+                                        "probability": 0.25
+                                    }
+                                ],
+                                "total": 40
                             }
                         ],
                         "total": 0
                     },
                     {
-                        "description": "V",
+                        "description": "song",
                         "isreplacecandidate": false,
                         "isreplaced": false,
                         "value": -1,
@@ -43,7 +75,23 @@
                         "isoriginal": false,
                         "children": [
                             {
-                                "description": "357",
+                                "description": "start",
+                                "isreplacecandidate": false,
+                                "isreplaced": false,
+                                "value": -1,
+                                "isprobability": false,
+                                "isoriginal": false
+                            },
+                            {
+                                "description": "conn",
+                                "isreplacecandidate": false,
+                                "isreplaced": false,
+                                "value": -1,
+                                "isprobability": false,
+                                "isoriginal": false
+                            },
+                            {
+                                "description": "end",
                                 "isreplacecandidate": false,
                                 "isreplaced": false,
                                 "value": -1,

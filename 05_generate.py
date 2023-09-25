@@ -35,7 +35,7 @@ with open('json\\output_total.json', 'r') as f:
     data = json.load(f)
 
 # Define the starting node
-starting_node = 'cadV'
+starting_node = 'phrase_major_minor'
 
 # Find and keep only the element with the description matching the starting node
 data = [element for element in data if element['description'] == starting_node]
