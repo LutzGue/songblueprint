@@ -8,6 +8,7 @@ A Python module that generates songs from chord progressions and song structures
 
 ## Example
 ### Input (TXT-file)
+```
 cadV
     cadV_type1, 10
         V
@@ -19,7 +20,9 @@ cadV
             46
         V
             357
+```
 ### Result (nested dictionary in py)
+```
 {
     'cadV': {
         'cadV_type1': {
@@ -34,5 +37,7 @@ cadV
         }
     }
 }
+```
+
 ![example1](https://github.com/LutzGue/songblueprint/blob/main/png/example1.png)
 this picture was generated with https://github.com/int2str/jssyntaxtree
