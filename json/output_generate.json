@@ -1,0 +1,63 @@
+[
+    {
+        "description": "cadV",
+        "isreplacecandidate": false,
+        "isreplaced": false,
+        "value": -1,
+        "isprobability": false,
+        "isoriginal": true,
+        "children": [
+            {
+                "description": "type2",
+                "isreplacecandidate": false,
+                "isreplaced": false,
+                "value": 10,
+                "isprobability": true,
+                "isoriginal": false,
+                "children": [
+                    {
+                        "description": "V",
+                        "isreplacecandidate": false,
+                        "isreplaced": false,
+                        "value": -1,
+                        "isprobability": false,
+                        "isoriginal": false,
+                        "children": [
+                            {
+                                "description": "46",
+                                "isreplacecandidate": false,
+                                "isreplaced": false,
+                                "value": -1,
+                                "isprobability": false,
+                                "isoriginal": false
+                            }
+                        ],
+                        "total": 0
+                    },
+                    {
+                        "description": "V",
+                        "isreplacecandidate": false,
+                        "isreplaced": false,
+                        "value": -1,
+                        "isprobability": false,
+                        "isoriginal": false,
+                        "children": [
+                            {
+                                "description": "357",
+                                "isreplacecandidate": false,
+                                "isreplaced": false,
+                                "value": -1,
+                                "isprobability": false,
+                                "isoriginal": false
+                            }
+                        ],
+                        "total": 0
+                    }
+                ],
+                "total": 0,
+                "probability": 0.5
+            }
+        ],
+        "total": 20
+    }
+]

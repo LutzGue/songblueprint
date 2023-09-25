@@ -1,0 +1,54 @@
+"""
+Var 1: It reads a JSON file, iterates over the nodes, and based on the ‘probability’ value, it 
+uses a random function to decide whether to keep or delete nodes. If ‘isprobability’ is 
+false, the entry is always retained. It starts processing from a specific node by matching 
+the “description”. It removes parent nodes that are not the defined starting node but keeps 
+the nested children nodes.
+Var 2: The code will traverse the JSON structure, and for each node, it will check the “isprobability” field. If it’s true, it will randomly select one of the children based on their respective probabilities and remove the others. If it’s false, it will keep the node and proceed with the next nested children.
+The processing will start from this node and proceed with its nested children.
+Var 3: It reads a JSON file, iterates over each element, and based on the probability distribution in the “children” node, it selects one item and removes the others.
+The built-in random.choices function to select one item based on the provided probability distribution. The selected item is then kept in the ‘children’ field, while all other items are removed. The modified data is then written back to the JSON file.
+You can define the starting node in the first level as a variable. 
+It removes all nodes in the first level that are not the starting node defined in the variable. 
+Process all nested children nodes as well.
+always retain entries where ‘isprobability’ is false
+"""
+import json
+import random
+
+# Define the starting node
+starting_node = 'phrase_major_minor'
+
+# Function to process a node and its children
+def process_node(node):
+    if 'children' in node:
+        # Separate the children into those with 'isprobability' true and false
+        prob_children = [child for child in node['children'] if child.get('isprobability', False)]
+        non_prob_children = [child for child in node['children'] if not child.get('isprobability', False)]
+        if prob_children:
+            probabilities = [child['probability'] for child in prob_children]
+            total = sum(probabilities)
+            probabilities = [p / total for p in probabilities]
+            chosen_child = random.choices(prob_children, weights=probabilities, k=1)[0]
+            # Keep the chosen child and all non-probability children
+            node['children'] = non_prob_children + [chosen_child]
+            # Recursively process the chosen child
+            process_node(chosen_child)
+
+# Load the data from the JSON file
+with open('json\\output_total.json', 'r') as f:
+    data = json.load(f)
+
+# Find and keep only the element with the description matching the starting node
+data = [element for element in data if element['description'] == starting_node]
+
+# If the starting node was found
+if data:
+    element = data[0]  # Get the first (and only) element
+    # Process this node and all its children
+    process_node(element)
+
+# Save the modified data back to the JSON file
+with open('json\\output_generate.json', 'w') as f:
+    json.dump(data, f, indent=4)
+
