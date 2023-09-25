@@ -14,7 +14,7 @@
                 "value": 10,
                 "isprobability": true,
                 "isoriginal": false,
-                "probability": 0.3333333333333333
+                "probability": 0.2
             },
             {
                 "description": "6",
@@ -23,7 +23,7 @@
                 "value": 10,
                 "isprobability": true,
                 "isoriginal": false,
-                "probability": 0.3333333333333333
+                "probability": 0.7
             },
             {
                 "description": "46",
@@ -32,7 +32,7 @@
                 "value": 10,
                 "isprobability": true,
                 "isoriginal": false,
-                "probability": 0.3333333333333333
+                "probability": 0.1
             }
         ],
         "total": 30
