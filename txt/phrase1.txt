@@ -83,9 +83,96 @@ phrase_major_minor
             {key_major}
             {meter}
         song
+            predominant
+                none,10
+                V,10
+                    {interval_3k_4k}
             start
+                T1
+                    I,10
+                        {interval_3k}
+                    oscil,10
+                        type1,10
+                            I
+                                {interval_3k}
+                            [IV]
+                            I
+                                {interval_3k}
+                        type2,10
+                            I
+                                {interval_3k}
+                            [V]
+                            I
+                                {interval_3k}
+                        type3,10
+                            I
+                                {interval_3k}
+                            [vii°]
+                            I
+                                {interval_3k}
+                        type3,10
+                            I
+                                {interval_3k}
+                            [ii]
+                            I
+                                {interval_3k}
+                    {SOP},10
+                    subst,10
+                        vi,10
+                        iii,10
             conn
+                none,10
+                ii,10
+                    {interval_3k_4k}
+                IV,10
+                    {interval_3k}
             end
+                none,10
+                cadence,10
+                    authentic_cadence,10
+                        V
+                            V,10
+                            V7,10
+                            {cadV},10
+                        I
+                            {interval_3k}
+                    half_cadence,10
+                        type1,10
+                            I
+                                {interval_3k}
+                            V
+                                V,10
+                                {cadV},10
+                        type2,10
+                            ii
+                                {interval_3k_4k}
+                            V
+                                V,10
+                                V7,10
+                                {cadV},10
+                        type3,10
+                            IV
+                                {interval_3k}
+                            V
+                                V,10
+                                {cadV},10
+                        type4,10
+                            vi
+                                {interval_3k}
+                            V
+                                V,10
+                                cadV,10
+                    plagal_tag,10
+                        IV
+                            {interval_3k}
+                        I
+                            {interval_3k}
+                    deceptive_cadence,10
+                        V
+                            V,10
+                            {cadV},10
+                        vi
+                            {interval_3k}
     phrase_minor,10
         meta
             {key_minor}
