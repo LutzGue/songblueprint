@@ -77,3 +77,4 @@ This picture was generated with https://github.com/int2str/jssyntaxtree
 6) merge all functions 01-06
 7) py command line (parameters: file input, file out, commands: midi/no.of generations/PNG export/melody match/...)
 8) generate training data for ML: adding labels for training data
+9) create more music-phrase.txt files
