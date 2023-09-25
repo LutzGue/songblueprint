@@ -8,6 +8,7 @@ A Python module that generates songs from chord progressions and song structures
 
 ## Example
 ### Input (TXT-file)
+It's super easy to edit. Just open the notepad and bring it into a simple structure and write it down quickly like this example:
 ```
 cadV
     cadV_type1, 10
@@ -20,6 +21,21 @@ cadV
             46
         V
             357
+```
+You can also save yourself paperwork and use variables in curly brackets to replace the text directly, as shown in this example:
+```
+interval_3k
+    35,10
+    6,10
+    46,10
+interval_4k
+    357,10
+    56,10
+    34,10
+    2,10
+interval_3k_4k
+    {interval_3k},10
+    {interval_4k},10
 ```
 ### Result (nested dictionary in py)
 ```
