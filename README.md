@@ -6,7 +6,7 @@ A Python module that generates songs from chord progressions and song structures
 - handle multiple levels of hierarchy
 - count the leading spaces (or TAB characters) and determine the indentation level
 
-## Example
+## Examples
 ### Input (TXT-file)
 It's super easy to edit. Just open the notepad and bring it into a simple structure and write it down quickly like this example:
 ```
@@ -54,6 +54,7 @@ interval_3k_4k
     }
 }
 ```
+## Generated parsing trees
 ### Example 1
 ```
 ["phrase_major_minor"["phrase_major"["meta"["key_major"["f#"]]["meter"["4/4"]]]["song"["predominant"["V"["interval_3k_4k"["interval_3k"["6"]]]]]["start"["T1"["oscil"["type3"["I"["interval_3k"["35"]]]["[viiÂ°]"]["I"["interval_3k"["35"]]]]]]]["conn"["ii"["interval_3k_4k"["interval_3k"["6"]]]]]["end"["cadence"["deceptive_cadence"["V"["cadV"["type1"["V"["46"]]["V"["35"]]]]]["vi"["interval_3k"["35"]]]]]]]]]
