@@ -8,7 +8,7 @@ A Python module that generates songs from chord progressions and song structures
 
 ## Examples
 ### Input (TXT-file)
-It's super easy to edit. Just open the notepad and bring it into a simple structure and write it down quickly like this example:
+It's super easy to edit. Just open the notepad and bring it into a simple structure, write it down quickly and add some propabilities comma separated like in this example:
 ```
 cadV
     cadV_type1, 10
@@ -22,7 +22,7 @@ cadV
         V
             357
 ```
-You can also save yourself paperwork and use variables in curly brackets to replace the text directly, as shown in this example:
+You can also save yourself typing effort and use variables in curly brackets instead to replace the text directly, as shown in this example:
 ```
 interval_3k
     35,10
@@ -55,6 +55,7 @@ interval_3k_4k
 }
 ```
 ## Generated parsing trees
+Based on the defined probability distribution, a parsing tree syntax is created, which can be displayed graphically.
 ### Example 1
 ```
 ["phrase_major_minor"["phrase_major"["meta"["key_major"["f#"]]["meter"["4/4"]]]["song"["predominant"["V"["interval_3k_4k"["interval_3k"["6"]]]]]["start"["T1"["oscil"["type3"["I"["interval_3k"["35"]]]["[viiÂ°]"]["I"["interval_3k"["35"]]]]]]]["conn"["ii"["interval_3k_4k"["interval_3k"["6"]]]]]["end"["cadence"["deceptive_cadence"["V"["cadV"["type1"["V"["46"]]["V"["35"]]]]]["vi"["interval_3k"["35"]]]]]]]]]
