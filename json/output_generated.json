@@ -8,7 +8,15 @@
     "children": [
         null,
         null,
-        null
+        {
+            "description": "46",
+            "isreplacecandidate": false,
+            "isreplaced": false,
+            "value": 10,
+            "isprobability": true,
+            "isoriginal": false,
+            "probability": 0.3333333333333333
+        }
     ],
     "total": 30
 }
