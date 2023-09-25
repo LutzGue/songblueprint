@@ -72,7 +72,8 @@ This picture was generated with https://github.com/int2str/jssyntaxtree
 1) integration Analyzing Levels (background, middleground); edit in txt: show/hide L1, L2, roman numeral is always visible
 2) create MIDI file using music21 (roman numeral to key) --> melody harmonization: provide 3-4 possible melody notes based on the generated patterns
 3) remove probability and total calculation
-4) generate batch job --> JSON-output-files suffix timestamp
-5) edit in txt: replicate function
-6) merge functions
-7) py command line
+4) generate batch job --> generate multiple JSON-output-files suffix timestamp
+5) edit in txt: replicate function (min/max value of replications in TXT)
+6) merge all functions 01-06
+7) py command line (parameters: file input, file out, commands: midi/no.of generations/PNG export/melody match/...)
+8) generate training data for ML: adding labels for training data
