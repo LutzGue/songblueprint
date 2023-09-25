@@ -34,4 +34,4 @@ cadV
         }
     }
 }
-![example1](https://github.com/lutzgue/songblueprint/png/example1.jpg)
+![example1](https://github.com/LutzGue/songblueprint/blob/main/png/example1.png)
