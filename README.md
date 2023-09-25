@@ -38,6 +38,9 @@ cadV
     }
 }
 ```
-
+### Example 1
+```
+["phrase_major_minor"["phrase_major"["meta"["key_major"["f#"]]["meter"["4/4"]]]["song"["predominant"["V"["interval_3k_4k"["interval_3k"["6"]]]]]["start"["T1"["oscil"["type3"["I"["interval_3k"["35"]]]["[viiÂ°]"]["I"["interval_3k"["35"]]]]]]]["conn"["ii"["interval_3k_4k"["interval_3k"["6"]]]]]["end"["cadence"["deceptive_cadence"["V"["cadV"["type1"["V"["46"]]["V"["35"]]]]]["vi"["interval_3k"["35"]]]]]]]]]
+```
 ![example1](https://github.com/LutzGue/songblueprint/blob/main/png/example1.png)
 this picture was generated with https://github.com/int2str/jssyntaxtree
