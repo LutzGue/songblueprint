@@ -82,13 +82,13 @@ This picture was generated with https://github.com/int2str/jssyntaxtree
 ## Inspirational Tool
 The common way of creating chord progressions is to fill 4 bars with 4 bass notes, then fill them with chords from the scale in the key and loop. This helps create driving grooves and inspiring moods. But it is not a phrase, it has no overarching functional connection. Therefore, this article explains how to use phrases with cadences to tell longer self-contained satisfying stories and avoid endless loops that make melody development difficult and shift the focus away from the groove.
 
-Use it as an inspiration tool: Add the generated Roman Numeral Progresson in the online tool "Automatic SATB Part-Writer" and choose the most melodic one from the different positions in keyboard style or in 4-part-writing style. Then fill in the transitions with passing notes in the roll editor of your DAW. Practice the piece with feeling on the instrument and record it.
+Use the generated phrase as an inspiration tool: Add the generated Roman Numeral Progresson in the online tool "Automatic SATB Part-Writer" and choose the most melodic one from the different positions in keyboard style or in 4-part-writing style. Then fill in the transitions with passing notes in the roll editor of your DAW. Practice the piece with feeling on the instrument and record it.
 
-Example 1: keyboard voicing
+Example 1: keyboard voicing in the key of C# Minor
 ![example1](https://github.com/LutzGue/songblueprint/blob/main/img/keyboard_style_example1.jpg)
 This sheet was generated with "Automatic SATB Part-Writer", https://partwriter.com/
 
-Example 2: four part writing voicing
+Example 2: four part writing voicing in the key of C# Minor
 ![example2](https://github.com/LutzGue/songblueprint/blob/main/img/four_part_writing_example2.jpg)
 This sheet was generated with "Automatic SATB Part-Writer", https://partwriter.com/
 
@@ -99,8 +99,10 @@ Example 4: Practice the piece on the instrument yourself. This will make you mor
 ![example4](https://github.com/LutzGue/songblueprint/blob/main/img/practicing_example_1.PNG)
 Screenshot, "Syntthesia", https://www.synthesiagame.com/
 
-Example 5: Coloring voices / scales in DAW Roll Editor
+Example 5: Coloring voices and scales in DAW Roll Editor. This is for preparing the next step ((adding passing notes / embelishing)
 ![example5](https://github.com/LutzGue/songblueprint/blob/main/img/daw_satb_example1.PNG)
 
 Example 6: Adding some passing, sustain, retardation, auxilary / neighbour tones, bass lines as "Highlights" and embellishment into the voices. Develop an interesting melodic Bass line as independent counterpoint to the melody in the sopran voice.
 ![example6](https://github.com/LutzGue/songblueprint/blob/main/img/daw_satb_highlights_example1.PNG)
+
+Example 7: Develop variations on the melody in the Soprano voice.
