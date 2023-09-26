@@ -95,7 +95,7 @@ This sheet was generated with "Automatic SATB Part-Writer", https://partwriter.c
 Example 3: Melodic line in outlines Sopran and Bass
 ![example3](https://github.com/LutzGue/songblueprint/blob/main/img/melody_line_example_1.PNG)
 
-Example 4: Practice on the intrument
+Example 4: Practice the piece on the instrument yourself. This will make you more flexible in dealing with unfamiliar keys and develop a feeling in your fingers. This autonomy will allow you to improvise later and have fun.
 ![example4](https://github.com/LutzGue/songblueprint/blob/main/img/practicing_example_1.PNG)
 Screenshot, "Syntthesia", https://www.synthesiagame.com/
 
