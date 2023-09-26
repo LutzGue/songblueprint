@@ -89,3 +89,5 @@ This sheet was generated with "Automatic SATB Part-Writer", https://partwriter.c
 ![example1](https://github.com/LutzGue/songblueprint/blob/main/img/practicing_example_1.PNG)
 Screenshot, "Syntthesia", https://www.synthesiagame.com/
 ![example1](https://github.com/LutzGue/songblueprint/blob/main/img/daw_satb_example1.PNG)
+Adding some passing, sustain, retardation, auxilary / neighbour tones, bass lines as "Highlights" and embellishment into the voices. Develop an interesting melodic Bass line as independent counterpoint to the melody in the sopran voice:
+![example1](https://github.com/LutzGue/songblueprint/blob/main/img/daw_satb_highlights_example1.PNG)
