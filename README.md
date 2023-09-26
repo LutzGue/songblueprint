@@ -8,7 +8,9 @@ A Python module that generates songs from chord progressions and song structures
 
 ## Examples
 ### Input (TXT-file)
-It's super easy to edit. Just open the notepad and bring it into a simple structure, write it down quickly and add some propabilities comma separated like in this example:
+This tool is similar to a musical dice game that Mozart once developed: It generates a new phase of music. There are numerous sources that describe how musical phrases can be constructed in an interesting and functionally solid way. This science has been very well researched over many hundreds of years. The problem is to make this rule set machine readable (because example sheets are presented as images and not in text format) and the user should need minimal typing effort to convert it into machine readable format.
+
+Now, it's super easy to edit: Just open the notepad and bring it into a simple structure, write it down quickly and add some propabilities comma separated like in this example:
 ```
 cadV
     cadV_type1, 10
