@@ -85,7 +85,6 @@ Use it as an inspiration tool: Add the generated Roman Numeral Progresson in the
 This sheet was generated with "Automatic SATB Part-Writer", https://partwriter.com/
 ![example1](https://github.com/LutzGue/songblueprint/blob/main/img/four_part_writing_example2.jpg)
 This sheet was generated with "Automatic SATB Part-Writer", https://partwriter.com/
-![example1](https://github.com/LutzGue/songblueprint/blob/main/music/keyboard_style_example1.mid)
 ![example1](https://github.com/LutzGue/songblueprint/blob/main/img/melody_line_example_1.PNG)
 ![example1](https://github.com/LutzGue/songblueprint/blob/main/img/practicing_example_1.PNG)
 Screenshot, "Syntthesia", https://www.synthesiagame.com/
