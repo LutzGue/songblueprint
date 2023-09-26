@@ -81,13 +81,24 @@ This picture was generated with https://github.com/int2str/jssyntaxtree
 
 ## Inspirational Tool
 Use it as an inspiration tool: Add the generated Roman Numeral Progresson in the online tool "Automatic SATB Part-Writer" and choose the most melodic one from the different positions in keyboard style or in 4-part-writing style. Then fill in the transitions with passing notes in the roll editor of your DAW. Practice the piece with feeling on the instrument and record it.
+
+Example 1: keyboard voicing
 ![example1](https://github.com/LutzGue/songblueprint/blob/main/img/keyboard_style_example1.jpg)
 This sheet was generated with "Automatic SATB Part-Writer", https://partwriter.com/
-![example1](https://github.com/LutzGue/songblueprint/blob/main/img/four_part_writing_example2.jpg)
+
+Example 2: four part writing voicing
+![example2](https://github.com/LutzGue/songblueprint/blob/main/img/four_part_writing_example2.jpg)
 This sheet was generated with "Automatic SATB Part-Writer", https://partwriter.com/
-![example1](https://github.com/LutzGue/songblueprint/blob/main/img/melody_line_example_1.PNG)
-![example1](https://github.com/LutzGue/songblueprint/blob/main/img/practicing_example_1.PNG)
+
+Example 3: Melodic line in outlines Sopran and Bass
+![example3](https://github.com/LutzGue/songblueprint/blob/main/img/melody_line_example_1.PNG)
+
+Example 4: Practice on the intrument
+![example4](https://github.com/LutzGue/songblueprint/blob/main/img/practicing_example_1.PNG)
 Screenshot, "Syntthesia", https://www.synthesiagame.com/
-![example1](https://github.com/LutzGue/songblueprint/blob/main/img/daw_satb_example1.PNG)
-Adding some passing, sustain, retardation, auxilary / neighbour tones, bass lines as "Highlights" and embellishment into the voices. Develop an interesting melodic Bass line as independent counterpoint to the melody in the sopran voice:
-![example1](https://github.com/LutzGue/songblueprint/blob/main/img/daw_satb_highlights_example1.PNG)
+
+Example 5: Coloring voices / scales in DAW Roll Editor
+![example5](https://github.com/LutzGue/songblueprint/blob/main/img/daw_satb_example1.PNG)
+
+Example 6: Adding some passing, sustain, retardation, auxilary / neighbour tones, bass lines as "Highlights" and embellishment into the voices. Develop an interesting melodic Bass line as independent counterpoint to the melody in the sopran voice.
+![example6](https://github.com/LutzGue/songblueprint/blob/main/img/daw_satb_highlights_example1.PNG)
