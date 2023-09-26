@@ -92,7 +92,7 @@ Example 2: four part writing voicing
 ![example2](https://github.com/LutzGue/songblueprint/blob/main/img/four_part_writing_example2.jpg)
 This sheet was generated with "Automatic SATB Part-Writer", https://partwriter.com/
 
-Example 3: Melodic line in outlines Sopran and Bass
+Example 3: Highlight melodic line in outline voices. The most important voices are Sopran and Bass. In the example below a leap between the 4th and 5th sopran note marks the focal point (highest note). Trace the shape of the voices (arc / line) and identify the motion type (parallel / oblique / contrary).
 ![example3](https://github.com/LutzGue/songblueprint/blob/main/img/melody_line_example_1.PNG)
 
 Example 4: Practice the piece on the instrument yourself. This will make you more flexible in dealing with unfamiliar keys and develop a feeling in your fingers. This autonomy will allow you to improvise later and have fun.
