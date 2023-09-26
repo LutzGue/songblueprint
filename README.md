@@ -89,4 +89,3 @@ This sheet was generated with "Automatic SATB Part-Writer", https://partwriter.c
 ![example1](https://github.com/LutzGue/songblueprint/blob/main/img/practicing_example_1.PNG)
 Screenshot, "Syntthesia", https://www.synthesiagame.com/
 ![example1](https://github.com/LutzGue/songblueprint/blob/main/img/daw_satb_example1.PNG)
-![example1](https://github.com/LutzGue/songblueprint/blob/main/img/daw_satb_example1.PNG)
