@@ -80,6 +80,8 @@ This picture was generated with https://github.com/int2str/jssyntaxtree
 9) create more music-phrase.txt files
 
 ## Inspirational Tool
+The common way of creating chord progressions is to fill 4 bars with 4 bass notes, then fill them with chords from the scale in the key and loop. This helps create driving grooves and inspiring moods. But it is not a phrase, it has no overarching functional connection. Therefore, this article explains how to use phrases with cadences to tell longer self-contained satisfying stories and avoid endless loops that make melody development difficult and shift the focus away from the groove.
+
 Use it as an inspiration tool: Add the generated Roman Numeral Progresson in the online tool "Automatic SATB Part-Writer" and choose the most melodic one from the different positions in keyboard style or in 4-part-writing style. Then fill in the transitions with passing notes in the roll editor of your DAW. Practice the piece with feeling on the instrument and record it.
 
 Example 1: keyboard voicing
