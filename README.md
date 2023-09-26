@@ -79,7 +79,7 @@ This picture was generated with https://github.com/int2str/jssyntaxtree
 8) generate training data for ML: adding labels for training data
 9) create more music-phrase.txt files
 
-### Inspirational Tool
+## Inspirational Tool
 Use it as an inspiration tool: Add the generated Roman Numeral Progresson in the online tool "Automatic SATB Part-Writer" and choose the most melodic one from the different positions in keyboard style or in 4-part-writing style. Then fill in the transitions with passing notes in the roll editor of your DAW. Practice the piece with feeling on the instrument and record it.
 ![example1](https://github.com/LutzGue/songblueprint/blob/main/img/keyboard_style_example1.jpg)
 This sheet was generated with "Automatic SATB Part-Writer", https://partwriter.com/
