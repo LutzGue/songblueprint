@@ -59,7 +59,7 @@ interval_3k_4k
 }
 ```
 ## Generated parsing trees
-Based on the defined probability distribution, a parsing tree syntax is created, which can be displayed graphically.
+Based on the defined probability distribution, a parsing tree syntax is created, which can be displayed graphically. The parsing tree contains all layers from the "background", "middleground" and "foreground" (Schenker), so that in the end the original plan is still transparent as the backbone and is preserved. This graphical presentation allows all levels to remain in parallel in the focus of the musical analysis.
 
 ![example1](https://github.com/LutzGue/songblueprint/blob/main/img/dices_music_sheet.jpg)
 
