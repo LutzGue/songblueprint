@@ -118,7 +118,7 @@ Example 6: Practice the piece on the instrument yourself. This will make you mor
 ![example4](https://github.com/LutzGue/songblueprint/blob/main/img/practicing_example_1.PNG)
 Screenshot, "Syntthesia", https://www.synthesiagame.com/
 
-Example 7: Coloring voices and scales in DAW Roll Editor. This is for preparing the next step ((adding passing notes / embelishing). The alto and tenor voices should have as little movement as possible and have a line that is as linear as possible.
+Example 7: Coloring voices and scales in DAW Roll Editor. This is for preparing the next step ((adding passing notes / embelishing). The alto and tenor voices should have as little movement as possible and have a line that is as linear as possible. Use common notes when possible. Use a tie (Haltebogen / Ligatur) to connect two notes of the same pitch.
 ![example5](https://github.com/LutzGue/songblueprint/blob/main/img/daw_satb_example1.PNG)
 
 Example 8: Adding some passing, sustain, retardation, auxilary / neighbour tones, bass lines as "Highlights" and embellishment into the voices. Develop an interesting melodic Bass line as independent counterpoint to the melody in the sopran voice.
