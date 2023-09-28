@@ -121,7 +121,7 @@ Example 8: Adding some passing, sustain, retardation, auxilary / neighbour tones
 ![example6](https://github.com/LutzGue/songblueprint/blob/main/img/daw_satb_highlights_example1.PNG)
 
 Example 9: In four part voicung, the individual colored voices can be easily divided into different instruments and thus fill different frequency spectra without overlaying them. As a result, we want to have the widest possible frequency image in the mix with a lot of texture in the sound and avoid a muddy sound. The individual voices can be placed in the stereo image.
-![example6](https://github.com/LutzGue/songblueprint/blob/main/img/split_SATB_voices_into_stereo_and_frequency.jpgG)
+![example6](https://github.com/LutzGue/songblueprint/blob/main/img/split_SATB_voices_into_stereo_and_frequency.jpg)
 
 Example 10: Slow down the tempo and use the soprano line as structural notes. Then they play around them. To do this, use the modal scales (ionian for I, dorian for ii, ...) of the specific harmonic function. Like the sun, the structural note has an magnetic attraction around the notes in the universe. Subsequently, suitable transition tones are found for the subsequent structural note in the soprano. Do the same procedure in the next "structural note universe".
 ![example6](https://github.com/LutzGue/songblueprint/blob/main/img/structural_note_universes.jpg)
