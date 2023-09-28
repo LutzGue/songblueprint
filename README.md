@@ -115,13 +115,14 @@ Example 6: Practice the piece on the instrument yourself. This will make you mor
 Screenshot, "Syntthesia", https://www.synthesiagame.com/
 
 Example 7: Coloring voices and scales in DAW Roll Editor. This is for preparing the next step ((adding passing notes / embelishing). The alto and tenor voices should have as little movement as possible and have a line that is as linear as possible.
-The individual voices can be easily divided into different instruments and thus fill different frequency spectra without overlaying them. As a result, we want to have the widest possible frequency image in the mix with a lot of texture in the sound and avoid a muddy sound. The individual voices can be placed in the stereo image.
 ![example5](https://github.com/LutzGue/songblueprint/blob/main/img/daw_satb_example1.PNG)
 
 Example 8: Adding some passing, sustain, retardation, auxilary / neighbour tones, bass lines as "Highlights" and embellishment into the voices. Develop an interesting melodic Bass line as independent counterpoint to the melody in the sopran voice.
 ![example6](https://github.com/LutzGue/songblueprint/blob/main/img/daw_satb_highlights_example1.PNG)
 
-Example 7: Slow down the tempo and use the soprano line as structural notes. Then they play around them. To do this, use the modal scales (ionian for I, dorian for ii, ...) of the specific harmonic function. Like the sun, the structural note has an magnetic attraction around the notes in the universe. Subsequently, suitable transition tones are found for the subsequent structural note in the soprano. Do the same procedure in the next "structural note universe".
+Example 9: In four part voicung, the individual colored voices can be easily divided into different instruments and thus fill different frequency spectra without overlaying them. As a result, we want to have the widest possible frequency image in the mix with a lot of texture in the sound and avoid a muddy sound. The individual voices can be placed in the stereo image.
+
+Example 10: Slow down the tempo and use the soprano line as structural notes. Then they play around them. To do this, use the modal scales (ionian for I, dorian for ii, ...) of the specific harmonic function. Like the sun, the structural note has an magnetic attraction around the notes in the universe. Subsequently, suitable transition tones are found for the subsequent structural note in the soprano. Do the same procedure in the next "structural note universe".
 ![example6](https://github.com/LutzGue/songblueprint/blob/main/img/structural_note_universes.jpg)
 
-Example 8: Develop variations on the melody in the Soprano voice and extend the phrase by combining them.
+Example 11: Develop variations on the melody in the Soprano voice and extend the phrase by combining them.
