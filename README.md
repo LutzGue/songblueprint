@@ -121,6 +121,7 @@ Example 8: Adding some passing, sustain, retardation, auxilary / neighbour tones
 ![example6](https://github.com/LutzGue/songblueprint/blob/main/img/daw_satb_highlights_example1.PNG)
 
 Example 9: In four part voicing, the individual colored voices can be easily divided into different instruments and thus fill different frequency spectra without overlaying them. As a result, we want to have the widest possible frequency image in the mix with a lot of texture in the sound and avoid a muddy sound. The individual voices can be placed in the stereo image.
+In keyboard style voicing, you can separate the bass track and use an synth or real bass sound. Try out sub bass and add an addition layer an octave down.
 ![example6](https://github.com/LutzGue/songblueprint/blob/main/img/split_SATB_voices_into_stereo_and_frequency.jpg)
 
 Example 10: To create a harmonious melody, you can slow down the tempo (e.g. halve it) and use the soprano voice as structural notes. These structural notes serve as a basis to play around and fill out with new notes as decorations. To achieve this, one can use modal scales, such as Ionian for I and Dorian for ii, which correspond to specific harmonic functions. Similar to the gravitational pull of the Sun around celestial bodies, the structural note has an inherent gravitational pull that influences the surrounding notes in the musical universe. 
