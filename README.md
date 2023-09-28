@@ -130,3 +130,4 @@ Analogous to a symphony of the cosmos, the sun acts as a structural note around 
 ![example6](https://github.com/LutzGue/songblueprint/blob/main/img/structural_note_universes_2.jpg)
 
 Example 11: Develop variations on the melody in the Soprano voice and extend the phrase by combining them. Make dynamic choices: start simple and build up dynamic.
+![example6](https://github.com/LutzGue/songblueprint/blob/main/img/dynamic_2.jpg)
