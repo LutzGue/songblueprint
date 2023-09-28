@@ -8,6 +8,8 @@ A Python module that generates songs from chord progressions and song structures
 
 ## Examples
 ### Input (TXT-file)
+Step 1: Convert traditional book knowledge into a machine-processable parse tree.
+
 This tool is similar to a musical dice game that Mozart once developed: It generates a new phase of music. There are numerous sources that describe how musical phrases can be constructed in an interesting and functionally solid way. This science has been very well researched over many hundreds of years. The problem is to make this rule set machine readable (because example sheets are presented as images and not in text format) and the user should need minimal typing effort to convert it into machine readable format.
 
 ![example1](https://github.com/LutzGue/songblueprint/blob/main/img/music_theory_book_convert_parsing_tree.jpg)
@@ -59,6 +61,8 @@ interval_3k_4k
 }
 ```
 ## Generated parsing trees
+Step 2: Generate musical phrases from the parse tree.
+
 Based on the defined probability distribution, a parsing tree syntax is created, which can be displayed graphically. The parsing tree contains all layers from the "background", "middleground" and "foreground" (Schenker), so that in the end the original plan is still transparent as the backbone and is preserved. This graphical presentation allows all levels to remain in parallel in the focus of the musical analysis.
 
 ![example1](https://github.com/LutzGue/songblueprint/blob/main/img/dices_music_sheet.jpg)
