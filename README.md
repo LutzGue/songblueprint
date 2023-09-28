@@ -104,14 +104,20 @@ This sheet was generated with "Automatic SATB Part-Writer", https://partwriter.c
 Example 3: Highlight melodic line in outline voices. The most important voices are Sopran and Bass. In the example below a leap between the 4th and 5th sopran note marks the focal point (highest note). Trace the shape of the voices (arc / line) and identify the motion type (parallel / oblique / contrary).
 ![example3](https://github.com/LutzGue/songblueprint/blob/main/img/melody_line_example_1.PNG)
 
-Example 4: Practice the piece on the instrument yourself. This will make you more flexible in dealing with unfamiliar keys and develop a feeling in your fingers. This autonomy will allow you to improvise later and have fun.
+Example 4: Interesting moving up bass line.
+![example6](https://github.com/LutzGue/songblueprint/blob/main/img/daw_satb_example2.PNG)
+
+Example 5: Easy to play four part writing on piano.
+![example6](https://github.com/LutzGue/songblueprint/blob/main/img/four_part_writing_example2.PNG)
+
+Example 6: Practice the piece on the instrument yourself. This will make you more flexible in dealing with unfamiliar keys and develop a feeling in your fingers. This autonomy will allow you to improvise later and have fun.
 ![example4](https://github.com/LutzGue/songblueprint/blob/main/img/practicing_example_1.PNG)
 Screenshot, "Syntthesia", https://www.synthesiagame.com/
 
-Example 5: Coloring voices and scales in DAW Roll Editor. This is for preparing the next step ((adding passing notes / embelishing)
+Example 7: Coloring voices and scales in DAW Roll Editor. This is for preparing the next step ((adding passing notes / embelishing)
 ![example5](https://github.com/LutzGue/songblueprint/blob/main/img/daw_satb_example1.PNG)
 
-Example 6: Adding some passing, sustain, retardation, auxilary / neighbour tones, bass lines as "Highlights" and embellishment into the voices. Develop an interesting melodic Bass line as independent counterpoint to the melody in the sopran voice.
+Example 8: Adding some passing, sustain, retardation, auxilary / neighbour tones, bass lines as "Highlights" and embellishment into the voices. Develop an interesting melodic Bass line as independent counterpoint to the melody in the sopran voice.
 ![example6](https://github.com/LutzGue/songblueprint/blob/main/img/daw_satb_highlights_example1.PNG)
 
 Example 7: Develop variations on the melody in the Soprano voice.
