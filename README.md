@@ -95,6 +95,8 @@ The common way of creating chord progressions is to fill 4 bars with 4 bass note
 
 This tool is also an inspirational tool: You can use the generated phrase as a starting point for your melody development. You can add the generated Roman Numeral Progression in the online tool “Automatic SATB Part-Writer” and choose the most melodic one from the different positions (voicings) in keyboard style or in four-part-writing style. Then you can fill in the transitions with passing notes in the roll editor of your DAW (Digital Audio Workstation). You can also practice the piece with feeling on the instrument and record it.
 
+![example1](https://github.com/LutzGue/songblueprint/blob/main/img/creative_tool.jpg)
+
 Here are some examples of how you can use this tool to create your own songs:
 
 Example 1: keyboard voicing in the key of C# Minor
