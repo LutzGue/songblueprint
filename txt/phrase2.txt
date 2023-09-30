@@ -1,0 +1,141 @@
+key_major
+    c,10
+    g,10
+    d,10
+    a,10
+    e,10
+    b,10
+    f#,10
+    c#,10
+    f,10
+    bb,10
+    eb,10
+    ab,10
+    db,10
+    gb,10
+    cb,10
+key_minor
+    a,10
+    e,10
+    b,10
+    f#,10
+    c#,10
+    g#,10
+    d#,10
+    a#,10
+    d,10
+    g,10
+    c,10
+    f,10
+    bb,10
+    eb,10
+    ab,10
+meter
+    4/4,10
+    3/4,10
+    2/4,10
+    6/4,10
+N46
+    IV
+        46
+P
+    none,10
+    IV,10
+        35
+    ii,10
+        56
+D
+    type1,10
+        V
+            35
+    type2,10
+        V
+            35
+        V
+            7
+cad_V
+    I
+        46
+    V
+        35
+I_substitution
+    vi
+        35
+IV_substitution
+    ii
+        35
+T_prolongation
+    type1,10
+        {I_substitution}
+    type2,10
+    type3,10
+    type4,10
+P_prolongation
+    {IV_substitution}
+T_prolongation_linear
+    type1
+        I
+            35
+        V
+            46
+        I
+            6
+    type2
+        I
+            35
+        V
+            6
+        I
+            35
+    type3
+        I
+            35
+        I
+            24
+        vi
+            35
+    type4
+        I
+            35
+        {N46}
+        I
+            35
+        I
+            6
+D_prolongation_linear
+    type1
+        {cad_V}
+inversion_3k
+    35
+    6
+    46
+phrase_model
+    phrase_major,10
+        meta
+            {key_major}
+            {meter}
+        song
+            T
+                I
+                    35
+                I
+                    35
+            {P}
+            cad
+                inconclusive_phrase,10
+                    {D}
+                standad_phrase_model,10
+                    {D}
+                    T
+                        I
+                            35
+                deceptive_progression,10
+                    {D}
+                    Tx,10
+                        vi
+                            35
+    phrase_minor,10
+        meta
+            {key_minor}
+            {meter}
+        song

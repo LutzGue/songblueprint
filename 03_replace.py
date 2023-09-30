@@ -10,6 +10,29 @@ def find_and_replace(node):
     to replace certain nodes based on specific criteria. The function is a recursive 
     function that operates on a node of a JSON structure.
 
+    NEXT STEPS:
+    - count iterations and stop infinite replications
+
+    IMPORTANT: The replace candidate in curly brackets has to be the highest indent node.
+
+    (1) This example will work:
+
+        [rel_key_I]
+            {static_harmony}
+        cadence
+
+    (2) This example will work:
+
+        [rel_key_I]
+            {static_harmony}
+            cadence
+
+    (3) This example will NOT work:
+
+        [rel_key_I]
+            {static_harmony}
+                cadence
+
     Parameters:
     node (dict): This is a dictionary representing a node in the JSON structure. Each 
     node is expected to have the following keys: 'description', 'isreplacecandidate', 

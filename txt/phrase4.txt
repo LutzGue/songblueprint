@@ -1,0 +1,162 @@
+key_major
+    c,10
+    g,10
+    d,10
+    a,10
+    e,10
+    b,10
+    f#,10
+    c#,10
+    f,10
+    bb,10
+    eb,10
+    ab,10
+    db,10
+    gb,10
+    cb,10
+key_minor
+    a,10
+    e,10
+    b,10
+    f#,10
+    c#,10
+    g#,10
+    d#,10
+    a#,10
+    d,10
+    g,10
+    c,10
+    f,10
+    bb,10
+    eb,10
+    ab,10
+mini_cadence
+    none,10
+    [rel_key_I],10
+        V
+        I
+    [rel_key_IV],10
+        V
+        I
+    [rel_key_V],10
+        V
+        I
+    [rel_key_vi],10
+        V
+        I
+    [rel_key_ii],10
+        V
+        I
+    [rel_key_iii],10
+        V
+        I
+cad_46
+    V
+        46
+    V
+        357
+auxiliary_chords_tonic
+    diatonic_auxiliary_chords,10
+        single_note,10
+            [vi],10
+                vi
+                    35
+            [iii],10
+                vi
+                    35
+        double_note,10
+            [IV],10
+                IV
+                    35
+            [V],10
+                V
+                    35
+        both_directions,10
+            [vii°],10
+                vii°
+                    357
+            [V7],10
+                V
+                    357
+        others,10
+            [ii°],10
+                ii°
+                    35
+    chromatic_auxiliary_chords,10
+        minor_subdominant,10
+            [iv]
+        neapolitan_6th_chord,10
+            [bII]
+        diminished_7th_chord,10
+            tonic_leading,10
+                [dim7_t.l.]
+            dominant_leading,10
+                [dim7_d.l.]
+            supertonic_leading,10
+                [dim7_s.l.]
+        german_6th_chord,10
+            [aug6_d.l.]
+auxiliary_chords_dominant
+    [I]
+        35
+T
+    I
+        35
+    {auxiliary_chords_tonic}
+    I
+        35
+D
+    V
+        35
+    {auxiliary_chords_dominant}
+    V
+        35
+static_harmony
+    {T}
+linear_progression
+    type1,10
+        I ii iii IV V
+    type2,10
+        V IV iii ii I
+passing_chords
+    diatonic,10
+    chromatic,10
+dynamic_harmony
+    item,,2,8
+        alpha,10
+        beta,10
+        gamma,10
+        alpha_reversal,3
+        beta_reversal,3
+        gamma_reversal,3
+    {mini_cadence}
+phrase
+    {key_major}
+    opening_section
+        incomplete_phrase,10
+            none
+        complete_phrase,10
+            dynamic_introduction
+                none,10
+                {dynamic_harmony},10
+            [rel_key_I]
+                {static_harmony}
+    closing_section
+        {dynamic_harmony}
+        cadence
+            [rel_key_I]
+                start
+                    chord_V,10
+                        V
+                    dominant_prolongation,10
+                        {D}
+                end
+                    imperfect_cadence,10
+                        none
+                    chord_I,10
+                        I
+                    static_coda,10
+                        I [V] I [V] I
+                    plagal_cad,10
+                    interrupted_cad,10
+                    overlapping_cad,10

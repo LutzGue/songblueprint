@@ -9,9 +9,6 @@ def text_to_json(file_path):
     isprobability is set to True, otherwise False. If the node is in the first level hierarchy, 
     isoriginal is set to True, otherwise False.
 
-    FEATURE:
-    - 2023-09-30: Extend the parsing from 1 comma separated value to 3 comma separated values. the first parameter is 'value'. the second parameter is 'generatemin' and the third is 'generatemax'. set 'isreplicated' = true. in case of missing values replace value with -1 and set 'isreplicated' = false and 'isreplicatecandidate' = true.
-
     Parameters:
     file_path (str): This is the path to the input text file that needs to be converted into 
     a JSON structure.
@@ -34,17 +31,11 @@ def text_to_json(file_path):
                 indent = len(line) - len(line.lstrip())
 
                 # Split the line into a label and a value (if present)
-                parts = line.strip().split(',')
-                
-                label = parts[0]
-                value = int(parts[1]) if len(parts) > 1 and parts[1] else -1
-                generatemin = int(parts[2]) if len(parts) > 2 and parts[2] else -1
-                generatemax = int(parts[3]) if len(parts) > 3 and parts[3] else -1
+                label, _, value = line.strip().partition(',')
 
                 # Create a new node with the label and value
                 node = {'description': label}
 
-                # type: replacement
                 if '{' in label or '}' in label:
                     node['description'] = label.replace('{', '').replace('}', '')
                     node['isreplacecandidate'] = True
@@ -52,28 +43,13 @@ def text_to_json(file_path):
                 else:
                     node['isreplacecandidate'] = False
                     node['isreplaced'] = False
-
-                # type: probability value
-                node['value'] = value
-
-                if value != -1:
+                
+                if value:
+                    node['value'] = int(value)
                     node['isprobability'] = True
                 else:
+                    node['value'] = -1
                     node['isprobability'] = False
-
-                # type: generate replications
-                node['generatemin'] = generatemin
-                node['generatemax'] = generatemax
-
-                node['isreplicated'] = False
-                node['clonenr'] = 1
-
-                if generatemin != -1 and generatemax != -1:
-                    node['isreplicatecandidate'] = True
-                    node['isreplicated'] = False
-                else:
-                    node['isreplicatecandidate'] = False
-                    node['isreplicated'] = False
 
                 # Add 'original' = True if node is in first level hierarchy
                 if indent == 0:

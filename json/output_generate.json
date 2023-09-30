@@ -1,6 +1,6 @@
 [
     {
-        "description": "phrase_major_minor",
+        "description": "phrase",
         "isreplacecandidate": false,
         "isreplaced": false,
         "value": -1,
@@ -8,74 +8,43 @@
         "isoriginal": true,
         "children": [
             {
-                "description": "phrase_major",
-                "isreplacecandidate": false,
-                "isreplaced": false,
-                "value": 10,
-                "isprobability": true,
+                "description": "key_major",
+                "isreplacecandidate": true,
+                "isreplaced": true,
+                "value": -1,
+                "isprobability": false,
                 "isoriginal": false,
                 "children": [
                     {
-                        "description": "meta",
+                        "description": "cb",
                         "isreplacecandidate": false,
                         "isreplaced": false,
-                        "value": -1,
-                        "isprobability": false,
+                        "value": 10,
+                        "isprobability": true,
                         "isoriginal": false,
-                        "children": [
-                            {
-                                "description": "key_major",
-                                "isreplacecandidate": true,
-                                "isreplaced": true,
-                                "value": -1,
-                                "isprobability": false,
-                                "isoriginal": false,
-                                "children": [
-                                    {
-                                        "description": "g",
-                                        "isreplacecandidate": false,
-                                        "isreplaced": false,
-                                        "value": 10,
-                                        "isprobability": true,
-                                        "isoriginal": false,
-                                        "probability": 0.06666666666666667
-                                    }
-                                ],
-                                "total": 150
-                            },
-                            {
-                                "description": "meter",
-                                "isreplacecandidate": true,
-                                "isreplaced": true,
-                                "value": -1,
-                                "isprobability": false,
-                                "isoriginal": false,
-                                "children": [
-                                    {
-                                        "description": "3/4",
-                                        "isreplacecandidate": false,
-                                        "isreplaced": false,
-                                        "value": 10,
-                                        "isprobability": true,
-                                        "isoriginal": false,
-                                        "probability": 0.25
-                                    }
-                                ],
-                                "total": 40
-                            }
-                        ],
-                        "total": 0
-                    },
+                        "probability": 0.06666666666666667
+                    }
+                ],
+                "total": 150
+            },
+            {
+                "description": "opening_section",
+                "isreplacecandidate": false,
+                "isreplaced": false,
+                "value": -1,
+                "isprobability": false,
+                "isoriginal": false,
+                "children": [
                     {
-                        "description": "song",
+                        "description": "complete_phrase",
                         "isreplacecandidate": false,
                         "isreplaced": false,
-                        "value": -1,
-                        "isprobability": false,
+                        "value": 10,
+                        "isprobability": true,
                         "isoriginal": false,
                         "children": [
                             {
-                                "description": "predominant",
+                                "description": "dynamic_introduction",
                                 "isreplacecandidate": false,
                                 "isreplaced": false,
                                 "value": -1,
@@ -83,43 +52,43 @@
                                 "isoriginal": false,
                                 "children": [
                                     {
-                                        "description": "none",
-                                        "isreplacecandidate": false,
-                                        "isreplaced": false,
+                                        "description": "dynamic_harmony",
+                                        "isreplacecandidate": true,
+                                        "isreplaced": true,
                                         "value": 10,
                                         "isprobability": true,
-                                        "isoriginal": false,
-                                        "probability": 0.5
-                                    }
-                                ],
-                                "total": 20
-                            },
-                            {
-                                "description": "start",
-                                "isreplacecandidate": false,
-                                "isreplaced": false,
-                                "value": -1,
-                                "isprobability": false,
-                                "isoriginal": false,
-                                "children": [
-                                    {
-                                        "description": "T1",
-                                        "isreplacecandidate": false,
-                                        "isreplaced": false,
-                                        "value": -1,
-                                        "isprobability": false,
                                         "isoriginal": false,
                                         "children": [
                                             {
-                                                "description": "SOP",
-                                                "isreplacecandidate": true,
-                                                "isreplaced": true,
-                                                "value": 10,
-                                                "isprobability": true,
+                                                "description": "item",
+                                                "isreplacecandidate": false,
+                                                "isreplaced": false,
+                                                "value": -1,
+                                                "isprobability": false,
                                                 "isoriginal": false,
                                                 "children": [
                                                     {
-                                                        "description": "type2",
+                                                        "description": "beta",
+                                                        "isreplacecandidate": false,
+                                                        "isreplaced": false,
+                                                        "value": 10,
+                                                        "isprobability": true,
+                                                        "isoriginal": false,
+                                                        "probability": 0.2564102564102564
+                                                    }
+                                                ],
+                                                "total": 39
+                                            },
+                                            {
+                                                "description": "mini_cadence",
+                                                "isreplacecandidate": true,
+                                                "isreplaced": true,
+                                                "value": -1,
+                                                "isprobability": false,
+                                                "isoriginal": false,
+                                                "children": [
+                                                    {
+                                                        "description": "[rel_key_V]",
                                                         "isreplacecandidate": false,
                                                         "isreplaced": false,
                                                         "value": 10,
@@ -127,7 +96,299 @@
                                                         "isoriginal": false,
                                                         "children": [
                                                             {
+                                                                "description": "V",
+                                                                "isreplacecandidate": false,
+                                                                "isreplaced": false,
+                                                                "value": -1,
+                                                                "isprobability": false,
+                                                                "isoriginal": false
+                                                            },
+                                                            {
                                                                 "description": "I",
+                                                                "isreplacecandidate": false,
+                                                                "isreplaced": false,
+                                                                "value": -1,
+                                                                "isprobability": false,
+                                                                "isoriginal": false
+                                                            }
+                                                        ],
+                                                        "total": 0,
+                                                        "probability": 0.14285714285714285
+                                                    }
+                                                ],
+                                                "total": 70
+                                            }
+                                        ],
+                                        "total": 0,
+                                        "probability": 0.5
+                                    }
+                                ],
+                                "total": 20
+                            },
+                            {
+                                "description": "[rel_key_I]",
+                                "isreplacecandidate": false,
+                                "isreplaced": false,
+                                "value": -1,
+                                "isprobability": false,
+                                "isoriginal": false,
+                                "children": [
+                                    {
+                                        "description": "static_harmony",
+                                        "isreplacecandidate": true,
+                                        "isreplaced": true,
+                                        "value": -1,
+                                        "isprobability": false,
+                                        "isoriginal": false,
+                                        "children": [
+                                            {
+                                                "description": "T",
+                                                "isreplacecandidate": true,
+                                                "isreplaced": true,
+                                                "value": -1,
+                                                "isprobability": false,
+                                                "isoriginal": false,
+                                                "children": [
+                                                    {
+                                                        "description": "I",
+                                                        "isreplacecandidate": false,
+                                                        "isreplaced": false,
+                                                        "value": -1,
+                                                        "isprobability": false,
+                                                        "isoriginal": false,
+                                                        "children": [
+                                                            {
+                                                                "description": "35",
+                                                                "isreplacecandidate": false,
+                                                                "isreplaced": false,
+                                                                "value": -1,
+                                                                "isprobability": false,
+                                                                "isoriginal": false
+                                                            }
+                                                        ],
+                                                        "total": 0
+                                                    },
+                                                    {
+                                                        "description": "auxiliary_chords_tonic",
+                                                        "isreplacecandidate": true,
+                                                        "isreplaced": true,
+                                                        "value": -1,
+                                                        "isprobability": false,
+                                                        "isoriginal": false,
+                                                        "children": [
+                                                            {
+                                                                "description": "diatonic_auxiliary_chords",
+                                                                "isreplacecandidate": false,
+                                                                "isreplaced": false,
+                                                                "value": 10,
+                                                                "isprobability": true,
+                                                                "isoriginal": false,
+                                                                "children": [
+                                                                    {
+                                                                        "description": "double_note",
+                                                                        "isreplacecandidate": false,
+                                                                        "isreplaced": false,
+                                                                        "value": 10,
+                                                                        "isprobability": true,
+                                                                        "isoriginal": false,
+                                                                        "children": [
+                                                                            {
+                                                                                "description": "[IV]",
+                                                                                "isreplacecandidate": false,
+                                                                                "isreplaced": false,
+                                                                                "value": 10,
+                                                                                "isprobability": true,
+                                                                                "isoriginal": false,
+                                                                                "children": [
+                                                                                    {
+                                                                                        "description": "IV",
+                                                                                        "isreplacecandidate": false,
+                                                                                        "isreplaced": false,
+                                                                                        "value": -1,
+                                                                                        "isprobability": false,
+                                                                                        "isoriginal": false,
+                                                                                        "children": [
+                                                                                            {
+                                                                                                "description": "35",
+                                                                                                "isreplacecandidate": false,
+                                                                                                "isreplaced": false,
+                                                                                                "value": -1,
+                                                                                                "isprobability": false,
+                                                                                                "isoriginal": false
+                                                                                            }
+                                                                                        ],
+                                                                                        "total": 0
+                                                                                    }
+                                                                                ],
+                                                                                "total": 0,
+                                                                                "probability": 0.5
+                                                                            }
+                                                                        ],
+                                                                        "total": 20,
+                                                                        "probability": 0.25
+                                                                    }
+                                                                ],
+                                                                "total": 40,
+                                                                "probability": 0.5
+                                                            }
+                                                        ],
+                                                        "total": 20
+                                                    },
+                                                    {
+                                                        "description": "I",
+                                                        "isreplacecandidate": false,
+                                                        "isreplaced": false,
+                                                        "value": -1,
+                                                        "isprobability": false,
+                                                        "isoriginal": false,
+                                                        "children": [
+                                                            {
+                                                                "description": "35",
+                                                                "isreplacecandidate": false,
+                                                                "isreplaced": false,
+                                                                "value": -1,
+                                                                "isprobability": false,
+                                                                "isoriginal": false
+                                                            }
+                                                        ],
+                                                        "total": 0
+                                                    }
+                                                ],
+                                                "total": 0
+                                            }
+                                        ],
+                                        "total": 0
+                                    }
+                                ],
+                                "total": 0
+                            }
+                        ],
+                        "total": 0,
+                        "probability": 0.5
+                    }
+                ],
+                "total": 20
+            },
+            {
+                "description": "closing_section",
+                "isreplacecandidate": false,
+                "isreplaced": false,
+                "value": -1,
+                "isprobability": false,
+                "isoriginal": false,
+                "children": [
+                    {
+                        "description": "dynamic_harmony",
+                        "isreplacecandidate": true,
+                        "isreplaced": true,
+                        "value": -1,
+                        "isprobability": false,
+                        "isoriginal": false,
+                        "children": [
+                            {
+                                "description": "item",
+                                "isreplacecandidate": false,
+                                "isreplaced": false,
+                                "value": -1,
+                                "isprobability": false,
+                                "isoriginal": false,
+                                "children": [
+                                    {
+                                        "description": "gamma",
+                                        "isreplacecandidate": false,
+                                        "isreplaced": false,
+                                        "value": 10,
+                                        "isprobability": true,
+                                        "isoriginal": false,
+                                        "probability": 0.2564102564102564
+                                    }
+                                ],
+                                "total": 39
+                            },
+                            {
+                                "description": "mini_cadence",
+                                "isreplacecandidate": true,
+                                "isreplaced": true,
+                                "value": -1,
+                                "isprobability": false,
+                                "isoriginal": false,
+                                "children": [
+                                    {
+                                        "description": "[rel_key_I]",
+                                        "isreplacecandidate": false,
+                                        "isreplaced": false,
+                                        "value": 10,
+                                        "isprobability": true,
+                                        "isoriginal": false,
+                                        "children": [
+                                            {
+                                                "description": "V",
+                                                "isreplacecandidate": false,
+                                                "isreplaced": false,
+                                                "value": -1,
+                                                "isprobability": false,
+                                                "isoriginal": false
+                                            },
+                                            {
+                                                "description": "I",
+                                                "isreplacecandidate": false,
+                                                "isreplaced": false,
+                                                "value": -1,
+                                                "isprobability": false,
+                                                "isoriginal": false
+                                            }
+                                        ],
+                                        "total": 0,
+                                        "probability": 0.14285714285714285
+                                    }
+                                ],
+                                "total": 70
+                            }
+                        ],
+                        "total": 0
+                    },
+                    {
+                        "description": "cadence",
+                        "isreplacecandidate": false,
+                        "isreplaced": false,
+                        "value": -1,
+                        "isprobability": false,
+                        "isoriginal": false,
+                        "children": [
+                            {
+                                "description": "[rel_key_I]",
+                                "isreplacecandidate": false,
+                                "isreplaced": false,
+                                "value": -1,
+                                "isprobability": false,
+                                "isoriginal": false,
+                                "children": [
+                                    {
+                                        "description": "start",
+                                        "isreplacecandidate": false,
+                                        "isreplaced": false,
+                                        "value": -1,
+                                        "isprobability": false,
+                                        "isoriginal": false,
+                                        "children": [
+                                            {
+                                                "description": "dominant_prolongation",
+                                                "isreplacecandidate": false,
+                                                "isreplaced": false,
+                                                "value": 10,
+                                                "isprobability": true,
+                                                "isoriginal": false,
+                                                "children": [
+                                                    {
+                                                        "description": "D",
+                                                        "isreplacecandidate": true,
+                                                        "isreplaced": true,
+                                                        "value": -1,
+                                                        "isprobability": false,
+                                                        "isoriginal": false,
+                                                        "children": [
+                                                            {
+                                                                "description": "V",
                                                                 "isreplacecandidate": false,
                                                                 "isreplaced": false,
                                                                 "value": -1,
@@ -135,9 +396,28 @@
                                                                 "isoriginal": false,
                                                                 "children": [
                                                                     {
-                                                                        "description": "interval_3k",
-                                                                        "isreplacecandidate": true,
-                                                                        "isreplaced": true,
+                                                                        "description": "35",
+                                                                        "isreplacecandidate": false,
+                                                                        "isreplaced": false,
+                                                                        "value": -1,
+                                                                        "isprobability": false,
+                                                                        "isoriginal": false
+                                                                    }
+                                                                ],
+                                                                "total": 0
+                                                            },
+                                                            {
+                                                                "description": "auxiliary_chords_dominant",
+                                                                "isreplacecandidate": true,
+                                                                "isreplaced": true,
+                                                                "value": -1,
+                                                                "isprobability": false,
+                                                                "isoriginal": false,
+                                                                "children": [
+                                                                    {
+                                                                        "description": "[I]",
+                                                                        "isreplacecandidate": false,
+                                                                        "isreplaced": false,
                                                                         "value": -1,
                                                                         "isprobability": false,
                                                                         "isoriginal": false,
@@ -146,56 +426,12 @@
                                                                                 "description": "35",
                                                                                 "isreplacecandidate": false,
                                                                                 "isreplaced": false,
-                                                                                "value": 10,
-                                                                                "isprobability": true,
-                                                                                "isoriginal": false,
-                                                                                "probability": 0.3333333333333333
+                                                                                "value": -1,
+                                                                                "isprobability": false,
+                                                                                "isoriginal": false
                                                                             }
                                                                         ],
-                                                                        "total": 30
-                                                                    }
-                                                                ],
-                                                                "total": 0
-                                                            },
-                                                            {
-                                                                "description": "IV",
-                                                                "isreplacecandidate": false,
-                                                                "isreplaced": false,
-                                                                "value": -1,
-                                                                "isprobability": false,
-                                                                "isoriginal": false,
-                                                                "children": [
-                                                                    {
-                                                                        "description": "interval_3k_4k",
-                                                                        "isreplacecandidate": true,
-                                                                        "isreplaced": true,
-                                                                        "value": -1,
-                                                                        "isprobability": false,
-                                                                        "isoriginal": false,
-                                                                        "children": [
-                                                                            {
-                                                                                "description": "interval_4k",
-                                                                                "isreplacecandidate": true,
-                                                                                "isreplaced": true,
-                                                                                "value": 10,
-                                                                                "isprobability": true,
-                                                                                "isoriginal": false,
-                                                                                "children": [
-                                                                                    {
-                                                                                        "description": "357",
-                                                                                        "isreplacecandidate": false,
-                                                                                        "isreplaced": false,
-                                                                                        "value": 10,
-                                                                                        "isprobability": true,
-                                                                                        "isoriginal": false,
-                                                                                        "probability": 0.25
-                                                                                    }
-                                                                                ],
-                                                                                "total": 40,
-                                                                                "probability": 0.5
-                                                                            }
-                                                                        ],
-                                                                        "total": 20
+                                                                        "total": 0
                                                                     }
                                                                 ],
                                                                 "total": 0
@@ -209,168 +445,56 @@
                                                                 "isoriginal": false,
                                                                 "children": [
                                                                     {
-                                                                        "description": "interval_3k_4k",
-                                                                        "isreplacecandidate": true,
-                                                                        "isreplaced": true,
+                                                                        "description": "35",
+                                                                        "isreplacecandidate": false,
+                                                                        "isreplaced": false,
                                                                         "value": -1,
                                                                         "isprobability": false,
-                                                                        "isoriginal": false,
-                                                                        "children": [
-                                                                            {
-                                                                                "description": "interval_4k",
-                                                                                "isreplacecandidate": true,
-                                                                                "isreplaced": true,
-                                                                                "value": 10,
-                                                                                "isprobability": true,
-                                                                                "isoriginal": false,
-                                                                                "children": [
-                                                                                    {
-                                                                                        "description": "56",
-                                                                                        "isreplacecandidate": false,
-                                                                                        "isreplaced": false,
-                                                                                        "value": 10,
-                                                                                        "isprobability": true,
-                                                                                        "isoriginal": false,
-                                                                                        "probability": 0.25
-                                                                                    }
-                                                                                ],
-                                                                                "total": 40,
-                                                                                "probability": 0.5
-                                                                            }
-                                                                        ],
-                                                                        "total": 20
-                                                                    }
-                                                                ],
-                                                                "total": 0
-                                                            },
-                                                            {
-                                                                "description": "I",
-                                                                "isreplacecandidate": false,
-                                                                "isreplaced": false,
-                                                                "value": -1,
-                                                                "isprobability": false,
-                                                                "isoriginal": false,
-                                                                "children": [
-                                                                    {
-                                                                        "description": "interval_3k",
-                                                                        "isreplacecandidate": true,
-                                                                        "isreplaced": true,
-                                                                        "value": -1,
-                                                                        "isprobability": false,
-                                                                        "isoriginal": false,
-                                                                        "children": [
-                                                                            {
-                                                                                "description": "46",
-                                                                                "isreplacecandidate": false,
-                                                                                "isreplaced": false,
-                                                                                "value": 10,
-                                                                                "isprobability": true,
-                                                                                "isoriginal": false,
-                                                                                "probability": 0.3333333333333333
-                                                                            }
-                                                                        ],
-                                                                        "total": 30
+                                                                        "isoriginal": false
                                                                     }
                                                                 ],
                                                                 "total": 0
                                                             }
                                                         ],
-                                                        "total": 0,
-                                                        "probability": 0.5
+                                                        "total": 0
                                                     }
                                                 ],
-                                                "total": 20,
-                                                "probability": 0.25
+                                                "total": 0,
+                                                "probability": 0.5
                                             }
                                         ],
-                                        "total": 40
-                                    }
-                                ],
-                                "total": 0
-                            },
-                            {
-                                "description": "conn",
-                                "isreplacecandidate": false,
-                                "isreplaced": false,
-                                "value": -1,
-                                "isprobability": false,
-                                "isoriginal": false,
-                                "children": [
+                                        "total": 20
+                                    },
                                     {
-                                        "description": "ii",
+                                        "description": "end",
                                         "isreplacecandidate": false,
                                         "isreplaced": false,
-                                        "value": 10,
-                                        "isprobability": true,
+                                        "value": -1,
+                                        "isprobability": false,
                                         "isoriginal": false,
                                         "children": [
                                             {
-                                                "description": "interval_3k_4k",
-                                                "isreplacecandidate": true,
-                                                "isreplaced": true,
-                                                "value": -1,
-                                                "isprobability": false,
+                                                "description": "interrupted_cad",
+                                                "isreplacecandidate": false,
+                                                "isreplaced": false,
+                                                "value": 10,
+                                                "isprobability": true,
                                                 "isoriginal": false,
-                                                "children": [
-                                                    {
-                                                        "description": "interval_3k",
-                                                        "isreplacecandidate": true,
-                                                        "isreplaced": true,
-                                                        "value": 10,
-                                                        "isprobability": true,
-                                                        "isoriginal": false,
-                                                        "children": [
-                                                            {
-                                                                "description": "46",
-                                                                "isreplacecandidate": false,
-                                                                "isreplaced": false,
-                                                                "value": 10,
-                                                                "isprobability": true,
-                                                                "isoriginal": false,
-                                                                "probability": 0.3333333333333333
-                                                            }
-                                                        ],
-                                                        "total": 30,
-                                                        "probability": 0.5
-                                                    }
-                                                ],
-                                                "total": 20
+                                                "probability": 0.16666666666666666
                                             }
                                         ],
-                                        "total": 0,
-                                        "probability": 0.3333333333333333
+                                        "total": 60
                                     }
                                 ],
-                                "total": 30
-                            },
-                            {
-                                "description": "end",
-                                "isreplacecandidate": false,
-                                "isreplaced": false,
-                                "value": -1,
-                                "isprobability": false,
-                                "isoriginal": false,
-                                "children": [
-                                    {
-                                        "description": "none",
-                                        "isreplacecandidate": false,
-                                        "isreplaced": false,
-                                        "value": 10,
-                                        "isprobability": true,
-                                        "isoriginal": false,
-                                        "probability": 0.5
-                                    }
-                                ],
-                                "total": 20
+                                "total": 0
                             }
                         ],
                         "total": 0
                     }
                 ],
-                "total": 0,
-                "probability": 0.5
+                "total": 0
             }
         ],
-        "total": 20
+        "total": 0
     }
 ]
