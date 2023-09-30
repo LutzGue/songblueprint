@@ -1,0 +1,8 @@
+dynamic_harmony
+    item,,2,8
+        alpha,10
+        beta,10
+        gamma,10
+phrase
+    static_harmony
+    {dynamic_harmony}

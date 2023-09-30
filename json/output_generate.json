@@ -5,6 +5,11 @@
         "isreplaced": false,
         "value": -1,
         "isprobability": false,
+        "generatemin": -1,
+        "generatemax": -1,
+        "isreplicated": false,
+        "clonenr": 1,
+        "isreplicatecandidate": false,
         "isoriginal": true,
         "children": [
             {
@@ -13,14 +18,24 @@
                 "isreplaced": true,
                 "value": -1,
                 "isprobability": false,
+                "generatemin": -1,
+                "generatemax": -1,
+                "isreplicated": false,
+                "clonenr": 1,
+                "isreplicatecandidate": false,
                 "isoriginal": false,
                 "children": [
                     {
-                        "description": "cb",
+                        "description": "g",
                         "isreplacecandidate": false,
                         "isreplaced": false,
                         "value": 10,
                         "isprobability": true,
+                        "generatemin": -1,
+                        "generatemax": -1,
+                        "isreplicated": false,
+                        "clonenr": 1,
+                        "isreplicatecandidate": false,
                         "isoriginal": false,
                         "probability": 0.06666666666666667
                     }
@@ -33,6 +48,11 @@
                 "isreplaced": false,
                 "value": -1,
                 "isprobability": false,
+                "generatemin": -1,
+                "generatemax": -1,
+                "isreplicated": false,
+                "clonenr": 1,
+                "isreplicatecandidate": false,
                 "isoriginal": false,
                 "children": [
                     {
@@ -41,6 +61,11 @@
                         "isreplaced": false,
                         "value": 10,
                         "isprobability": true,
+                        "generatemin": -1,
+                        "generatemax": -1,
+                        "isreplicated": false,
+                        "clonenr": 1,
+                        "isreplicatecandidate": false,
                         "isoriginal": false,
                         "children": [
                             {
@@ -49,77 +74,25 @@
                                 "isreplaced": false,
                                 "value": -1,
                                 "isprobability": false,
+                                "generatemin": -1,
+                                "generatemax": -1,
+                                "isreplicated": false,
+                                "clonenr": 1,
+                                "isreplicatecandidate": false,
                                 "isoriginal": false,
                                 "children": [
                                     {
-                                        "description": "dynamic_harmony",
-                                        "isreplacecandidate": true,
-                                        "isreplaced": true,
+                                        "description": "none",
+                                        "isreplacecandidate": false,
+                                        "isreplaced": false,
                                         "value": 10,
                                         "isprobability": true,
+                                        "generatemin": -1,
+                                        "generatemax": -1,
+                                        "isreplicated": false,
+                                        "clonenr": 1,
+                                        "isreplicatecandidate": false,
                                         "isoriginal": false,
-                                        "children": [
-                                            {
-                                                "description": "item",
-                                                "isreplacecandidate": false,
-                                                "isreplaced": false,
-                                                "value": -1,
-                                                "isprobability": false,
-                                                "isoriginal": false,
-                                                "children": [
-                                                    {
-                                                        "description": "beta",
-                                                        "isreplacecandidate": false,
-                                                        "isreplaced": false,
-                                                        "value": 10,
-                                                        "isprobability": true,
-                                                        "isoriginal": false,
-                                                        "probability": 0.2564102564102564
-                                                    }
-                                                ],
-                                                "total": 39
-                                            },
-                                            {
-                                                "description": "mini_cadence",
-                                                "isreplacecandidate": true,
-                                                "isreplaced": true,
-                                                "value": -1,
-                                                "isprobability": false,
-                                                "isoriginal": false,
-                                                "children": [
-                                                    {
-                                                        "description": "[rel_key_V]",
-                                                        "isreplacecandidate": false,
-                                                        "isreplaced": false,
-                                                        "value": 10,
-                                                        "isprobability": true,
-                                                        "isoriginal": false,
-                                                        "children": [
-                                                            {
-                                                                "description": "V",
-                                                                "isreplacecandidate": false,
-                                                                "isreplaced": false,
-                                                                "value": -1,
-                                                                "isprobability": false,
-                                                                "isoriginal": false
-                                                            },
-                                                            {
-                                                                "description": "I",
-                                                                "isreplacecandidate": false,
-                                                                "isreplaced": false,
-                                                                "value": -1,
-                                                                "isprobability": false,
-                                                                "isoriginal": false
-                                                            }
-                                                        ],
-                                                        "total": 0,
-                                                        "probability": 0.14285714285714285
-                                                    }
-                                                ],
-                                                "total": 70
-                                            }
-                                        ],
-                                        "total": 0,
                                         "probability": 0.5
                                     }
                                 ],
@@ -131,6 +104,11 @@
                                 "isreplaced": false,
                                 "value": -1,
                                 "isprobability": false,
+                                "generatemin": -1,
+                                "generatemax": -1,
+                                "isreplicated": false,
+                                "clonenr": 1,
+                                "isreplicatecandidate": false,
                                 "isoriginal": false,
                                 "children": [
                                     {
@@ -139,6 +117,11 @@
                                         "isreplaced": true,
                                         "value": -1,
                                         "isprobability": false,
+                                        "generatemin": -1,
+                                        "generatemax": -1,
+                                        "isreplicated": false,
+                                        "clonenr": 1,
+                                        "isreplicatecandidate": false,
                                         "isoriginal": false,
                                         "children": [
                                             {
@@ -147,6 +130,11 @@
                                                 "isreplaced": true,
                                                 "value": -1,
                                                 "isprobability": false,
+                                                "generatemin": -1,
+                                                "generatemax": -1,
+                                                "isreplicated": false,
+                                                "clonenr": 1,
+                                                "isreplicatecandidate": false,
                                                 "isoriginal": false,
                                                 "children": [
                                                     {
@@ -155,6 +143,11 @@
                                                         "isreplaced": false,
                                                         "value": -1,
                                                         "isprobability": false,
+                                                        "generatemin": -1,
+                                                        "generatemax": -1,
+                                                        "isreplicated": false,
+                                                        "clonenr": 1,
+                                                        "isreplicatecandidate": false,
                                                         "isoriginal": false,
                                                         "children": [
                                                             {
@@ -163,6 +156,11 @@
                                                                 "isreplaced": false,
                                                                 "value": -1,
                                                                 "isprobability": false,
+                                                                "generatemin": -1,
+                                                                "generatemax": -1,
+                                                                "isreplicated": false,
+                                                                "clonenr": 1,
+                                                                "isreplicatecandidate": false,
                                                                 "isoriginal": false
                                                             }
                                                         ],
@@ -174,57 +172,54 @@
                                                         "isreplaced": true,
                                                         "value": -1,
                                                         "isprobability": false,
+                                                        "generatemin": -1,
+                                                        "generatemax": -1,
+                                                        "isreplicated": false,
+                                                        "clonenr": 1,
+                                                        "isreplicatecandidate": false,
                                                         "isoriginal": false,
                                                         "children": [
                                                             {
-                                                                "description": "diatonic_auxiliary_chords",
+                                                                "description": "chromatic_auxiliary_chords",
                                                                 "isreplacecandidate": false,
                                                                 "isreplaced": false,
                                                                 "value": 10,
                                                                 "isprobability": true,
+                                                                "generatemin": -1,
+                                                                "generatemax": -1,
+                                                                "isreplicated": false,
+                                                                "clonenr": 1,
+                                                                "isreplicatecandidate": false,
                                                                 "isoriginal": false,
                                                                 "children": [
                                                                     {
-                                                                        "description": "double_note",
+                                                                        "description": "neapolitan_6th_chord",
                                                                         "isreplacecandidate": false,
                                                                         "isreplaced": false,
                                                                         "value": 10,
                                                                         "isprobability": true,
+                                                                        "generatemin": -1,
+                                                                        "generatemax": -1,
+                                                                        "isreplicated": false,
+                                                                        "clonenr": 1,
+                                                                        "isreplicatecandidate": false,
                                                                         "isoriginal": false,
                                                                         "children": [
                                                                             {
-                                                                                "description": "[IV]",
+                                                                                "description": "[bII]",
                                                                                 "isreplacecandidate": false,
                                                                                 "isreplaced": false,
-                                                                                "value": 10,
-                                                                                "isprobability": true,
-                                                                                "isoriginal": false,
-                                                                                "children": [
-                                                                                    {
-                                                                                        "description": "IV",
-                                                                                        "isreplacecandidate": false,
-                                                                                        "isreplaced": false,
-                                                                                        "value": -1,
-                                                                                        "isprobability": false,
-                                                                                        "isoriginal": false,
-                                                                                        "children": [
-                                                                                            {
-                                                                                                "description": "35",
-                                                                                                "isreplacecandidate": false,
-                                                                                                "isreplaced": false,
-                                                                                                "value": -1,
-                                                                                                "isprobability": false,
-                                                                                                "isoriginal": false
-                                                                                            }
-                                                                                        ],
-                                                                                        "total": 0
-                                                                                    }
-                                                                                ],
-                                                                                "total": 0,
-                                                                                "probability": 0.5
+                                                                                "value": -1,
+                                                                                "isprobability": false,
+                                                                                "generatemin": -1,
+                                                                                "generatemax": -1,
+                                                                                "isreplicated": false,
+                                                                                "clonenr": 1,
+                                                                                "isreplicatecandidate": false,
+                                                                                "isoriginal": false
                                                                             }
                                                                         ],
-                                                                        "total": 20,
+                                                                        "total": 0,
                                                                         "probability": 0.25
                                                                     }
                                                                 ],
@@ -240,6 +235,11 @@
                                                         "isreplaced": false,
                                                         "value": -1,
                                                         "isprobability": false,
+                                                        "generatemin": -1,
+                                                        "generatemax": -1,
+                                                        "isreplicated": false,
+                                                        "clonenr": 1,
+                                                        "isreplicatecandidate": false,
                                                         "isoriginal": false,
                                                         "children": [
                                                             {
@@ -248,6 +248,11 @@
                                                                 "isreplaced": false,
                                                                 "value": -1,
                                                                 "isprobability": false,
+                                                                "generatemin": -1,
+                                                                "generatemax": -1,
+                                                                "isreplicated": false,
+                                                                "clonenr": 1,
+                                                                "isreplicatecandidate": false,
                                                                 "isoriginal": false
                                                             }
                                                         ],
@@ -275,6 +280,11 @@
                 "isreplaced": false,
                 "value": -1,
                 "isprobability": false,
+                "generatemin": -1,
+                "generatemax": -1,
+                "isreplicated": false,
+                "clonenr": 1,
+                "isreplicatecandidate": false,
                 "isoriginal": false,
                 "children": [
                     {
@@ -283,6 +293,11 @@
                         "isreplaced": true,
                         "value": -1,
                         "isprobability": false,
+                        "generatemin": -1,
+                        "generatemax": -1,
+                        "isreplicated": false,
+                        "clonenr": 1,
+                        "isreplicatecandidate": false,
                         "isoriginal": false,
                         "children": [
                             {
@@ -291,16 +306,26 @@
                                 "isreplaced": false,
                                 "value": -1,
                                 "isprobability": false,
+                                "generatemin": 2,
+                                "generatemax": 8,
+                                "isreplicated": false,
+                                "clonenr": 1,
+                                "isreplicatecandidate": true,
                                 "isoriginal": false,
                                 "children": [
                                     {
-                                        "description": "gamma",
+                                        "description": "gamma_reversal",
                                         "isreplacecandidate": false,
                                         "isreplaced": false,
-                                        "value": 10,
+                                        "value": 3,
                                         "isprobability": true,
+                                        "generatemin": -1,
+                                        "generatemax": -1,
+                                        "isreplicated": false,
+                                        "clonenr": 1,
+                                        "isreplicatecandidate": false,
                                         "isoriginal": false,
-                                        "probability": 0.2564102564102564
+                                        "probability": 0.07692307692307693
                                     }
                                 ],
                                 "total": 39
@@ -311,34 +336,25 @@
                                 "isreplaced": true,
                                 "value": -1,
                                 "isprobability": false,
+                                "generatemin": -1,
+                                "generatemax": -1,
+                                "isreplicated": false,
+                                "clonenr": 1,
+                                "isreplicatecandidate": false,
                                 "isoriginal": false,
                                 "children": [
                                     {
-                                        "description": "[rel_key_I]",
+                                        "description": "none",
                                         "isreplacecandidate": false,
                                         "isreplaced": false,
                                         "value": 10,
                                         "isprobability": true,
+                                        "generatemin": -1,
+                                        "generatemax": -1,
+                                        "isreplicated": false,
+                                        "clonenr": 1,
+                                        "isreplicatecandidate": false,
                                         "isoriginal": false,
-                                        "children": [
-                                            {
-                                                "description": "V",
-                                                "isreplacecandidate": false,
-                                                "isreplaced": false,
-                                                "value": -1,
-                                                "isprobability": false,
-                                                "isoriginal": false
-                                            },
-                                            {
-                                                "description": "I",
-                                                "isreplacecandidate": false,
-                                                "isreplaced": false,
-                                                "value": -1,
-                                                "isprobability": false,
-                                                "isoriginal": false
-                                            }
-                                        ],
-                                        "total": 0,
                                         "probability": 0.14285714285714285
                                     }
                                 ],
@@ -353,6 +369,11 @@
                         "isreplaced": false,
                         "value": -1,
                         "isprobability": false,
+                        "generatemin": -1,
+                        "generatemax": -1,
+                        "isreplicated": false,
+                        "clonenr": 1,
+                        "isreplicatecandidate": false,
                         "isoriginal": false,
                         "children": [
                             {
@@ -361,6 +382,11 @@
                                 "isreplaced": false,
                                 "value": -1,
                                 "isprobability": false,
+                                "generatemin": -1,
+                                "generatemax": -1,
+                                "isreplicated": false,
+                                "clonenr": 1,
+                                "isreplicatecandidate": false,
                                 "isoriginal": false,
                                 "children": [
                                     {
@@ -369,6 +395,11 @@
                                         "isreplaced": false,
                                         "value": -1,
                                         "isprobability": false,
+                                        "generatemin": -1,
+                                        "generatemax": -1,
+                                        "isreplicated": false,
+                                        "clonenr": 1,
+                                        "isreplicatecandidate": false,
                                         "isoriginal": false,
                                         "children": [
                                             {
@@ -377,6 +408,11 @@
                                                 "isreplaced": false,
                                                 "value": 10,
                                                 "isprobability": true,
+                                                "generatemin": -1,
+                                                "generatemax": -1,
+                                                "isreplicated": false,
+                                                "clonenr": 1,
+                                                "isreplicatecandidate": false,
                                                 "isoriginal": false,
                                                 "children": [
                                                     {
@@ -385,6 +421,11 @@
                                                         "isreplaced": true,
                                                         "value": -1,
                                                         "isprobability": false,
+                                                        "generatemin": -1,
+                                                        "generatemax": -1,
+                                                        "isreplicated": false,
+                                                        "clonenr": 1,
+                                                        "isreplicatecandidate": false,
                                                         "isoriginal": false,
                                                         "children": [
                                                             {
@@ -393,6 +434,11 @@
                                                                 "isreplaced": false,
                                                                 "value": -1,
                                                                 "isprobability": false,
+                                                                "generatemin": -1,
+                                                                "generatemax": -1,
+                                                                "isreplicated": false,
+                                                                "clonenr": 1,
+                                                                "isreplicatecandidate": false,
                                                                 "isoriginal": false,
                                                                 "children": [
                                                                     {
@@ -401,6 +447,11 @@
                                                                         "isreplaced": false,
                                                                         "value": -1,
                                                                         "isprobability": false,
+                                                                        "generatemin": -1,
+                                                                        "generatemax": -1,
+                                                                        "isreplicated": false,
+                                                                        "clonenr": 1,
+                                                                        "isreplicatecandidate": false,
                                                                         "isoriginal": false
                                                                     }
                                                                 ],
@@ -412,6 +463,11 @@
                                                                 "isreplaced": true,
                                                                 "value": -1,
                                                                 "isprobability": false,
+                                                                "generatemin": -1,
+                                                                "generatemax": -1,
+                                                                "isreplicated": false,
+                                                                "clonenr": 1,
+                                                                "isreplicatecandidate": false,
                                                                 "isoriginal": false,
                                                                 "children": [
                                                                     {
@@ -420,6 +476,11 @@
                                                                         "isreplaced": false,
                                                                         "value": -1,
                                                                         "isprobability": false,
+                                                                        "generatemin": -1,
+                                                                        "generatemax": -1,
+                                                                        "isreplicated": false,
+                                                                        "clonenr": 1,
+                                                                        "isreplicatecandidate": false,
                                                                         "isoriginal": false,
                                                                         "children": [
                                                                             {
@@ -428,6 +489,11 @@
                                                                                 "isreplaced": false,
                                                                                 "value": -1,
                                                                                 "isprobability": false,
+                                                                                "generatemin": -1,
+                                                                                "generatemax": -1,
+                                                                                "isreplicated": false,
+                                                                                "clonenr": 1,
+                                                                                "isreplicatecandidate": false,
                                                                                 "isoriginal": false
                                                                             }
                                                                         ],
@@ -442,6 +508,11 @@
                                                                 "isreplaced": false,
                                                                 "value": -1,
                                                                 "isprobability": false,
+                                                                "generatemin": -1,
+                                                                "generatemax": -1,
+                                                                "isreplicated": false,
+                                                                "clonenr": 1,
+                                                                "isreplicatecandidate": false,
                                                                 "isoriginal": false,
                                                                 "children": [
                                                                     {
@@ -450,6 +521,11 @@
                                                                         "isreplaced": false,
                                                                         "value": -1,
                                                                         "isprobability": false,
+                                                                        "generatemin": -1,
+                                                                        "generatemax": -1,
+                                                                        "isreplicated": false,
+                                                                        "clonenr": 1,
+                                                                        "isreplicatecandidate": false,
                                                                         "isoriginal": false
                                                                     }
                                                                 ],
@@ -471,14 +547,24 @@
                                         "isreplaced": false,
                                         "value": -1,
                                         "isprobability": false,
+                                        "generatemin": -1,
+                                        "generatemax": -1,
+                                        "isreplicated": false,
+                                        "clonenr": 1,
+                                        "isreplicatecandidate": false,
                                         "isoriginal": false,
                                         "children": [
                                             {
-                                                "description": "interrupted_cad",
+                                                "description": "overlapping_cad",
                                                 "isreplacecandidate": false,
                                                 "isreplaced": false,
                                                 "value": 10,
                                                 "isprobability": true,
+                                                "generatemin": -1,
+                                                "generatemax": -1,
+                                                "isreplicated": false,
+                                                "clonenr": 1,
+                                                "isreplicatecandidate": false,
                                                 "isoriginal": false,
                                                 "probability": 0.16666666666666666
                                             }
