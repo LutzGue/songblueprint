@@ -37,9 +37,14 @@ def text_to_json(file_path):
                 parts = line.strip().split(',')
                 
                 label = parts[0]
+
                 value = int(parts[1]) if len(parts) > 1 and parts[1] else -1
                 generatemin = int(parts[2]) if len(parts) > 2 and parts[2] else -1
                 generatemax = int(parts[3]) if len(parts) > 3 and parts[3] else -1
+
+                # DEBUGGING
+                if is_mode_debugging:
+                    print(indent, label, value, generatemin, generatemax)
 
                 # Create a new node with the label and value
                 node = {'description': label}
@@ -104,8 +109,15 @@ def text_to_json(file_path):
         print(f"An error occurred: {e}")
         return None
 
-# usage
-json_data = text_to_json('txt\\phrase4.txt')
+# edit user defined parameters here
+is_mode_debugging = False
+input_filename = 'txt\\rythmhands.txt'
+output_filename = 'json\\output.json'
+
+# call function
+json_data = text_to_json(input_filename)
+
+# store json file
 if json_data is not None:
-    with open('json\\output.json', 'w') as f:
+    with open(output_filename, 'w') as f:
         json.dump(json_data, f, indent=4)

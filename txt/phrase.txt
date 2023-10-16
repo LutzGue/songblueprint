@@ -9,7 +9,7 @@ inversion_4k
     2, 10
 inversion_3k_4k
     {inversion_3k}, 10
-    [inversion_4k}, 10
+    {inversion_4k}, 10
 cadV
     cadV_type1, 10
         V46

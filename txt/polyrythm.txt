@@ -1,0 +1,33 @@
+note
+    type1,10
+        4,10
+        x,10
+    type2,10
+        88,10
+        8x,10
+        x8,10
+        xx,10
+    type3,10
+        TTT,10
+        Txx,10
+        xTx,10
+        xxT,10
+        TTx,10
+        xTT,10
+    type4,10
+        16161616,10
+        16xxx,10
+        x16xx,10
+        xx16x,10
+        xxx16,10
+        1616xx,10
+        x1616x,10
+        xx1616,10
+        161616x,10
+        x161616,10
+        xx1616,10
+        usw,10
+song
+    item(2,4)
+        item(1,7)
+            note

@@ -188,34 +188,6 @@
                 "isoriginal": false,
                 "children": [
                     {
-                        "description": "lh_1",
-                        "isreplacecandidate": false,
-                        "isreplaced": false,
-                        "value": -1,
-                        "isprobability": false,
-                        "generatemin": -1,
-                        "generatemax": -1,
-                        "isreplicated": false,
-                        "clonenr": 1,
-                        "isreplicatecandidate": false,
-                        "isoriginal": false,
-                        "children": [
-                            {
-                                "description": "lh_1_2",
-                                "isreplacecandidate": false,
-                                "isreplaced": false,
-                                "value": -1,
-                                "isprobability": false,
-                                "generatemin": -1,
-                                "generatemax": -1,
-                                "isreplicated": false,
-                                "clonenr": 1,
-                                "isreplicatecandidate": false,
-                                "isoriginal": false
-                            }
-                        ]
-                    },
-                    {
                         "description": "item",
                         "isreplacecandidate": false,
                         "isreplaced": false,
@@ -229,7 +201,7 @@
                         "isoriginal": false,
                         "children": [
                             {
-                                "description": "note_lh",
+                                "description": "note",
                                 "isreplacecandidate": false,
                                 "isreplaced": false,
                                 "value": -1,
@@ -257,7 +229,7 @@
                         "isoriginal": false,
                         "children": [
                             {
-                                "description": "note_lh",
+                                "description": "note",
                                 "isreplacecandidate": false,
                                 "isreplaced": false,
                                 "value": -1,
@@ -285,7 +257,7 @@
                         "isoriginal": false,
                         "children": [
                             {
-                                "description": "note_lh",
+                                "description": "note",
                                 "isreplacecandidate": false,
                                 "isreplaced": false,
                                 "value": -1,
@@ -313,7 +285,7 @@
                         "isoriginal": false,
                         "children": [
                             {
-                                "description": "note_lh",
+                                "description": "note",
                                 "isreplacecandidate": false,
                                 "isreplaced": false,
                                 "value": -1,
@@ -341,7 +313,7 @@
                         "isoriginal": false,
                         "children": [
                             {
-                                "description": "note_lh",
+                                "description": "note",
                                 "isreplacecandidate": false,
                                 "isreplaced": false,
                                 "value": -1,
@@ -356,20 +328,20 @@
                         ]
                     },
                     {
-                        "description": "lh_2",
+                        "description": "item",
                         "isreplacecandidate": false,
                         "isreplaced": false,
                         "value": -1,
                         "isprobability": false,
-                        "generatemin": -1,
-                        "generatemax": -1,
-                        "isreplicated": false,
-                        "clonenr": 1,
-                        "isreplicatecandidate": false,
+                        "generatemin": 0,
+                        "generatemax": 8,
+                        "isreplicated": true,
+                        "clonenr": 6,
+                        "isreplicatecandidate": true,
                         "isoriginal": false,
                         "children": [
                             {
-                                "description": "lh_2_2",
+                                "description": "note",
                                 "isreplacecandidate": false,
                                 "isreplaced": false,
                                 "value": -1,
@@ -412,7 +384,7 @@
                         "isoriginal": false,
                         "children": [
                             {
-                                "description": "note_rh_1",
+                                "description": "note",
                                 "isreplacecandidate": false,
                                 "isreplaced": false,
                                 "value": -1,
@@ -422,76 +394,7 @@
                                 "isreplicated": false,
                                 "clonenr": 1,
                                 "isreplicatecandidate": false,
-                                "isoriginal": false,
-                                "children": [
-                                    {
-                                        "description": "note_rh_1_2_1",
-                                        "isreplacecandidate": false,
-                                        "isreplaced": false,
-                                        "value": -1,
-                                        "isprobability": false,
-                                        "generatemin": -1,
-                                        "generatemax": -1,
-                                        "isreplicated": false,
-                                        "clonenr": 1,
-                                        "isreplicatecandidate": false,
-                                        "isoriginal": false
-                                    },
-                                    {
-                                        "description": "note_rh_1_2_2",
-                                        "isreplacecandidate": false,
-                                        "isreplaced": false,
-                                        "value": -1,
-                                        "isprobability": false,
-                                        "generatemin": -1,
-                                        "generatemax": -1,
-                                        "isreplicated": false,
-                                        "clonenr": 1,
-                                        "isreplicatecandidate": false,
-                                        "isoriginal": false
-                                    }
-                                ]
-                            },
-                            {
-                                "description": "note_rh_2",
-                                "isreplacecandidate": false,
-                                "isreplaced": false,
-                                "value": -1,
-                                "isprobability": false,
-                                "generatemin": -1,
-                                "generatemax": -1,
-                                "isreplicated": false,
-                                "clonenr": 1,
-                                "isreplicatecandidate": false,
-                                "isoriginal": false,
-                                "children": [
-                                    {
-                                        "description": "note_rh_2_2_1",
-                                        "isreplacecandidate": false,
-                                        "isreplaced": false,
-                                        "value": -1,
-                                        "isprobability": false,
-                                        "generatemin": -1,
-                                        "generatemax": -1,
-                                        "isreplicated": false,
-                                        "clonenr": 1,
-                                        "isreplicatecandidate": false,
-                                        "isoriginal": false
-                                    },
-                                    {
-                                        "description": "note_rh_2_2_2",
-                                        "isreplacecandidate": false,
-                                        "isreplaced": false,
-                                        "value": -1,
-                                        "isprobability": false,
-                                        "generatemin": -1,
-                                        "generatemax": -1,
-                                        "isreplicated": false,
-                                        "clonenr": 1,
-                                        "isreplicatecandidate": false,
-                                        "isoriginal": false
-                                    }
-                                ]
+                                "isoriginal": false
                             }
                         ]
                     }

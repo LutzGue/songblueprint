@@ -1,108 +1,61 @@
-"""
-This script reads a JSON file, replicates the nodes based on conditions, and writes the result to a new JSON file.
-
-FEATURE:
-    2023-09-30: 
-        1) read json file. 
-        2) If isReplicateCandidate == true, repeat the node and all of its nested child nodes as many times using import random and for x in range(0, int(round(generatemin + (generatemax - generatemin )*random.random()))). 
-        3) Set "Isreplicated" = true in the node and write the sequential number in the 'clonenr' field. 
-        4) It uses recursion to handle nested child nodes.
-        5) Add the duplicated node at the same level as the original node, not as a child of the original node.
-        6) This argument keeps track of the parent of the current node. If the current node is a replicate candidate, we append the new node to the parent (if it’s a list) instead of appending it to the current node’s children. This will add the duplicated node at the same level as the original node.
-        7) It's important to keep the original position of the node with the description “mini_cadence” and add the replicated nodes “item” before it.
-
-PARAMETERS:
-JSON file.
-        
-RESULT:
-The output will be a list of replicated nodes.
-        
-"""
-
-"""
 import json
 import copy
 import random
 
-# Load the data from the JSON file
-with open('json\\output.json', 'r') as f:
-    data = json.load(f)
-
-# Perform the transformation
-for item in data:
-    if item['description'] == 'dynamic_harmony':
-        original_children = item['children'].copy()
-        for original_child in original_children:
-            if original_child['description'] == 'item' and original_child['isreplicatecandidate']:
-                generatemin = original_child['generatemin']
-                generatemax = original_child['generatemax']
-                randomcount = int(round(generatemin + (generatemax - generatemin ) * random.random())) - 1
-                for i in range(randomcount):
-                    new_child = copy.deepcopy(original_child)
-                    new_child['isreplicated'] = True
-                    new_child['clonenr'] = i
-                    item['children'].append(new_child)
-
-# Write the result back to the JSON file
-with open('json\\output_replicate.json', 'w') as f:
-    json.dump(data, f, indent=4)
 """
-"""
-import json
-import copy
-import random
+It reads a JSON file, recursively searches for nodes with isreplicated = false and isreplicatecandidate = true, duplicates those nodes, and writes the final result back into a JSON file.
 
-# Recursive function to handle nested child nodes
-def handle_children(node):
-    if node.get('isreplicatecandidate', False):
-        generatemin = node['generatemin']
-        generatemax = node['generatemax']
-        randomcount = int(round(generatemin + (generatemax - generatemin ) * random.random())) - 1
-        for i in range(randomcount):
-            new_child = copy.deepcopy(node)
-            new_child['isreplicated'] = True
-            new_child['clonenr'] = i
-            node['children'].append(new_child)
-    for child in node.get('children', []):
-        handle_children(child)
-
-# Load the data from the JSON file
-with open('json\\output.json', 'r') as f:
-    data = json.load(f)
-
-# Perform the transformation
-for item in data:
-    handle_children(item)
-
-# Write the result back to the JSON file
-with open('json\\output_replicate.json', 'w') as f:
-    json.dump(data, f, indent=4)
+PROCESS:
+1) open json file.
+2) use recursive function to search in all nested nodes / children.
+3) search for node with condition (isreplicated = false AND isreplicatecandidate = true) in all nested nodes.
+4) create duplicate of the original node and insert clone in the same indent level as the original.
+5) the duplicate should contain all nested childrens as in the original.
+6) use INSERT command instead of APPEND command to keep the original position in the schema.
+7) set value in replaced candidate to isreplaced: true.
+8) increase the value of clonenr.
+9) write final result into json file. generate multiple schema files.
 """
 
-import json
-import copy
-import random
+def recursive_search(node, parent=None, key=None):
+    if isinstance(node, dict):
+        if node.get('isreplicated') == False and node.get('isreplicatecandidate') == True:
+            # Calculate number of generated clones by chance
+            generatemin = node.get('generatemin', 0)
+            generatemax = node.get('generatemax', 0)
+            randomcount = int(round(generatemin + (generatemax - generatemin) * random.random())) - 1
 
-# Load the data from the JSON file
-with open('json\\output.json', 'r') as f:
-    data = json.load(f)
+            # Create duplicates of the node
+            for i in range(randomcount):
+                new_node = copy.deepcopy(node)
+                new_node['isreplicated'] = True
+                new_node['clonenr'] += i + 1
 
-# Perform the transformation
-for item in data:
-    #if item['description'] == 'dynamic_harmony':
-        original_children = item['children'].copy()
-        for original_child in original_children:
-            #if original_child['description'] == 'item' and 
-            if original_child['isreplicatecandidate']:
-                generatemin = original_child['generatemin']
-                generatemax = original_child['generatemax']
-                randomcount = int(round(generatemin + (generatemax - generatemin ) * random.random())) - 1
-                for i in range(randomcount):
-                    new_child = copy.deepcopy(original_child)
-                    new_child['isreplicated'] = True
-                    new_child['clonenr'] = i
-                    item['children'].insert(item['children'].index(original_child)+i+1, new_child)
+                # Insert the duplicate node at the same indent level as the original
+                parent.insert(key + i + 1, new_node)
 
-# Write the result back to the JSON file
-with open('json\\output_replicate.json', 'w') as f:
-    json.dump(data, f, indent=4)
+        for k, v in node.items():
+            recursive_search(v, node, k)
+
+    elif isinstance(node, list):
+        for i in range(len(node)):
+            recursive_search(node[i], node, i)
+
+def process_json_file(input_file, output_file):
+    with open(input_file, 'r') as f:
+        data = json.load(f)
+
+    recursive_search(data)
+
+    with open(output_file, 'w') as f:
+        json.dump(data, f, indent=4)
+
+# edit user defined parameters here
+input_filename = 'json\\output.json'
+output_filename_syntax = 'json\\output_replicate-'
+generate_count = 10
+
+# Call the function with your input and output file paths. generate different schemas.
+for n in range(generate_count):
+   output_filename_number = output_filename_syntax + str(n+1) + '.json'
+   process_json_file(input_filename, output_filename_number)
