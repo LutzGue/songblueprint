@@ -15,6 +15,18 @@ PROCESS:
 7) set value in replaced candidate to isreplaced: true.
 8) increase the value of clonenr.
 9) write final result into json file. generate multiple schema files.
+
+Example:
+
+song
+    lh
+        item,2,8
+            note
+
+Explanation of the example above:
+
+    "item,2,8": 2 minimum / 8 maximum generation
+
 """
 
 def recursive_search(node, parent=None, key=None):
