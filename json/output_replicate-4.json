@@ -1,6 +1,6 @@
 [
     {
-        "description": "song",
+        "description": "note",
         "isreplacecandidate": false,
         "isreplaced": false,
         "value": -1,
@@ -13,11 +13,11 @@
         "isoriginal": true,
         "children": [
             {
-                "description": "meta",
+                "description": "type1",
                 "isreplacecandidate": false,
                 "isreplaced": false,
-                "value": -1,
-                "isprobability": false,
+                "value": 10,
+                "isprobability": true,
                 "generatemin": -1,
                 "generatemax": -1,
                 "isreplicated": false,
@@ -26,7 +26,7 @@
                 "isoriginal": false,
                 "children": [
                     {
-                        "description": "meter",
+                        "description": "one",
                         "isreplacecandidate": false,
                         "isreplaced": false,
                         "value": -1,
@@ -36,150 +36,16 @@
                         "isreplicated": false,
                         "clonenr": 1,
                         "isreplicatecandidate": false,
-                        "isoriginal": false,
-                        "children": [
-                            {
-                                "description": "4/4",
-                                "isreplacecandidate": false,
-                                "isreplaced": false,
-                                "value": 10,
-                                "isprobability": true,
-                                "generatemin": -1,
-                                "generatemax": -1,
-                                "isreplicated": false,
-                                "clonenr": 1,
-                                "isreplicatecandidate": false,
-                                "isoriginal": false
-                            },
-                            {
-                                "description": "3/4",
-                                "isreplacecandidate": false,
-                                "isreplaced": false,
-                                "value": 0,
-                                "isprobability": true,
-                                "generatemin": -1,
-                                "generatemax": -1,
-                                "isreplicated": false,
-                                "clonenr": 1,
-                                "isreplicatecandidate": false,
-                                "isoriginal": false
-                            },
-                            {
-                                "description": "6/4",
-                                "isreplacecandidate": false,
-                                "isreplaced": false,
-                                "value": 0,
-                                "isprobability": true,
-                                "generatemin": -1,
-                                "generatemax": -1,
-                                "isreplicated": false,
-                                "clonenr": 1,
-                                "isreplicatecandidate": false,
-                                "isoriginal": false
-                            },
-                            {
-                                "description": "2/4",
-                                "isreplacecandidate": false,
-                                "isreplaced": false,
-                                "value": 0,
-                                "isprobability": true,
-                                "generatemin": -1,
-                                "generatemax": -1,
-                                "isreplicated": false,
-                                "clonenr": 1,
-                                "isreplicatecandidate": false,
-                                "isoriginal": false
-                            }
-                        ]
-                    },
-                    {
-                        "description": "bpm",
-                        "isreplacecandidate": false,
-                        "isreplaced": false,
-                        "value": -1,
-                        "isprobability": false,
-                        "generatemin": -1,
-                        "generatemax": -1,
-                        "isreplicated": false,
-                        "clonenr": 1,
-                        "isreplicatecandidate": false,
-                        "isoriginal": false,
-                        "children": [
-                            {
-                                "description": "60",
-                                "isreplacecandidate": false,
-                                "isreplaced": false,
-                                "value": 10,
-                                "isprobability": true,
-                                "generatemin": -1,
-                                "generatemax": -1,
-                                "isreplicated": false,
-                                "clonenr": 1,
-                                "isreplicatecandidate": false,
-                                "isoriginal": false
-                            },
-                            {
-                                "description": "80",
-                                "isreplacecandidate": false,
-                                "isreplaced": false,
-                                "value": 0,
-                                "isprobability": true,
-                                "generatemin": -1,
-                                "generatemax": -1,
-                                "isreplicated": false,
-                                "clonenr": 1,
-                                "isreplicatecandidate": false,
-                                "isoriginal": false
-                            },
-                            {
-                                "description": "100",
-                                "isreplacecandidate": false,
-                                "isreplaced": false,
-                                "value": 0,
-                                "isprobability": true,
-                                "generatemin": -1,
-                                "generatemax": -1,
-                                "isreplicated": false,
-                                "clonenr": 1,
-                                "isreplicatecandidate": false,
-                                "isoriginal": false
-                            },
-                            {
-                                "description": "120",
-                                "isreplacecandidate": false,
-                                "isreplaced": false,
-                                "value": 0,
-                                "isprobability": true,
-                                "generatemin": -1,
-                                "generatemax": -1,
-                                "isreplicated": false,
-                                "clonenr": 1,
-                                "isreplicatecandidate": false,
-                                "isoriginal": false
-                            },
-                            {
-                                "description": "140",
-                                "isreplacecandidate": false,
-                                "isreplaced": false,
-                                "value": 0,
-                                "isprobability": true,
-                                "generatemin": -1,
-                                "generatemax": -1,
-                                "isreplicated": false,
-                                "clonenr": 1,
-                                "isreplicatecandidate": false,
-                                "isoriginal": false
-                            }
-                        ]
+                        "isoriginal": false
                     }
                 ]
             },
             {
-                "description": "lh",
+                "description": "type2",
                 "isreplacecandidate": false,
                 "isreplaced": false,
-                "value": -1,
-                "isprobability": false,
+                "value": 10,
+                "isprobability": true,
                 "generatemin": -1,
                 "generatemax": -1,
                 "isreplicated": false,
@@ -188,13 +54,112 @@
                 "isoriginal": false,
                 "children": [
                     {
-                        "description": "item",
+                        "description": "two",
                         "isreplacecandidate": false,
                         "isreplaced": false,
                         "value": -1,
                         "isprobability": false,
-                        "generatemin": 0,
-                        "generatemax": 8,
+                        "generatemin": -1,
+                        "generatemax": -1,
+                        "isreplicated": false,
+                        "clonenr": 1,
+                        "isreplicatecandidate": false,
+                        "isoriginal": false
+                    }
+                ]
+            },
+            {
+                "description": "type3",
+                "isreplacecandidate": false,
+                "isreplaced": false,
+                "value": 10,
+                "isprobability": true,
+                "generatemin": -1,
+                "generatemax": -1,
+                "isreplicated": false,
+                "clonenr": 1,
+                "isreplicatecandidate": false,
+                "isoriginal": false,
+                "children": [
+                    {
+                        "description": "three",
+                        "isreplacecandidate": false,
+                        "isreplaced": false,
+                        "value": -1,
+                        "isprobability": false,
+                        "generatemin": -1,
+                        "generatemax": -1,
+                        "isreplicated": false,
+                        "clonenr": 1,
+                        "isreplicatecandidate": false,
+                        "isoriginal": false
+                    }
+                ]
+            },
+            {
+                "description": "type4",
+                "isreplacecandidate": false,
+                "isreplaced": false,
+                "value": 10,
+                "isprobability": true,
+                "generatemin": -1,
+                "generatemax": -1,
+                "isreplicated": false,
+                "clonenr": 1,
+                "isreplicatecandidate": false,
+                "isoriginal": false,
+                "children": [
+                    {
+                        "description": "four",
+                        "isreplacecandidate": false,
+                        "isreplaced": false,
+                        "value": -1,
+                        "isprobability": false,
+                        "generatemin": -1,
+                        "generatemax": -1,
+                        "isreplicated": false,
+                        "clonenr": 1,
+                        "isreplicatecandidate": false,
+                        "isoriginal": false
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "description": "polyrythm",
+        "isreplacecandidate": false,
+        "isreplaced": false,
+        "value": -1,
+        "isprobability": false,
+        "generatemin": -1,
+        "generatemax": -1,
+        "isreplicated": false,
+        "clonenr": 1,
+        "isreplicatecandidate": false,
+        "isoriginal": true,
+        "children": [
+            {
+                "description": "item_a",
+                "isreplacecandidate": false,
+                "isreplaced": false,
+                "value": -1,
+                "isprobability": false,
+                "generatemin": 2,
+                "generatemax": 4,
+                "isreplicated": false,
+                "clonenr": 1,
+                "isreplicatecandidate": true,
+                "isoriginal": false,
+                "children": [
+                    {
+                        "description": "item_b",
+                        "isreplacecandidate": false,
+                        "isreplaced": false,
+                        "value": -1,
+                        "isprobability": false,
+                        "generatemin": 1,
+                        "generatemax": 7,
                         "isreplicated": false,
                         "clonenr": 1,
                         "isreplicatecandidate": true,
@@ -202,91 +167,7 @@
                         "children": [
                             {
                                 "description": "note",
-                                "isreplacecandidate": false,
-                                "isreplaced": false,
-                                "value": -1,
-                                "isprobability": false,
-                                "generatemin": -1,
-                                "generatemax": -1,
-                                "isreplicated": false,
-                                "clonenr": 1,
-                                "isreplicatecandidate": false,
-                                "isoriginal": false
-                            }
-                        ]
-                    },
-                    {
-                        "description": "item",
-                        "isreplacecandidate": false,
-                        "isreplaced": false,
-                        "value": -1,
-                        "isprobability": false,
-                        "generatemin": 0,
-                        "generatemax": 8,
-                        "isreplicated": true,
-                        "clonenr": 2,
-                        "isreplicatecandidate": true,
-                        "isoriginal": false,
-                        "children": [
-                            {
-                                "description": "note",
-                                "isreplacecandidate": false,
-                                "isreplaced": false,
-                                "value": -1,
-                                "isprobability": false,
-                                "generatemin": -1,
-                                "generatemax": -1,
-                                "isreplicated": false,
-                                "clonenr": 1,
-                                "isreplicatecandidate": false,
-                                "isoriginal": false
-                            }
-                        ]
-                    },
-                    {
-                        "description": "item",
-                        "isreplacecandidate": false,
-                        "isreplaced": false,
-                        "value": -1,
-                        "isprobability": false,
-                        "generatemin": 0,
-                        "generatemax": 8,
-                        "isreplicated": true,
-                        "clonenr": 3,
-                        "isreplicatecandidate": true,
-                        "isoriginal": false,
-                        "children": [
-                            {
-                                "description": "note",
-                                "isreplacecandidate": false,
-                                "isreplaced": false,
-                                "value": -1,
-                                "isprobability": false,
-                                "generatemin": -1,
-                                "generatemax": -1,
-                                "isreplicated": false,
-                                "clonenr": 1,
-                                "isreplicatecandidate": false,
-                                "isoriginal": false
-                            }
-                        ]
-                    },
-                    {
-                        "description": "item",
-                        "isreplacecandidate": false,
-                        "isreplaced": false,
-                        "value": -1,
-                        "isprobability": false,
-                        "generatemin": 0,
-                        "generatemax": 8,
-                        "isreplicated": true,
-                        "clonenr": 4,
-                        "isreplicatecandidate": true,
-                        "isoriginal": false,
-                        "children": [
-                            {
-                                "description": "note",
-                                "isreplacecandidate": false,
+                                "isreplacecandidate": true,
                                 "isreplaced": false,
                                 "value": -1,
                                 "isprobability": false,
@@ -302,26 +183,26 @@
                 ]
             },
             {
-                "description": "rh",
+                "description": "item_a",
                 "isreplacecandidate": false,
                 "isreplaced": false,
                 "value": -1,
                 "isprobability": false,
-                "generatemin": -1,
-                "generatemax": -1,
-                "isreplicated": false,
-                "clonenr": 1,
-                "isreplicatecandidate": false,
+                "generatemin": 2,
+                "generatemax": 4,
+                "isreplicated": true,
+                "clonenr": 2,
+                "isreplicatecandidate": true,
                 "isoriginal": false,
                 "children": [
                     {
-                        "description": "item",
+                        "description": "item_b",
                         "isreplacecandidate": false,
                         "isreplaced": false,
                         "value": -1,
                         "isprobability": false,
-                        "generatemin": 0,
-                        "generatemax": 8,
+                        "generatemin": 1,
+                        "generatemax": 7,
                         "isreplicated": false,
                         "clonenr": 1,
                         "isreplicatecandidate": true,
@@ -329,7 +210,7 @@
                         "children": [
                             {
                                 "description": "note",
-                                "isreplacecandidate": false,
+                                "isreplacecandidate": true,
                                 "isreplaced": false,
                                 "value": -1,
                                 "isprobability": false,
@@ -343,13 +224,13 @@
                         ]
                     },
                     {
-                        "description": "item",
+                        "description": "item_b",
                         "isreplacecandidate": false,
                         "isreplaced": false,
                         "value": -1,
                         "isprobability": false,
-                        "generatemin": 0,
-                        "generatemax": 8,
+                        "generatemin": 1,
+                        "generatemax": 7,
                         "isreplicated": true,
                         "clonenr": 2,
                         "isreplicatecandidate": true,
@@ -357,7 +238,7 @@
                         "children": [
                             {
                                 "description": "note",
-                                "isreplacecandidate": false,
+                                "isreplacecandidate": true,
                                 "isreplaced": false,
                                 "value": -1,
                                 "isprobability": false,
@@ -371,13 +252,13 @@
                         ]
                     },
                     {
-                        "description": "item",
+                        "description": "item_b",
                         "isreplacecandidate": false,
                         "isreplaced": false,
                         "value": -1,
                         "isprobability": false,
-                        "generatemin": 0,
-                        "generatemax": 8,
+                        "generatemin": 1,
+                        "generatemax": 7,
                         "isreplicated": true,
                         "clonenr": 3,
                         "isreplicatecandidate": true,
@@ -385,7 +266,50 @@
                         "children": [
                             {
                                 "description": "note",
-                                "isreplacecandidate": false,
+                                "isreplacecandidate": true,
+                                "isreplaced": false,
+                                "value": -1,
+                                "isprobability": false,
+                                "generatemin": -1,
+                                "generatemax": -1,
+                                "isreplicated": false,
+                                "clonenr": 1,
+                                "isreplicatecandidate": false,
+                                "isoriginal": false
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "description": "item_a",
+                "isreplacecandidate": false,
+                "isreplaced": false,
+                "value": -1,
+                "isprobability": false,
+                "generatemin": 2,
+                "generatemax": 4,
+                "isreplicated": true,
+                "clonenr": 3,
+                "isreplicatecandidate": true,
+                "isoriginal": false,
+                "children": [
+                    {
+                        "description": "item_b",
+                        "isreplacecandidate": false,
+                        "isreplaced": false,
+                        "value": -1,
+                        "isprobability": false,
+                        "generatemin": 1,
+                        "generatemax": 7,
+                        "isreplicated": false,
+                        "clonenr": 1,
+                        "isreplicatecandidate": true,
+                        "isoriginal": false,
+                        "children": [
+                            {
+                                "description": "note",
+                                "isreplacecandidate": true,
                                 "isreplaced": false,
                                 "value": -1,
                                 "isprobability": false,
@@ -399,13 +323,69 @@
                         ]
                     },
                     {
-                        "description": "item",
+                        "description": "item_b",
                         "isreplacecandidate": false,
                         "isreplaced": false,
                         "value": -1,
                         "isprobability": false,
-                        "generatemin": 0,
-                        "generatemax": 8,
+                        "generatemin": 1,
+                        "generatemax": 7,
+                        "isreplicated": true,
+                        "clonenr": 2,
+                        "isreplicatecandidate": true,
+                        "isoriginal": false,
+                        "children": [
+                            {
+                                "description": "note",
+                                "isreplacecandidate": true,
+                                "isreplaced": false,
+                                "value": -1,
+                                "isprobability": false,
+                                "generatemin": -1,
+                                "generatemax": -1,
+                                "isreplicated": false,
+                                "clonenr": 1,
+                                "isreplicatecandidate": false,
+                                "isoriginal": false
+                            }
+                        ]
+                    },
+                    {
+                        "description": "item_b",
+                        "isreplacecandidate": false,
+                        "isreplaced": false,
+                        "value": -1,
+                        "isprobability": false,
+                        "generatemin": 1,
+                        "generatemax": 7,
+                        "isreplicated": true,
+                        "clonenr": 3,
+                        "isreplicatecandidate": true,
+                        "isoriginal": false,
+                        "children": [
+                            {
+                                "description": "note",
+                                "isreplacecandidate": true,
+                                "isreplaced": false,
+                                "value": -1,
+                                "isprobability": false,
+                                "generatemin": -1,
+                                "generatemax": -1,
+                                "isreplicated": false,
+                                "clonenr": 1,
+                                "isreplicatecandidate": false,
+                                "isoriginal": false
+                            }
+                        ]
+                    },
+                    {
+                        "description": "item_b",
+                        "isreplacecandidate": false,
+                        "isreplaced": false,
+                        "value": -1,
+                        "isprobability": false,
+                        "generatemin": 1,
+                        "generatemax": 7,
                         "isreplicated": true,
                         "clonenr": 4,
                         "isreplicatecandidate": true,
@@ -413,7 +393,7 @@
                         "children": [
                             {
                                 "description": "note",
-                                "isreplacecandidate": false,
+                                "isreplacecandidate": true,
                                 "isreplaced": false,
                                 "value": -1,
                                 "isprobability": false,
@@ -427,13 +407,13 @@
                         ]
                     },
                     {
-                        "description": "item",
+                        "description": "item_b",
                         "isreplacecandidate": false,
                         "isreplaced": false,
                         "value": -1,
                         "isprobability": false,
-                        "generatemin": 0,
-                        "generatemax": 8,
+                        "generatemin": 1,
+                        "generatemax": 7,
                         "isreplicated": true,
                         "clonenr": 5,
                         "isreplicatecandidate": true,
@@ -441,7 +421,50 @@
                         "children": [
                             {
                                 "description": "note",
-                                "isreplacecandidate": false,
+                                "isreplacecandidate": true,
+                                "isreplaced": false,
+                                "value": -1,
+                                "isprobability": false,
+                                "generatemin": -1,
+                                "generatemax": -1,
+                                "isreplicated": false,
+                                "clonenr": 1,
+                                "isreplicatecandidate": false,
+                                "isoriginal": false
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "description": "item_a",
+                "isreplacecandidate": false,
+                "isreplaced": false,
+                "value": -1,
+                "isprobability": false,
+                "generatemin": 2,
+                "generatemax": 4,
+                "isreplicated": true,
+                "clonenr": 4,
+                "isreplicatecandidate": true,
+                "isoriginal": false,
+                "children": [
+                    {
+                        "description": "item_b",
+                        "isreplacecandidate": false,
+                        "isreplaced": false,
+                        "value": -1,
+                        "isprobability": false,
+                        "generatemin": 1,
+                        "generatemax": 7,
+                        "isreplicated": false,
+                        "clonenr": 1,
+                        "isreplicatecandidate": true,
+                        "isoriginal": false,
+                        "children": [
+                            {
+                                "description": "note",
+                                "isreplacecandidate": true,
                                 "isreplaced": false,
                                 "value": -1,
                                 "isprobability": false,
@@ -455,49 +478,21 @@
                         ]
                     },
                     {
-                        "description": "item",
+                        "description": "item_b",
                         "isreplacecandidate": false,
                         "isreplaced": false,
                         "value": -1,
                         "isprobability": false,
-                        "generatemin": 0,
-                        "generatemax": 8,
+                        "generatemin": 1,
+                        "generatemax": 7,
                         "isreplicated": true,
-                        "clonenr": 6,
+                        "clonenr": 2,
                         "isreplicatecandidate": true,
                         "isoriginal": false,
                         "children": [
                             {
                                 "description": "note",
-                                "isreplacecandidate": false,
-                                "isreplaced": false,
-                                "value": -1,
-                                "isprobability": false,
-                                "generatemin": -1,
-                                "generatemax": -1,
-                                "isreplicated": false,
-                                "clonenr": 1,
-                                "isreplicatecandidate": false,
-                                "isoriginal": false
-                            }
-                        ]
-                    },
-                    {
-                        "description": "item",
-                        "isreplacecandidate": false,
-                        "isreplaced": false,
-                        "value": -1,
-                        "isprobability": false,
-                        "generatemin": 0,
-                        "generatemax": 8,
-                        "isreplicated": true,
-                        "clonenr": 7,
-                        "isreplicatecandidate": true,
-                        "isoriginal": false,
-                        "children": [
-                            {
-                                "description": "note",
-                                "isreplacecandidate": false,
+                                "isreplacecandidate": true,
                                 "isreplaced": false,
                                 "value": -1,
                                 "isprobability": false,

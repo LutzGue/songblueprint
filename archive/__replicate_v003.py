@@ -67,7 +67,14 @@ Example 3:
                         note
     Result:
 
-        ["song"["placeholder_a"["item_a"["placeholder_b"["item_b"["note"]]["item_b"["note"]]["item_b"["note"]]["item_b"["note"]]["item_b"["note"]]]]["item_a"["placeholder_b"["item_b"["note"]]["item_b"["note"]]["item_b"["note"]]["item_b"["note"]]["item_b"["note"]]]]]]
+        This example will generate for item_a(1) all sub-nodes of item_b.
+        (!) But for item_a(2) only item_b(1) will be generated.
+        Reason: The issue with your code is that it’s modifying the list while iterating over it, 
+        which can lead to unexpected behavior. When you insert a new node into the parent list, 
+        it changes the indices of the subsequent elements. This can cause some elements to be 
+        skipped during the iteration.
+
+        ["song"["placeholder_a"["item_a"["placeholder_b"["item_b"["note"]]["item_b"["note"]]["item_b"["note"]]["item_b"["note"]]["item_b"["note"]]["item_b"["note"]]]]["item_a"["placeholder_b"["item_b"["note"]]]]["item_a"["placeholder_b"["item_b"["note"]]]]]]
 """
 def recursive_search(node, parent=None, key=None):
     if isinstance(node, dict):
@@ -86,14 +93,12 @@ def recursive_search(node, parent=None, key=None):
                 # Insert the duplicate node at the same indent level as the original
                 parent.insert(key + i + 1, new_node)
 
-        for k, v in list(node.items()):  # Convert to list to avoid RuntimeError
+        for k, v in node.items():
             recursive_search(v, node, k)
 
     elif isinstance(node, list):
-        i = 0
-        while i < len(node):  # Use while loop to manually control the index
+        for i in range(len(node)):
             recursive_search(node[i], node, i)
-            i += 1
 
 def process_json_file(input_file, output_file):
     with open(input_file, 'r') as f:
@@ -107,7 +112,7 @@ def process_json_file(input_file, output_file):
 # edit user defined parameters here
 input_filename = 'json\\output.json'
 output_filename_syntax = 'json\\output_replicate-'
-generate_count = 1
+generate_count = 10
 
 # Call the function with your input and output file paths. generate different schemas.
 for n in range(generate_count):

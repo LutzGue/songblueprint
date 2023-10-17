@@ -1,0 +1,62 @@
+I
+    default,10
+        I
+    substitution of I,10
+        iii,10
+        iv,10
+II
+    default,10
+        ii
+    secondary chords of V and other variations,10
+        V / V,10
+        bVII,10
+        bII,10
+III
+    default,10
+        iii
+    substitution of iii,10
+        I/3
+IV
+    default
+        IV
+    secondary chords of IV
+        type1
+            Vsus / IV,10
+            ii / IV,10
+        type2
+            subV / IV,10
+            V / IV,10
+        IV
+V
+    default,10
+        V
+    3rd inversion of V7,10
+        V/7
+    secondary chords of V,10
+        V/V,10
+        V,10
+VI
+    default
+        vi
+VII
+    default
+        viio
+song
+    major,10
+        item,,2,8
+            {I},10
+            {II},10
+            {III},10
+            {IV},10
+            {V},10
+            {VI},10
+            {VII},10
+            (iii-P-ii),10                
+                {III}
+                passing
+                    subV / ii,10
+                    biiio7,10
+                    biii,10
+                    biiio,10
+                {II}
+    minor,10

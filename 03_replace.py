@@ -55,7 +55,7 @@ def find_and_replace(node):
         find_and_replace(child)
 
 # Load the data
-with open('json\\output.json', 'r') as f:
+with open('json\\output_replicate-1.json', 'r') as f:
     data = json.load(f)
 
 # Find the original nodes

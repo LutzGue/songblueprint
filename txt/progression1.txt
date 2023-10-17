@@ -1,0 +1,77 @@
+key
+    major
+        C,10
+        G,10
+        D,10
+        A,10
+        E,10
+        B,10
+        F#/Gb,10
+        F,10
+        Bb,10
+        Eb,10
+        Ab,10
+        Db,10
+secondary chords of IV
+    type1
+        Vsus / IV,10
+        ii / IV,10
+    type2
+        subV / IV,10
+        V / IV,10
+skip some chords
+    none
+substitution of iii    
+    I/3
+3rd inversion of V7
+    V/7
+secondary chords of V and other variations
+    V / V,10
+    bVII,10
+    bII,10
+secondary chords of ii
+    type1
+        iii,10
+        iio / ii,10
+    type2
+        V / ii,10
+        viio7,10
+passing chord between iii-ii
+    iii
+    passing
+        subV / ii,10
+        biiio7,10
+        biii,10
+        biiio,10
+song
+    meta
+        {key}
+    progression
+        IV
+        V
+            {skip some chords},10
+            V,10
+            {3rd inversion of V7},10
+        (iii - vi)
+            default,10
+                iii
+                    iii,10
+                    {substitution of iii},10
+                vi
+                    {skip some chords},10
+                    vi,10
+            {secondary chords of ii},10
+            {passing chord between iii-ii},10
+        ii
+            ii,10
+            {secondary chords of V and other variations},10
+        V
+            {skip some chords},10
+            V,10
+        I
+            I,10
+            none,10
+        (back to IV)
+            default,10
+                none
+            {secondary chords of IV},10
