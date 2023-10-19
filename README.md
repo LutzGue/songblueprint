@@ -106,20 +106,30 @@ D# minor, B diminished, D# minor (corresponding to I and [vii°] in the start se
 G# minor (corresponding to ii in the conn section)
 C# major, A major (corresponding to V, and vi in the end section)
 ```
-Extended labels in the parsingtree example gives the following result (layout adjusted for better readability):
+ChatGPT prompt no.3:
+
+Extended labels in the parsingtree example.
+```
+Please update the parsetree example and write the chordname at the end of each specific node.
+
+["phrase"["phrase in major"["meta informations"["key in major"["F# Major Key"]]["meter"["4/4"]]]["song progression"["predominant"["V"["interval_3k_4k"["interval_3k"["6"]]]]]["start"["tonic prolongation"["oscillation of the tonic"["type3"["I"["interval_3k"["35"]]]["[viiÂ°]"]["I"["interval_3k"["35"]]]]]]]["connection"["ii"["interval_3k_4k"["interval_3k"["6"]]]]]["end"["cadence"["deceptive cadence"["V"["cadencial V"["type1"["V"["46"]]["V"["35"]]]]]["vi"["interval_3k"["35"]]]]]]]]]
+```
+Result:
+
+The layout in the result was adjusted for better readability.
 ```
 Predominant section:
    V (C#)
 Tonic prolongation:
-   Oscillation of the tonic -- Type3: 
+   Oscillation of the tonic (Type3): 
          I (F#)
          [viiÂ°] (G#dim)
          I (F#)
 Connection:
    ii (G#m)
 End:
-   Cadence -- Deceptive cadence:
-      Cadencial V -- Type1:
+   Cadence (Deceptive cadence):
+      Cadencial V (Type1):
          V (C#7) (46)
          V (C#7) (35)
       vi (B) [35]
