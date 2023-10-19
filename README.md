@@ -8,11 +8,35 @@ Therefore, in this project I developed an interpreter that makes it possible to 
 My goal is to use this metalanguage to create a framework that bridges the gap between complex non-text-based web information with limited access to examples and a large amount of training data for maschine learning (ML/AI) based on the described patterns and rule sets on musical Websites and music books are created. The language was deliberately chosen as "meta" in order to not only limit the focus to applications the music sector, but also to be applicable in many other areas. This "meta"-language can be viewed as a "prompt" language for ChatGPT to make complex models understandable in text-based form ChatGPT and then generate works based on them (documents, songs, etc.) in creative mode.
 
 ## Maschine learning (ML/AI) training data
-Create data for the purpos of clustering and adding labels (like "isphrase" 0/1, "iscadence" 0/1, and more) for training data.
-
  While ChatGPT does use supervised learning for fine-tuning on specific tasks, it primarily uses unsupervised learning for pre-training and self-supervised learning for predicting some aspect of its input. 
  Many ChatGPT models are designed to learn from their interactions with users. This process is known as supervised learning, as the chatbot is trained on a labeled dataset of human-chatbot interactions and adjusts its behavior based on the input it receives and the outcomes of those interactions.
  ChatGPT can not capture this prepared complex knowledge from certain examples from images and therefore can not learn. With this project here, I try to act as an interface and prepare this data for ChatGPT so that it can learn.
+ The prepared data for the purpos of clustering and adding labels (like "isphrase": 0/1, "iscadence": 0/1, and more) for training data.
+
+Example clustering / labeling training data set (normalization):
+
+Pos | Key | Chord | isNewPhrase | isPredominantSect | isTonicProlong  | isTonicOscill | isConn | isCad | isCadV | isDescCad | is_I | is_ii | is_iii | is_IV | is_V | is_vi | is_vii° | isAux
+1   F#      C#      1   1   0   0   0   0   0   0   0   0   0   0   1   0   0   0
+2   F#      F#      0   0   1   1   0   0   0   0   1   0   0   0   0   0   0   0
+3   F#      G#dim   0   0   1   1   0   0   0   0   0   0   0   0   0   0   1   1
+4   F#      F#      0   0   1   1   0   0   0   0   1   0   0   0   0   0   0   0
+5   F#      G#      0   0   0   0   1   0   0   0   0   1   0   0   0   0   0   0  
+6   F#      C7      0   0   0   0   0   1   1   1   0   0   0   0   1   0   0   0
+7   F#      C7      0   0   0   0   0   1   1   1   0   0   0   0   1   0   0   0
+8   F#      D#m     0   0   0   0   0   1   0   1   0   0   0   0   0   1   0   0
+
+   Oscillation of the tonic (Type3): 
+         I (F#)
+         [viiÂ°] (G#dim)
+         I (F#)
+Connection:
+   ii (G#m)
+End:
+   Cadence (Deceptive cadence):
+      Cadencial V (Type1):
+         V (C#7) (46)
+         V (C#7) (35)
+      vi (D#m) [35]
 
 ## parser
 - convert manual txt input using tab for hierarchie into nested dictionary
@@ -111,7 +135,7 @@ Here’s the list of chord names in the order they appear in the parsetree strin
 C# major (corresponding to V in the predominant section)
 D# minor, B diminished, D# minor (corresponding to I and [vii°] in the start section)
 G# minor (corresponding to ii in the conn section)
-C# major, A major (corresponding to V, and vi in the end section)
+C# major, D# minor (corresponding to V, and vi in the end section)
 ```
 ChatGPT prompt no.3:
 
@@ -139,7 +163,7 @@ End:
       Cadencial V (Type1):
          V (C#7) (46)
          V (C#7) (35)
-      vi (B) [35]
+      vi (D#m) [35]
 ```
 ### Example 2
 ```
