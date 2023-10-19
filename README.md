@@ -16,16 +16,19 @@ The prepared data for the purpos of clustering and adding labels (like "isphrase
 
 Example "Harmony Analyzing" -- clustering / labeling training data set (normalization):
 ```
-Pos | Key | Chord | isPhraseStart | isPhraseEnd | isPredominantSectStart | isPredominantSectEnd | isTonicProlongStart | isTonicProlongEnd | isTonicOscill | isConn | isCad | isCadV | isDescCad | is_I | is_ii | is_iii | is_IV | is_V | is_vi | is_vii° | isAux
-1   F#      C#      1   0   1   1   0   0   0   0   0   0   0   0   0   0   0   0   1   0   0   0
-2   F#      F#      0   0   0   0   1   0   1   0   0   0   0   0   1   0   0   0   0   0   0   0
-3   F#      G#dim   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   1   1
-4   F#      F#      0   0   0   0   0   1   0   1   0   0   0   0   1   0   0   0   0   0   0   0
-5   F#      G#      0   0   0   0   0   0   0   0   1   0   0   0   0   1   0   0   0   0   0   0  
-6   F#      C7      0   0   0   0   0   0   0   0   0   1   1   1   0   0   0   0   1   0   0   0
-7   F#      C7      0   0   0   0   0   0   0   0   0   1   1   1   0   0   0   0   1   0   0   0
-8   F#      D#m     0   1   0   0   0   0   0   0   0   1   0   1   0   0   0   0   0   1   0   0
+Pos | Key | Chord | isPhraseStart | isPhraseEnd | isPredominantSectStart | isPredominantSectEnd | isTonicProlongStart | isTonicProlongEnd | isTonicOscill | isConn | isCad | isCadV | isDescCad | is_I | is_ii | is_iii | is_IV | is_V | is_vi | is_vii° | isAux | isMiniCadence | isModulation | iTonizication
+1   F#      C#      1   0   1   1   0   0   0   0   0   0   0   0   0   0   0   0   1   0   0   0   0   0   0
+2   F#      F#      0   0   0   0   1   0   1   0   0   0   0   0   1   0   0   0   0   0   0   0   0   0   0
+3   F#      G#dim   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   1   1   0   0   0
+4   F#      F#      0   0   0   0   0   1   0   1   0   0   0   0   1   0   0   0   0   0   0   0   0   0   0
+5   F#      G#      0   0   0   0   0   0   0   0   1   0   0   0   0   1   0   0   0   0   0   0   0   0   0
+6   F#      C7      0   0   0   0   0   0   0   0   0   1   1   1   0   0   0   0   1   0   0   0   0   0   0
+7   F#      C7      0   0   0   0   0   0   0   0   0   1   1   1   0   0   0   0   1   0   0   0   0   0   0
+8   F#      D#m     0   1   0   0   0   0   0   0   0   1   0   1   0   0   0   0   0   1   0   0   0   0   0
 ```
+Usecase: Highlight "cadences" only.
+Usecase: Highlight "modulations" only.
+Usecase: Highlight "connections" only.
 
 In the context of LLM training data, "Pos" refers to the position of a note or chord in a musical sequence. LLMs can take into account the chords before and after the position "Pos" to capture the context and dependencies between them. This can help improve the accuracy and coherence of the generated music or text.
 
@@ -96,6 +99,7 @@ Pos | Key | Chord | isForeground | isMiddleground | isBackground
 1   F#      C#      0   1   0
 2   F#      D#m     0   0   1
 ```
+Usecase: Filter out chords "background" only.
 
 The following examples are shown in the syntax of “parsetree”. The advantage of parsetree over json is that parsetree texts use fewer characters and therefore can be used better in ChatGPT. The character limit in the chat is 4000 characters. ChatGPT is able to understand the hierarchical structure inside of the compressed parsetree syntax. 
 We humans cannot easily read the extremely minimized parsetree string. For that, we can use parsetree syntax and graphically display complex relationships hierarchically. This allows us to comfortably grasp logic patterns at a glance. These graphics can also be used for didactic purposes and published (e.g. in articles, books, YouTube shorts, TikTok).
@@ -205,6 +209,7 @@ Pos | Key | Chord | SopranNote | BassNote | **isInterestingMelodyLine | isSopran
 1   F#      C#      C   G   1   1   0   0   0   0   0   0   0
 2   F#      D#m     D   G   1   1   0   0   0   0   0   1   0
 ```
+Usecase: Highlight "interesting melody lines" only.
 
 Example 4: Interesting moving up bass line.
 ![example6](https://github.com/LutzGue/songblueprint/blob/main/img/daw_satb_example2.PNG)
@@ -215,6 +220,7 @@ Pos | Key | Chord | SopranNote | BassNote | **isInterestingBassLine | isSopranSt
 1   F#      C#      C   G   1   1   0   0   0   0   0   0   0
 2   F#      D#m     D   G   1   1   0   0   0   0   0   1   0
 ```
+Usecase: Highlight "interesting bass lines" only.
 
 Example 5: Easy to play four part writing on piano. The intervals in both the right and left hands are limited to the circumference of an octave and can therefore be practiced comfortably.
 ![example6](https://github.com/LutzGue/songblueprint/blob/main/img/four_part_writing_example2.PNG)
@@ -225,6 +231,7 @@ Pos | Key | Chord | interval1 | interval2| interval3 | **isComfortablyPractice
 1   F#      C#      0   0   0   1
 2   F#      D#m     4   3   5   1
 ```
+Usecase: Highlight in red color "not comfortable" only.
 
 Example 6: Practice the piece on the instrument yourself. This will make you more flexible in dealing with unfamiliar keys and develop a feeling in your fingers. This autonomy will allow you to improvise later and have fun.
 ![example4](https://github.com/LutzGue/songblueprint/blob/main/img/practicing_example_1.PNG)
@@ -250,6 +257,9 @@ Pos | Key | Chord | SopranNote | BassNote | isSopranStructuralNote | isBassStruc
 1   F#      C#      C   G   1   0   0   0   0   0   0   0
 2   F#      D#m     D   G   1   0   0   0   0   0   1   0
 ```
+Usecase 1: Filter out soprano voice "structural notes" only.
+Usecase 2: Filter out bass voice "structural notes" only.
+Usecase 3: Highlight soprano voice "Auxilary notes" only.
 
 ![example6](https://github.com/LutzGue/songblueprint/blob/main/img/structural_note_universes_2.jpg)
 
