@@ -82,6 +82,7 @@ def recursive_search(node, parent=None, key=None):
                 new_node = copy.deepcopy(node)
                 new_node['isreplicated'] = True
                 new_node['clonenr'] += i + 1
+                #new_node['description'] = new_node['description'] + '(' + str(i + 1) + ')'
 
                 # Insert the duplicate node at the same indent level as the original
                 parent.insert(key + i + 1, new_node)
@@ -107,7 +108,7 @@ def process_json_file(input_file, output_file):
 # edit user defined parameters here
 input_filename = 'json\\output.json'
 output_filename_syntax = 'json\\output_replicate-'
-generate_count = 1
+generate_count = 10
 
 # Call the function with your input and output file paths. generate different schemas.
 for n in range(generate_count):

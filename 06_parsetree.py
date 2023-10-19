@@ -26,14 +26,17 @@ def json_to_tree(json_obj):
     This tool generates an image of the syntax tree based on the provided syntax. Simply paste the syntax into the text box on the jsSyntaxTree webpage and press ‘Draw’ to generate the image. This can be particularly useful for understanding complex sentence structures or for educational purposes.
     
     """
-    tree_str = '"' + json_obj['description'] + '"'
+    tree_str = '"' + json_obj['description']
+    if json_obj['isreplicatecandidate']:
+        tree_str += '(' + str(json_obj['clonenr']) + ')'
+    tree_str += '"'
     if 'children' in json_obj:
         tree_str += '[' + ']['.join(json_to_tree(child) for child in json_obj['children']) + ']'
     return tree_str
 
 # Load the data from the JSON file
 ###with open('json\\output_generate.json', 'r') as f:
-with open('json\\output_replaced.json', 'r') as f:
+with open('json\\output_generate.json', 'r') as f:
     json_obj = json.load(f)
 
 for obj in json_obj:

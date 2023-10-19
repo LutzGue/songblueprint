@@ -1,0 +1,28 @@
+T
+    default,10
+        IMaj7,10
+        I6,10
+    subst,10
+        III-7,10
+        VI-7,10
+SD
+    default,10
+        II-7,10
+    subst,10
+        IVMaj7,10
+        V7sus4,10
+D
+    default,10
+        V7,10
+    subst,10
+        VII-7(b5),10
+        V7sus4,10
+song
+    item,,1,4
+        {T}
+    item,,1,4
+        {SD}
+    item,,1,4
+        {T}
+    item,,1,4
+        {T}

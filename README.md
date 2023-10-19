@@ -1,6 +1,12 @@
 # songblueprint -- music composition with Python
 A Python module that generates songs from chord progressions and song structures based on tonal harmony in twentieth-century music. You can create and practice your own musical compositions by using a machine-readable language that represents the prototype of the song structure. Probabilities are used in a blueprint to determine the chords and the song structure that best suit your style and mood. It's an innovative and creative tool for anyone who loves music and programming.
 
+## Why was this "meta"-language and Python tool developed?
+I use ChatGPT in creative mode to generate music and lyrics. I use it for songwriting and to develop my personal skills in playing an instrument.
+While trying to use the musical phrase concepts described on websites and in textbooks, I encountered the limitations of processing patterns and musical harmony rules. The reason for this is that the few examples described are available as image files and are provided with additional analysis symbols in the form of staves. This complex information in the form of advanced graphics in staves cannot be adequately interpreted by ChatGPT. This means that it is not possible to generate new songs with ChatGPT based on the patterns and rules described.
+Therefore, in this project I developed an interpreter that makes it possible to manually translate all information and rule sets from a website into a machine-readable language and syntax as a first step. Entry is done manually and the editor is intentionally kept very simple to make entry quick and easy.
+My goal is to use this metalanguage to create a framework that bridges the gap between complex non-text-based web information with limited access to examples and a large amount of training data for ML based on the described patterns and rule sets on musical Websites and music books are created. The language was deliberately chosen as "meta" in order to not only limit the focus to applications in the music sector, but also to be applicable in many other areas. This "meta"-language can be viewed as a "prompt" language for ChatGPT to make complex models understandable in text-based form ChatGPT and then generate works based on them (documents, songs, etc.) in creative mode.
+
 ## parser
 - convert manual txt input using tab for hierarchie into nested dictionary
 - handle multiple levels of hierarchy

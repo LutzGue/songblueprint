@@ -1,0 +1,72 @@
+# source: Reharmonization book
+# 2023-10-17
+
+# key cyrcle of fifths
+key major
+    C,10
+    G,10
+    D,10
+    A,10
+    E,10
+    B,10
+    F#/Gb,10
+    F,10
+    Bb,10
+    Eb,10
+    Ab,10
+    Db,10
+
+# reharmonization block
+T
+    default,10
+        IMaj7,10
+        I6,10
+    subst,10
+        III-7,10
+        VI-7,10
+SD
+    default,10
+        II-7,10
+    subst,10
+        IVMaj7,10
+        V7sus4,10
+D
+    default,10
+        V7,10
+    subst,10
+        VII-7(b5),10
+        V7sus4,10
+
+diatonic approach
+    target chord
+    approach chord
+    melody harmony relationship
+    backwards from the target chord
+        1 in lead
+        3 in lead
+        5 in the lead
+        7 in the lead
+        9 in the lead
+        11 in the lead
+cadence
+    strong
+    weak
+    deceptive
+
+tritone substitution
+
+extended dominant seventh chords
+
+extended II-V7 pattern
+
+# main song generation block
+song
+    meta
+        {key major}
+    progression
+        {SD},,1,3
+        {SD}
+        {D}
+        {SD}
+        {T},,1,2
+        {D},,1,3
