@@ -10,6 +10,10 @@ My goal is to use this metalanguage to create a framework that bridges the gap b
 ## Maschine learning (ML/AI) training data
 Create data for the purpos of clustering and adding labels (like "isphrase" 0/1, "iscadence" 0/1, and more) for training data.
 
+ While ChatGPT does use supervised learning for fine-tuning on specific tasks, it primarily uses unsupervised learning for pre-training and self-supervised learning for predicting some aspect of its input. 
+ Many ChatGPT models are designed to learn from their interactions with users. This process is known as supervised learning, as the chatbot is trained on a labeled dataset of human-chatbot interactions and adjusts its behavior based on the input it receives and the outcomes of those interactions.
+ ChatGPT can not capture this prepared complex knowledge from certain examples from images and therefore can not learn. With this project here, I try to act as an interface and prepare this data for ChatGPT so that it can learn.
+
 ## parser
 - convert manual txt input using tab for hierarchie into nested dictionary
 - handle multiple levels of hierarchy
