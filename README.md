@@ -71,6 +71,8 @@ interval_3k_4k
 
 Based on the defined probability distribution, a parsing tree syntax is created, which can be displayed graphically. The parsing tree contains all layers from the "background", "middleground" and "foreground" (Schenker), so that in the end the original plan is still transparent as the backbone and is preserved. This graphical presentation allows all levels to remain in parallel in the focus of the musical analysis.
 
+The following examples are shown in the syntax of “parsetree”. The advantage of parsetree over json is that parsetree texts use fewer characters and therefore can be used better in ChatGPT. The character limit in the chat is 4000 characters. ChatGPT is able to understand the hierarchical structure inside of the parsetree syntax.
+
 ![example1](https://github.com/LutzGue/songblueprint/blob/main/img/dices_music_sheet.jpg)
 
 ### Example 1

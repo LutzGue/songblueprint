@@ -1,6 +1,6 @@
 import json
 
-def text_to_json(file_path):
+def text_to_json(file_path, is_mode_debugging = False):
     """
     Convert a text file with indentation to a nested JSON structure.
     This script is useful for converting structured text files into a hierarchical JSON format.
@@ -124,15 +124,6 @@ def text_to_json(file_path):
         print(f"An error occurred: {e}")
         return None
 
-# edit user defined parameters here
-is_mode_debugging = False
-input_filename = 'txt\\reharmonization2.txt'
-output_filename = 'json\\output.json'
-
-# call function
-json_data = text_to_json(input_filename)
-
-# store json file
-if json_data is not None:
-    with open(output_filename, 'w') as f:
-        json.dump(json_data, f, indent=4)
+# class section
+class Text_to_json:
+    pass
