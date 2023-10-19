@@ -83,7 +83,7 @@ We humans cannot easily read the extremely minimized parsetree string. For that,
 ![example1](https://github.com/LutzGue/songblueprint/blob/main/img/example1.png)
 This picture was generated with https://github.com/int2str/jssyntaxtree
 
-ChatGPT prompt:
+ChatGPT prompt no.1:
 ```
 Please update the parsetree example and write the chordname at the end of each specific node."
 ```
@@ -92,6 +92,19 @@ Result:
 Updated parsetree string with the chord names at the end of each specific node:
 
 [“phrase_major_minor”[“phrase_major”[“meta”[“key_major”[“f#”]][“meter”[“4/4”]]][“song”[“predominant”[“V”[“interval_3k_4k”[“interval_3k”[“6”]]] (C# major) ]][“start”[“T1”[“oscil”[“type3”[“I”[“interval_3k”[“35”]]]][“[viiÂ°]”][“I”[“interval_3k”[“35”]]] (D# minor, B diminished, D# minor) ]]][“conn”[“ii”[“interval_3k_4k”[“interval_3k”[“6”]]] (G# minor) ]][“end”[“cadence”[“deceptive_cadence”[“V”[“cadV”[“type1”[“V”[“46”]][“V”[“35”]]]]] (C# major, A major) ] [“vi” [“interval_3k” [“35”]] (D# minor) ]]]]]
+```
+ChatGPT prompt no.2:
+```
+Make a list of the chordnames in the modified parsetree.
+```
+Result:
+```
+Here’s the list of chord names in the order they appear in the parsetree string you provided:
+
+C# major (corresponding to V in the predominant section)
+D# minor, B diminished, D# minor (corresponding to I and [vii°] in the start section)
+G# minor (corresponding to ii in the conn section)
+C# major, A major (corresponding to V, and vi in the end section)
 ```
 ### Example 2
 ```
