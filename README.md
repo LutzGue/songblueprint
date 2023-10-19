@@ -8,11 +8,11 @@ Therefore, in this project I developed an interpreter that makes it possible to 
 My goal is to use this metalanguage to create a framework that bridges the gap between complex non-text-based web information with limited access to examples and a large amount of training data for maschine learning (ML/AI) based on the described patterns and rule sets on musical Websites and music books are created. The language was deliberately chosen as "meta" in order to not only limit the focus to applications the music sector, but also to be applicable in many other areas. This "meta"-language can be viewed as a "prompt" language for ChatGPT to make complex models understandable in text-based form ChatGPT and then generate works based on them (documents, songs, etc.) in creative mode.
 
 ## Maschine learning (ML/AI) training data
- While ChatGPT does use supervised learning for fine-tuning on specific tasks, it primarily uses unsupervised learning for pre-training and self-supervised learning for predicting some aspect of its input. 
- Many ChatGPT models are designed to learn from their interactions with users. This process is known as supervised learning, as the chatbot is trained on a labeled dataset of human-chatbot interactions and adjusts its behavior based on the input it receives and the outcomes of those interactions.
- ChatGPT can not capture this prepared complex knowledge from certain examples from images and therefore can not learn. With this project here, I try to act as an interface and prepare this data for ChatGPT so that it can learn.
+While ChatGPT does use supervised learning for fine-tuning on specific tasks, it primarily uses unsupervised learning for pre-training and self-supervised learning for predicting some aspect of its input. 
+Many ChatGPT models are designed to learn from their interactions with users. This process is known as supervised learning, as the chatbot is trained on a labeled dataset of human-chatbot interactions and adjusts its behavior based on the input it receives and the outcomes of those interactions.
+ChatGPT can not capture this prepared complex knowledge from certain examples from images and therefore can not learn. With this project here, I try to act as an interface and prepare this data for ChatGPT so that it can learn.
 
- The prepared data for the purpos of clustering and adding labels (like "isphrase": 0/1, "iscadence": 0/1, and more) for training data can look like the example shown below.
+The prepared data for the purpos of clustering and adding labels (like "isphrase": 0/1, "iscadence": 0/1, and more) for training data can look like the example shown below.
 
 Example clustering / labeling training data set (normalization):
 ```
@@ -30,11 +30,6 @@ Pos | Key | Chord | isPhraseStart | isPhraseEnd | isPredominantSectStart | isPre
 In the context of LLM training data, "Pos" refers to the position of a note or chord in a musical sequence. LLMs can take into account the chords before and after the position "Pos" to capture the context and dependencies between them. This can help improve the accuracy and coherence of the generated music or text.
 
 With this Python tool, you are able to generate an unlimited number of chord progressions with constant detailed labels to describe the musical context, which can be used as training data for the ML analysis model.
-
-## parser
-- convert manual txt input using tab for hierarchie into nested dictionary
-- handle multiple levels of hierarchy
-- count the leading spaces (or TAB characters) and determine the indentation level
 
 ## Examples
 ### Input (TXT-file)
@@ -176,16 +171,6 @@ Layout 2:
 Focus on phrase structure layers (reading direction from top to down).
 ![example1](https://github.com/LutzGue/songblueprint/blob/main/img/mapping_roman_numerals_key_layout1.png)
 This picture was generated with https://github.com/int2str/jssyntaxtree
-# Next Steps:
-1) integration Analyzing Levels (background, middleground); edit in txt: show/hide L1, L2, roman numeral is always visible
-2) create MIDI file using music21 (roman numeral to key) --> melody harmonization: provide 3-4 possible melody notes based on the generated patterns
-3) remove probability and total calculation
-4) generate batch job --> generate multiple JSON-output-files suffix timestamp
-5) edit in txt: replicate function (min/max value of replications in TXT)
-6) merge all functions 01-06
-7) py command line (parameters: file input, file out, commands: midi/no.of generations/PNG export/melody match/...)
-8) generate training data for ML: adding labels for training data
-9) create more music-phrase.txt files
 
 ## Inspirational Tool
 The common way of creating chord progressions is to fill 4 bars with 4 bass notes, then fill them with chords from the scale in the key and loop. This helps create driving grooves and inspiring moods. But it is not a phrase, it has no overarching functional connection. Therefore, this article explains how to use phrases with cadences to tell longer self-contained satisfying stories and avoid endless loops that make melody development difficult and shift the focus away from the groove.
@@ -217,7 +202,7 @@ Example 6: Practice the piece on the instrument yourself. This will make you mor
 ![example4](https://github.com/LutzGue/songblueprint/blob/main/img/practicing_example_1.PNG)
 Screenshot, "Syntthesia", https://www.synthesiagame.com/
 
-Example 7: Coloring voices and scales in DAW Roll Editor. This is for preparing the next step ((adding passing notes / embelishing). The alto and tenor voices should have as little movement as possible and have a line that is as linear as possible. Use common notes when possible. Use a tie (Haltebogen / Ligatur) to connect two notes of the same pitch.
+Example 7: Coloring voices and scales in DAW Roll Editor. This is for preparing the next step (adding passing notes / embelishing). The alto and tenor voices should have as little movement as possible and have a line that is as linear as possible. Use common notes when possible. Use a tie (Haltebogen / Ligatur) to connect two notes of the same pitch.
 ![example5](https://github.com/LutzGue/songblueprint/blob/main/img/daw_satb_example1.PNG)
 
 Example 8: Adding some passing, sustain, retardation, auxilary / neighbour tones, bass lines as "Highlights" and embellishment into the voices. Develop an interesting melodic Bass line as independent counterpoint to the melody in the sopran voice.
@@ -227,10 +212,27 @@ Example 9: In four part voicing, the individual colored voices can be easily div
 In keyboard style voicing, you can separate the bass track and use an synth or real bass sound. Try out sub bass and add an addition layer an octave down.
 ![example6](https://github.com/LutzGue/songblueprint/blob/main/img/split_SATB_voices_into_stereo_and_frequency.jpg)
 
-Example 10: To create a harmonious melody, you can slow down the tempo (e.g. halve it) and use the soprano voice as structural notes. These structural notes serve as a basis to play around and fill out with new notes as decorations. To achieve this, one can use modal scales, such as Ionian for I and Dorian for ii, which correspond to specific harmonic functions. Similar to the gravitational pull of the Sun around celestial bodies, the structural note has an inherent gravitational pull that influences the surrounding notes in the musical universe. 
+Example 10: To create a harmonious melody, you can slow down the tempo (e.g. halve) and use the soprano voice (or the bass note is also suitable for this) as structural notes. These structural notes serve as a basis to play around and fill out with new notes as decorations. To achieve this, one can use modal scales, such as Ionian for I and Dorian for ii, which correspond to specific harmonic functions. Similar to the gravitational pull of the Sun around celestial bodies, the structural note has an inherent gravitational pull that influences the surrounding notes in the musical universe. 
 To leave the current universe you can fly to the next structural universe: Suitable transition tones are then found for the following structural note in the soprano voice. This process is repeated in the next “structural note universe”.
 Analogous to a symphony of the cosmos, the sun acts as a structural note around which the earth and moon rotate, similar to notes on a musical scale. Just as gravity binds the Earth and the Moon to the Sun, all notes are connected to the structural note within their universe. Together they form a harmonious structure or “sound space”, similar to the solar system, which consists of the sun, earth and moon. The Sun's gravitational force holds the planets in their orbits, making them the stable and central point in this cosmic composition.
 ![example6](https://github.com/LutzGue/songblueprint/blob/main/img/structural_note_universes_2.jpg)
 
 Example 11: Develop variations on the melody in the Soprano voice and extend the phrase by combining them. Make dynamic choices: start simple and build up dynamic.
 ![example6](https://github.com/LutzGue/songblueprint/blob/main/img/dynamic_2.jpg)
+
+# Next Steps
+1) integration Analyzing Levels (background, middleground); edit in txt: show/hide L1, L2, roman numeral is always visible
+2) create MIDI file using music21 (roman numeral to key) --> melody harmonization: provide 3-4 possible melody notes based on the generated patterns
+3) remove probability and total calculation
+4) generate batch job --> generate multiple JSON-output-files suffix timestamp
+5) edit in txt: replicate function (min/max value of replications in TXT)
+6) merge all functions 01-06
+7) py command line (parameters: file input, file out, commands: midi/no.of generations/PNG export/melody match/...)
+8) generate training data for ML: adding labels for training data
+9) create more music-phrase.txt files
+
+# Features
+## parser
+- convert manual txt input using tab for hierarchie into nested dictionary
+- handle multiple levels of hierarchy
+- count the leading spaces (or TAB characters) and determine the indentation level
