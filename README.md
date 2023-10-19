@@ -14,7 +14,7 @@ My goal is to use this metalanguage to create a framework that bridges the gap b
  The prepared data for the purpos of clustering and adding labels (like "isphrase": 0/1, "iscadence": 0/1, and more) for training data.
 
 Example clustering / labeling training data set (normalization):
-
+```
 Pos | Key | Chord | isNewPhrase | isPredominantSect | isTonicProlong  | isTonicOscill | isConn | isCad | isCadV | isDescCad | is_I | is_ii | is_iii | is_IV | is_V | is_vi | is_vii° | isAux
 1   F#      C#      1   1   0   0   0   0   0   0   0   0   0   0   1   0   0   0
 2   F#      F#      0   0   1   1   0   0   0   0   1   0   0   0   0   0   0   0
@@ -24,19 +24,7 @@ Pos | Key | Chord | isNewPhrase | isPredominantSect | isTonicProlong  | isTonicO
 6   F#      C7      0   0   0   0   0   1   1   1   0   0   0   0   1   0   0   0
 7   F#      C7      0   0   0   0   0   1   1   1   0   0   0   0   1   0   0   0
 8   F#      D#m     0   0   0   0   0   1   0   1   0   0   0   0   0   1   0   0
-
-   Oscillation of the tonic (Type3): 
-         I (F#)
-         [viiÂ°] (G#dim)
-         I (F#)
-Connection:
-   ii (G#m)
-End:
-   Cadence (Deceptive cadence):
-      Cadencial V (Type1):
-         V (C#7) (46)
-         V (C#7) (35)
-      vi (D#m) [35]
+```
 
 ## parser
 - convert manual txt input using tab for hierarchie into nested dictionary
