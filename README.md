@@ -106,6 +106,24 @@ D# minor, B diminished, D# minor (corresponding to I and [vii°] in the start se
 G# minor (corresponding to ii in the conn section)
 C# major, A major (corresponding to V, and vi in the end section)
 ```
+Extended labels in the parsingtree example gives the following result (layout adjusted for better readability):
+```
+Predominant section:
+   V (C#)
+Tonic prolongation:
+   Oscillation of the tonic -- Type3: 
+         I (F#)
+         [viiÂ°] (G#dim)
+         I (F#)
+Connection:
+   ii (G#m)
+End:
+   Cadence -- Deceptive cadence:
+      Cadencial V -- Type1:
+         V (C#7) (46)
+         V (C#7) (35)
+      vi (B) [35]
+```
 ### Example 2
 ```
 ["phrase_major_minor"["phrase_major"["meta"["key_major"["g"]]["meter"["3/4"]]]["song"["predominant"["none"]]["start"["T1"["SOP"["type2"["I"["interval_3k"["35"]]]["IV"["interval_3k_4k"["interval_4k"["357"]]]]["V"["interval_3k_4k"["interval_4k"["56"]]]]["I"["interval_3k"["46"]]]]]]]["conn"["ii"["interval_3k_4k"["interval_3k"["46"]]]]]["end"["none"]]]]]
