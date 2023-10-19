@@ -16,16 +16,18 @@ My goal is to use this metalanguage to create a framework that bridges the gap b
 
 Example clustering / labeling training data set (normalization):
 ```
-Pos | Key | Chord | isNewPhrase | isPredominantSect | isTonicProlong  | isTonicOscill | isConn | isCad | isCadV | isDescCad | is_I | is_ii | is_iii | is_IV | is_V | is_vi | is_vii° | isAux
-1   F#      C#      1   1   0   0   0   0   0   0   0   0   0   0   1   0   0   0
-2   F#      F#      0   0   1   1   0   0   0   0   1   0   0   0   0   0   0   0
-3   F#      G#dim   0   0   1   1   0   0   0   0   0   0   0   0   0   0   1   1
-4   F#      F#      0   0   1   1   0   0   0   0   1   0   0   0   0   0   0   0
-5   F#      G#      0   0   0   0   1   0   0   0   0   1   0   0   0   0   0   0  
-6   F#      C7      0   0   0   0   0   1   1   1   0   0   0   0   1   0   0   0
-7   F#      C7      0   0   0   0   0   1   1   1   0   0   0   0   1   0   0   0
-8   F#      D#m     0   0   0   0   0   1   0   1   0   0   0   0   0   1   0   0
+Pos | Key | Chord | isPhraseStart | isPhraseEnd | isPredominantSectStart | isPredominantSectEnd | isTonicProlongStart | isTonicProlongEnd | isTonicOscill | isConn | isCad | isCadV | isDescCad | is_I | is_ii | is_iii | is_IV | is_V | is_vi | is_vii° | isAux
+1   F#      C#      1   0   1   1   0   0   0   0   0   0   0   0   0   0   0   0   1   0   0   0
+2   F#      F#      0   0   0   0   1   0   1   0   0   0   0   0   1   0   0   0   0   0   0   0
+3   F#      G#dim   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   1   1
+4   F#      F#      0   0   0   0   0   1   0   1   0   0   0   0   1   0   0   0   0   0   0   0
+5   F#      G#      0   0   0   0   0   0   0   0   1   0   0   0   0   1   0   0   0   0   0   0  
+6   F#      C7      0   0   0   0   0   0   0   0   0   1   1   1   0   0   0   0   1   0   0   0
+7   F#      C7      0   0   0   0   0   0   0   0   0   1   1   1   0   0   0   0   1   0   0   0
+8   F#      D#m     0   1   0   0   0   0   0   0   0   1   0   1   0   0   0   0   0   1   0   0
 ```
+
+In the context of LLM training data, "Pos" refers to the position of a note or chord in a musical sequence. LLMs can take into account the chords before and after the position "Pos" to capture the context and dependencies between them. This can help improve the accuracy and coherence of the generated music or text.
 
 ## parser
 - convert manual txt input using tab for hierarchie into nested dictionary
