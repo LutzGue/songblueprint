@@ -140,6 +140,11 @@ End:
 ```
 ![example1](https://github.com/LutzGue/songblueprint/blob/main/img/example2.png)
 This picture was generated with https://github.com/int2str/jssyntaxtree
+
+### Mapping Roman numeral to Chords in keys
+![example1](https://github.com/LutzGue/songblueprint/blob/main/img/mapping_roman_numerals_key.png)
+This picture was generated with https://github.com/int2str/jssyntaxtree
+
 # Next Steps:
 1) integration Analyzing Levels (background, middleground); edit in txt: show/hide L1, L2, roman numeral is always visible
 2) create MIDI file using music21 (roman numeral to key) --> melody harmonization: provide 3-4 possible melody notes based on the generated patterns
