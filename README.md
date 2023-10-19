@@ -82,6 +82,17 @@ We humans cannot easily read the extremely minimized parsetree string. For that,
 ```
 ![example1](https://github.com/LutzGue/songblueprint/blob/main/img/example1.png)
 This picture was generated with https://github.com/int2str/jssyntaxtree
+
+ChatGPT prompt:
+```
+Please update the parsetree example and write the chordname at the end of each specific node."
+```
+Result:
+```
+Updated parsetree string with the chord names at the end of each specific node:
+
+[“phrase_major_minor”[“phrase_major”[“meta”[“key_major”[“f#”]][“meter”[“4/4”]]][“song”[“predominant”[“V”[“interval_3k_4k”[“interval_3k”[“6”]]] (C# major) ]][“start”[“T1”[“oscil”[“type3”[“I”[“interval_3k”[“35”]]]][“[viiÂ°]”][“I”[“interval_3k”[“35”]]] (D# minor, B diminished, D# minor) ]]][“conn”[“ii”[“interval_3k_4k”[“interval_3k”[“6”]]] (G# minor) ]][“end”[“cadence”[“deceptive_cadence”[“V”[“cadV”[“type1”[“V”[“46”]][“V”[“35”]]]]] (C# major, A major) ] [“vi” [“interval_3k” [“35”]] (D# minor) ]]]]]
+```
 ### Example 2
 ```
 ["phrase_major_minor"["phrase_major"["meta"["key_major"["g"]]["meter"["3/4"]]]["song"["predominant"["none"]]["start"["T1"["SOP"["type2"["I"["interval_3k"["35"]]]["IV"["interval_3k_4k"["interval_4k"["357"]]]]["V"["interval_3k_4k"["interval_4k"["56"]]]]["I"["interval_3k"["46"]]]]]]]["conn"["ii"["interval_3k_4k"["interval_3k"["46"]]]]]["end"["none"]]]]]
