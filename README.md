@@ -29,6 +29,8 @@ Pos | Key | Chord | isPhraseStart | isPhraseEnd | isPredominantSectStart | isPre
 
 In the context of LLM training data, "Pos" refers to the position of a note or chord in a musical sequence. LLMs can take into account the chords before and after the position "Pos" to capture the context and dependencies between them. This can help improve the accuracy and coherence of the generated music or text.
 
+With this Python tool, you are able to generate an unlimited number of chord progressions with constant detailed labels to describe the musical context, which can be used as training data for the ML analysis model.
+
 ## parser
 - convert manual txt input using tab for hierarchie into nested dictionary
 - handle multiple levels of hierarchy
