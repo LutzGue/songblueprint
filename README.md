@@ -14,7 +14,7 @@ ChatGPT can not capture this prepared complex knowledge from certain examples fr
 
 The prepared data for the purpos of clustering and adding labels (like "isphrase": 0/1, "iscadence": 0/1, and more) for training data can look like the example shown below.
 
-Example clustering / labeling training data set (normalization):
+Example "Harmony Analyzing" -- clustering / labeling training data set (normalization):
 ```
 Pos | Key | Chord | isPhraseStart | isPhraseEnd | isPredominantSectStart | isPredominantSectEnd | isTonicProlongStart | isTonicProlongEnd | isTonicOscill | isConn | isCad | isCadV | isDescCad | is_I | is_ii | is_iii | is_IV | is_V | is_vi | is_vii° | isAux
 1   F#      C#      1   0   1   1   0   0   0   0   0   0   0   0   0   0   0   0   1   0   0   0
@@ -192,11 +192,32 @@ This sheet was generated with "Automatic SATB Part-Writer", https://partwriter.c
 Example 3: Highlight melodic line in outline voices. The most important voices are Sopran and Bass. In the example below a leap between the 4th and 5th sopran note marks the focal point (highest note). Trace the shape of the voices (arc / line) and identify the motion type (parallel / oblique / contrary).
 ![example3](https://github.com/LutzGue/songblueprint/blob/main/img/melody_line_example_1.PNG)
 
+Example "Interesting Melody Line" -- clustering / labeling training data set (normalization):
+```
+Pos | Key | Chord | SopranNote | BassNote | **isInterestingMelodyLine | isSopranStructuralNote | isBassStructuralNote | isAux | isPass | isAppogi | intervalm2 | intervalM2 | intervalP5 | (...)
+1   F#      C#      C   G   1   1   0   0   0   0   0   0   0
+2   F#      D#m     D   G   1   1   0   0   0   0   0   1   0
+```
+
 Example 4: Interesting moving up bass line.
 ![example6](https://github.com/LutzGue/songblueprint/blob/main/img/daw_satb_example2.PNG)
 
+Example "Interesting Bass Line" -- clustering / labeling training data set (normalization):
+```
+Pos | Key | Chord | SopranNote | BassNote | **isInterestingBassLine | isSopranStructuralNote | isBassStructuralNote | isAux | isPass | isAppogi | intervalm2 | intervalM2 | intervalP5 | (...)
+1   F#      C#      C   G   1   1   0   0   0   0   0   0   0
+2   F#      D#m     D   G   1   1   0   0   0   0   0   1   0
+```
+
 Example 5: Easy to play four part writing on piano. The intervals in both the right and left hands are limited to the circumference of an octave and can therefore be practiced comfortably.
 ![example6](https://github.com/LutzGue/songblueprint/blob/main/img/four_part_writing_example2.PNG)
+
+Example "Comfortably Practice" -- clustering / labeling training data set (normalization):
+```
+Pos | Key | Chord | interval1 | interval2| interval3 | **isComfortablyPractice
+1   F#      C#      0   0   0   1
+2   F#      D#m     4   3   5   1
+```
 
 Example 6: Practice the piece on the instrument yourself. This will make you more flexible in dealing with unfamiliar keys and develop a feeling in your fingers. This autonomy will allow you to improvise later and have fun.
 ![example4](https://github.com/LutzGue/songblueprint/blob/main/img/practicing_example_1.PNG)
@@ -215,6 +236,14 @@ In keyboard style voicing, you can separate the bass track and use an synth or r
 Example 10: To create a harmonious melody, you can slow down the tempo (e.g. halve) and use the soprano voice (or the bass note is also suitable for this) as structural notes. These structural notes serve as a basis to play around and fill out with new notes as decorations. To achieve this, one can use modal scales, such as Ionian for I and Dorian for ii, which correspond to specific harmonic functions. Similar to the gravitational pull of the Sun around celestial bodies, the structural note has an inherent gravitational pull that influences the surrounding notes in the musical universe. 
 To leave the current universe you can fly to the next structural universe: Suitable transition tones are then found for the following structural note in the soprano voice. This process is repeated in the next “structural note universe”.
 Analogous to a symphony of the cosmos, the sun acts as a structural note around which the earth and moon rotate, similar to notes on a musical scale. Just as gravity binds the Earth and the Moon to the Sun, all notes are connected to the structural note within their universe. Together they form a harmonious structure or “sound space”, similar to the solar system, which consists of the sun, earth and moon. The Sun's gravitational force holds the planets in their orbits, making them the stable and central point in this cosmic composition.
+
+Example "Melody Analyzing" -- clustering / labeling training data set (normalization):
+```
+Pos | Key | Chord | SopranNote | BassNote | isSopranStructuralNote | isBassStructuralNote | isAux | isPass | isAppogi | intervalm2 | intervalM2 | intervalP5 | (...)
+1   F#      C#      C   G   1   0   0   0   0   0   0   0
+2   F#      D#m     D   G   1   0   0   0   0   0   1   0
+```
+
 ![example6](https://github.com/LutzGue/songblueprint/blob/main/img/structural_note_universes_2.jpg)
 
 Example 11: Develop variations on the melody in the Soprano voice and extend the phrase by combining them. Make dynamic choices: start simple and build up dynamic.
