@@ -266,6 +266,9 @@ Usecase 3: Highlight soprano voice "Auxilary notes" only.
 Example 11: Develop variations on the melody in the Soprano voice and extend the phrase by combining them. Make dynamic choices: start simple and build up dynamic.
 ![example6](https://github.com/LutzGue/songblueprint/blob/main/img/dynamic_2.jpg)
 
+# (Re)Harmonizing of given melodies
+The generated training data can also be used to harmonize or reharmonize given melody lines. These melodies can be in either the soprano or bass voice. Harmonizing means adding chords to the melody. It is important to note that the chords should contain the corresponding melody note and not conflict with the melody tone, which could be caused by unwanted intervals such as (b9). Since the corpus of generated training data is available in the form of files with different phrases, they can be mapped onto the given melody like templates. Additional specifications such as fermatas can mark desired cadences at the corresponding positions. For reharmonization, templates with surprising key changes (through mini-cadences) will lead to interesting results. However, these should not be too extravagant, as the blueprint of the templates always follows balanced and familiar phrase rules. If an extremely artistic and extravagant form is deliberately preferred, the template can be easily modified to allow more borrowed chords or the usage of exciting cadences with higher probabilities.
+
 # Next Steps
 1) integration Analyzing Levels (background, middleground); edit in txt: show/hide L1, L2, roman numeral is always visible
 2) create MIDI file using music21 (roman numeral to key) --> melody harmonization: provide 3-4 possible melody notes based on the generated patterns
