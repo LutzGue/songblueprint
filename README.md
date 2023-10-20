@@ -1,13 +1,13 @@
 # songblueprint -- music composition with Python
 A Python module that generates songs from chord progressions and song structures based on tonal harmony in twentieth-century music. You can create and practice your own musical compositions by using a machine-readable language that represents the prototype of the song structure. Probabilities are used in a blueprint to determine the chords and the song structure that best suit your style and mood. It's an innovative and creative tool for anyone who loves music and programming.
 
-## Why was this "meta"-language and Python tool developed?
+# Why was this "meta"-language and Python tool developed?
 I use ChatGPT in creative mode to generate music and lyrics. I use it for songwriting and to develop my personal skills in playing an instrument.
 While trying to use the musical phrase concepts described on websites and in textbooks, I encountered the limitations of processing patterns and musical harmony rules. The reason for this is that the few examples described are available as image files and are provided with additional analysis symbols in the form of staves. This complex information in the form of advanced graphics in staves cannot be adequately interpreted by ChatGPT. This means that it is not possible to generate new songs with ChatGPT based on the patterns and rules described.
 Therefore, in this project I developed an interpreter that makes it possible to manually translate all information and rule sets from a website into a machine-readable language and syntax as a first step. Entry is done manually and the editor is intentionally kept very simple to make entry quick and easy.
 My goal is to use this metalanguage to create a framework that bridges the gap between complex non-text-based web information with limited access to examples and a large amount of training data for maschine learning (ML/AI) based on the described patterns and rule sets on musical Websites and music books are created. The language was deliberately chosen as "meta" in order to not only limit the focus to applications the music sector, but also to be applicable in many other areas. This "meta"-language can be viewed as a "prompt" language for ChatGPT to make complex models understandable in text-based form ChatGPT and then generate works based on them (documents, songs, etc.) in creative mode.
 
-## Maschine learning (ML/AI) training data
+# Maschine learning (ML/AI) training data
 While ChatGPT does use supervised learning for fine-tuning on specific tasks, it primarily uses unsupervised learning for pre-training and self-supervised learning for predicting some aspect of its input. 
 Many ChatGPT models are designed to learn from their interactions with users. This process is known as supervised learning, as the chatbot is trained on a labeled dataset of human-chatbot interactions and adjusts its behavior based on the input it receives and the outcomes of those interactions.
 ChatGPT can not capture this prepared complex knowledge from certain examples from images and therefore can not learn. With this project here, I try to act as an interface and prepare this data for ChatGPT so that it can learn.
@@ -268,6 +268,9 @@ Example 11: Develop variations on the melody in the Soprano voice and extend the
 
 # (Re)Harmonizing of given melodies
 The generated training data can also be used to harmonize or reharmonize given melody lines. These melodies can be in either the soprano or bass voice. Harmonizing means adding chords to the melody. It is important to note that the chords should contain the corresponding melody note and not conflict with the melody tone, which could be caused by unwanted intervals such as (b9). Since the corpus of generated training data is available in the form of files with different phrases, they can be mapped onto the given melody like templates. Additional specifications such as fermatas can mark desired cadences at the corresponding positions. For reharmonization, templates with surprising key changes (through mini-cadences) will lead to interesting results. However, these should not be too extravagant, as the blueprint of the templates always follows balanced and familiar phrase rules. If an extremely artistic and extravagant form is deliberately preferred, the template can be easily modified to allow more borrowed chords or the usage of exciting cadences with higher probabilities.
+
+# Curve fitting
+die verlauf der melodie-form in der sopran oder bass stimme kann auch gemalt werden. denkbar sind steigende und fallende verlöufe, parallel oder konträr zwischen sopran und bass. auch kann alto und bass als statische linien gezeichnet werden. ein algorithmus wertet die ergebnisse des kurvefittings aus uns präsentiert daraufhin die passendsten SATB-voicing varianten für die vorgegebene akkord progression.
 
 # Next Steps
 1) integration Analyzing Levels (background, middleground); edit in txt: show/hide L1, L2, roman numeral is always visible
