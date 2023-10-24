@@ -1,0 +1,73 @@
+# testing key changes in phrases.
+# 2023-10-22 LUM
+
+meta
+    key
+        Cb,10
+        Gb,10
+        Db,10
+        Ab,10
+        Eb,10
+        Bb,10
+        F,10
+        C,10
+        G,10
+        D,10
+        A,10
+        E,10
+        B,10
+        F#,10
+        C#,10
+key change type
+    direct modulation,5
+    pivot chord,10
+    mini cadence,10
+key change,,1,3
+    rel/I,10
+        {key change type}
+    rel/V,5
+        {key change type}
+    rel/IV,5
+        {key change type}
+    rel/vi,10
+        {key change type}
+    rel/ii,5
+        {key change type}
+dynamic section
+    item,,1,8
+        alpha,12
+        beta,10
+        gamma,8
+        alpha_inversion,1
+        beta_inversion,1
+        gamma_inversion,1
+        {key change},2
+static section
+    item,,2,8
+        T,10
+        {key change},2
+cadence
+    type
+        PAC,10
+        HC,10
+        DC,10
+        IPC,10
+    {key change}
+song
+    {meta}
+    phrase
+        predominant
+            none,10
+            V,10
+        static
+            none,5
+            {static section},10
+        dynamic
+            none,5
+            {dynamic section},10
+        conn
+            none,10
+            ii,10
+        cad
+            none,5
+            {cadence},10

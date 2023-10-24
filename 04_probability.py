@@ -1,4 +1,5 @@
 import json
+import random
 
 def calculate_sum(node):
     """
@@ -51,8 +52,20 @@ def calculate_probability(node):
                 child['probability'] = child['value'] / node['total']
             calculate_probability(child)
 
+# MODE A: 02_replicate --> 03_replace
+# input_file = "json\\output_replaced.json"
+# output_file = "json\\output_total.json"
+
+# MODE B: 03_replace --> 02_replicate
+generate_count = 10
+randomcount = int(round(1 + (generate_count - 1) * random.random())) - 1
+input_file = "json\\output_replicate-" + str(randomcount) + ".json"
+output_file = "json\\output_total.json"
+
+print(input_file)
+
 # Load your JSON data
-with open('json\\output_replaced.json') as f:
+with open(input_file) as f:
     data = json.load(f)
 
 # Check if data is a list
@@ -65,5 +78,5 @@ else:
     calculate_probability(data)
 
 # Write the updated data back to the file
-with open('json\\output_total.json', 'w') as f:
+with open(output_file, 'w') as f:
     json.dump(data, f, indent=4)

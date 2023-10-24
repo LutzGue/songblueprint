@@ -106,8 +106,14 @@ def process_json_file(input_file, output_file):
         json.dump(data, f, indent=4)
 
 # edit user defined parameters here
-input_filename = 'json\\output.json'
+# MODE A: 02_replicate --> 03_replace
+#input_filename = 'json\\output.json'
+#output_filename_syntax = 'json\\output_replicate-'
+
+# MODE B: 03_replace --> 02_replicate
+input_filename = 'json\\output_replaced.json'
 output_filename_syntax = 'json\\output_replicate-'
+
 generate_count = 10
 
 # Call the function with your input and output file paths. generate different schemas.

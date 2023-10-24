@@ -54,8 +54,16 @@ def find_and_replace(node):
     for child in node.get('children', []):
         find_and_replace(child)
 
+# MODE A: 02_replicate --> 03_replace
+# input_file = "json\\output_replicate-6.json"
+# output_file = "json\\output_replaced.json"
+
+# MODE B: 03_replace --> 02_replicate
+input_file = "json\\output.json"
+output_file = "json\\output_replaced.json"
+
 # Load the data
-with open('json\\output_replicate-6.json', 'r') as f:
+with open(input_file, 'r') as f:
     data = json.load(f)
 
 # Find the original nodes
@@ -66,5 +74,5 @@ for node in data:
     find_and_replace(node)
 
 # Save the result
-with open('json\\output_replaced.json', 'w') as f:
+with open(output_file, 'w') as f:
     json.dump(data, f, indent=4)
