@@ -5,10 +5,7 @@ import logging
 
 def file_management(parameters):
 
-    if parameters["debug"]["is_active"]:
-        print("--- MODULE: file_management ---")
-
-    # initial global variables for function return
+    # initial global variables
     project = {
         "general":{
             "project_path":""
@@ -157,14 +154,6 @@ def file_management(parameters):
     else:
         project["txt_to_json"]["output_file"] = parameters["module"]["01_txt_to_json"]["output_file"]
 
-    try:
-        os.mkdir(os.path.dirname(project["txt_to_json"]["output_file"]))
-        if parameters["debug"]["is_active"]:
-            print("Folder %s created!" % project["txt_to_json"]["output_file"])
-    except FileExistsError:
-        if parameters["debug"]["is_active"]:
-            print("Folder %s already exists" % project["txt_to_json"]["output_file"])
-
     # --------------------------------
     # 02_replace
     # ---------------------------------
@@ -179,14 +168,6 @@ def file_management(parameters):
     else:
         project["replace"]["output_file"] = parameters["module"]["02_replace"]["output_file"]
 
-    try:
-        os.mkdir(os.path.dirname(project["replace"]["output_file"]))
-        if parameters["debug"]["is_active"]:
-            print("Folder %s created!" % project["replace"]["output_file"])
-    except FileExistsError:
-        if parameters["debug"]["is_active"]:
-            print("Folder %s already exists" % project["replace"]["output_file"])
-    
     # --------------------------------
     # 03_replicate
     # ---------------------------------
@@ -209,11 +190,9 @@ def file_management(parameters):
     # ---------------------------------
 
     if parameters["debug"]["is_active"]:
-        print("return len:",len(project))
+        print(project)
 
     # -------------------------------
-
-    return project
 
 def text_to_json(file_path, is_mode_debugging = False):
     """
@@ -242,10 +221,6 @@ def text_to_json(file_path, is_mode_debugging = False):
     structure. If an error occurs during the processing of the file, the function will 
     print an error message and return None.
     """
-
-    if is_mode_debugging:
-        print("--- MODULE: txt_to_json ---")
-
     try:
         # Initialize the root of the JSON structure and a dictionary to keep track of the current node at each indentation level
         root = []
@@ -343,12 +318,6 @@ def text_to_json(file_path, is_mode_debugging = False):
         print(f"An error occurred: {e}")
         return None
 
-# ---------------------------------------
 # class section
-# ---------------------------------------
-
-class File_management:
-    pass
-
 class Text_to_json:
     pass
