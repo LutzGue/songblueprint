@@ -79,15 +79,16 @@ cadence
             V
 
 # main part
-
 song
     meta
         {key}
     START
     phrase,,1,3
+        START_PHRASE
         {predominant}
         {static}
         {dynamic}
         {conn}
         {cadence}
+        END_PHRASE
     END

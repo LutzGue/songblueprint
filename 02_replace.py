@@ -13,21 +13,21 @@ def find_and_replace(node):
     NEXT STEPS:
     - count iterations and stop infinite replications
 
-    IMPORTANT: The replace candidate in curly brackets has to be the highest indent node.
+    (A) IMPORTANT: The replace candidate in curly brackets has to be the highest indent node.
 
-    (1) This example will work:
+    (A.1) This example will work:
 
         [rel_key_I]
             {static_harmony}
         cadence
 
-    (2) This example will work:
+    (A.2) This example will work:
 
         [rel_key_I]
             {static_harmony}
             cadence
 
-    (3) This example will NOT work:
+    (A.3) This example will NOT work:
 
         [rel_key_I]
             {static_harmony}

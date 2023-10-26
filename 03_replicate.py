@@ -33,7 +33,7 @@ Example 1:
 
         song
             lh
-                item,2,8
+                item,,2,8
                     note
 
     Explanation of the example above:
@@ -68,6 +68,21 @@ Example 3:
     Result:
 
         ["song"["placeholder_a"["item_a"["placeholder_b"["item_b"["note"]]["item_b"["note"]]["item_b"["note"]]["item_b"["note"]]["item_b"["note"]]]]["item_a"["placeholder_b"["item_b"["note"]]["item_b"["note"]]["item_b"["note"]]["item_b"["note"]]["item_b"["note"]]]]]]
+
+    (A) IMPORTANT:
+
+    (A.1) This example will NOT work:
+
+        static
+            none,10
+            I,10,1,8
+
+    (A.2) This example will work instead:
+
+        static
+            none,10
+            item,10
+                I,,1,8
 """
 def recursive_search(node, parent=None, key=None):
     if isinstance(node, dict):
