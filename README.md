@@ -284,6 +284,40 @@ The project requires a large database of generated chord progressions with an ov
 ## Backend Logic
 The database contains many chord progressions formed according to the rules for phrases. Each phrase has a marked “START” in the database. Each phrase has a starting chord (e.g., Cm) and a suitable follow-up chord from the offered list (e.g., G). Then, a key field is formed with the user-selected chord progression (e.g., Cm_G). Subsequently, in the database, in the phrase models, the appropriate follow-up chord is searched for the appropriate key field (e.g., Key Field: Cm_G --> Follow-up Chord: G7). This process can be continued by the user until the template phrase in the database is marked with “END.”
 
+EXAMPLE process:
+
+Database:
+[START C Dm ...]
+[START C B° ...]
+[START Cm G ...]
+[START Cm Dm ...]
+
+surrogated key:
+[START]
+
+System recommendation for follow-up chords:
+[C, Cm]
+
+Users choice for starting chord: 
+[Cm]
+
+surrogated key:
+[START_Cm]
+
+System recommendation for follow-up chords: 
+[G, Dm]
+
+Users choice for follow-up chord: 
+[G]
+
+surrogated key:
+[START_Cm_G]
+
+search in database for follow-up chords:
+(...)
+
+process ends til "END" was choosen by user.
+
 # Next Steps
 1) integration Analyzing Levels (background, middleground); edit in txt: show/hide L1, L2, roman numeral is always visible
 2) create MIDI file using music21 (roman numeral to key) --> melody harmonization: provide 3-4 possible melody notes based on the generated patterns
