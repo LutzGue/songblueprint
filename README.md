@@ -334,6 +334,7 @@ process ends til ```END``` was choosen by user.
 
 # Development of a control panel for a hardware device
 Design ideas for "PHRASENDRESCHER":
+![example6](https://github.com/LutzGue/songblueprint/blob/main/img/phrasendrescher_10.png)
 ![example6](https://github.com/LutzGue/songblueprint/blob/main/img/phrasendrescher_1.jpg)
 ![example6](https://github.com/LutzGue/songblueprint/blob/main/img/phrasendrescher_2.jpg)
 ![example6](https://github.com/LutzGue/songblueprint/blob/main/img/phrasendrescher_3.jpg)
