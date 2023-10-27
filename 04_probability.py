@@ -57,9 +57,9 @@ def calculate_probability(node):
 # output_file = "json\\output_total.json"
 
 # MODE B: 03_replace --> 02_replicate
-generate_count = 10
+generate_count = 20
 randomcount = int(round(1 + (generate_count - 1) * random.random())) - 1
-input_file = "json\\output_replicate-" + str(randomcount) + ".json"
+input_file = "json\\\modulation1\\2023\\10\\26\\2023_10_26T17_05_13\\03_replicate\\output-replicate-" + str(randomcount) + ".json"
 output_file = "json\\output_total.json"
 
 print(input_file)

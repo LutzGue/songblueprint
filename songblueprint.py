@@ -110,7 +110,9 @@ parameters = {
             "is_excecute": True,
 
             "is_store_file": True,
-            "count": 10
+
+            # number of files to generate (e.g.: 10)
+            "generate_count": 20
         },
         "04_probability": {
             "input_file": "DEFAULT",
@@ -124,7 +126,6 @@ parameters = {
 
             "is_excecute": True,
             "is_store_file": True,
-            "count": "DEFAULT"
         },
         "05_generate": {
             "input_file": "DEFAULT",
@@ -164,7 +165,7 @@ if parameters["debug"]["is_active"]:
 if parameters["module"]["01_txt_to_json"]["is_excecute"]:
 
     # (1) converting txt to json
-    json_data = metalanguage.text_to_json(project["txt_to_json"]["input_file"], parameters["debug"]["is_active"])
+    json_data = metalanguage.process_txt_to_json(project["txt_to_json"]["input_file"], parameters["debug"]["is_active"])
 
     if parameters["debug"]["is_active"]:
         print("json_data LEN:",len(json_data))
@@ -174,13 +175,20 @@ if parameters["module"]["01_txt_to_json"]["is_excecute"]:
         with open(project["txt_to_json"]["output_file"], 'w') as f:
             json.dump(json_data, f, indent=4)
 
+    if parameters["debug"]["is_active"]:
+        print("output_file:",project["txt_to_json"]["output_file"], os.path.getsize(project["txt_to_json"]["output_file"]))
+
 # ------------------------
 # 02_replace
 # ------------------------
 
 # generate new
 if parameters["module"]["02_replace"]["is_excecute"]:
-    print("xx")
+    json_data = metalanguage.process_replace(project["replace"]["input_file"],project["replace"]["output_file"], parameters["debug"]["is_active"])
+
+if parameters["debug"]["is_active"]:
+    print("output_file:",project["replace"]["output_file"], os.path.getsize(project["replace"]["output_file"]))
+
 
 # ------------------------
 # 03_replicate
@@ -189,20 +197,54 @@ if parameters["module"]["02_replace"]["is_excecute"]:
 # generate new
 if parameters["module"]["03_replicate"]["is_excecute"]:
 
-    # edit user defined parameters here
-    input_filename = 'json\\output.json'
-    output_filename_syntax = 'json\\output_replicate-'
-    generate_count = 10
+    # Call the function with your input and output file paths. generate different schemas.
+    for n in range(parameters["module"]["03_replicate"]["generate_count"]):
+        output_filename_number = os.path.splitext(project["replicate"]["output_file"])[0] + '-' + str(n+1) + os.path.splitext(project["replicate"]["output_file"])[1]
+        metalanguage.process_replicate(project["replicate"]["input_file"], output_filename_number, parameters["debug"]["is_active"])
+
+        if parameters["debug"]["is_active"]:
+            print("output_file:",output_filename_number, os.path.getsize(output_filename_number))
+
+# --------------------------------
+# 04_probability
+# --------------------------------
+
+# TODO: calculate for all n x generated "replicate" files n x new "probability" files:
+#       --> n: range(parameters["module"]["03_replicate"]["generate_count"])
+
+# generate new
+if parameters["module"]["04_probability"]["is_excecute"]:
 
     # Call the function with your input and output file paths. generate different schemas.
-    for n in range(generate_count):
-        output_filename_number = output_filename_syntax + str(n+1) + '.json'
-        metalanguage.process_json_file(input_filename, output_filename_number)
+    for n in range(parameters["module"]["03_replicate"]["generate_count"]):
+        input_filename_number = os.path.splitext(project["probability"]["input_file"])[0] + '-' + str(n+1) + os.path.splitext(project["probability"]["input_file"])[1]
+        output_filename_number = os.path.splitext(project["probability"]["output_file"])[0] + '-' + str(n+1) + os.path.splitext(project["probability"]["output_file"])[1]
+        metalanguage.process_probability(input_filename_number, output_filename_number, parameters["debug"]["is_active"])
 
-# (probability)
+        if parameters["debug"]["is_active"]:
+            print("output_file:",output_filename_number, os.path.getsize(output_filename_number))
 
-# (4) generate
+# --------------------------------
+# 05_generate
+# --------------------------------
 
+# TODO: calculate for randomly choosen "probability" files new "generate" file(s):
+#       --> repeat random process user defined m-times (e.g. 1, 2, 10, 20, 100, 1000, ...)
+
+# generate new
+if parameters["module"]["04_generate"]["is_excecute"]:
+
+    # Call the function with your input and output file paths. generate different schemas.
+    for n in range(parameters["module"]["04_generate"]["generate_count"]):
+        input_filename_number = os.path.splitext(project["probability"]["input_file"])[0] + '-' + str(n+1) + os.path.splitext(project["probability"]["input_file"])[1]
+        output_filename_number = os.path.splitext(project["probability"]["output_file"])[0] + '-' + str(n+1) + os.path.splitext(project["probability"]["output_file"])[1]
+        metalanguage.process_probability(input_filename_number, output_filename_number, parameters["debug"]["is_active"])
+
+        if parameters["debug"]["is_active"]:
+            print("output_file:",output_filename_number, os.path.getsize(output_filename_number))
+
+# --------------------------------
 # parsetree
+# --------------------------------
 
 

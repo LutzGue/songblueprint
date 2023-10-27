@@ -272,6 +272,15 @@ The generated training data can also be used to harmonize or reharmonize given m
 # Curve fitting / paint curves in GUI
 Another feature will be the development of a GUI with a graphical input medium and an integrated SATB-voicing generator. The user can directly paint the shape of the melody form in the soprano or bass voice in the GUI. Rising and falling courses, parallel or contrasting between soprano and bass, are conceivable. Alto and bass can also be drawn as static lines. An algorithm evaluates the results of curve fitting and then presents the most suitable SATB-voicing variants for the given chord progression. The voicings can be designed for different instruments (E-bass, Rhodes, Pad, piano) and played directly in the GUI and exported as WAV / MP3 / MIDI. Subsequently, individual voices can be further embellished as MIDI in the DAW, as described in the "innovation tool" section, by adding auxiliary, passing notes, and other embellishments.
 
+# Chord Suggestor -- Project Description
+The project aims to develop a Python code that generates chord progressions based on user input. The user selects a chord, and the code suggests the appropriate follow-up chord. The end result is a chord progression that adheres to the rules of phrases and stays within clearly defined tonalities. The user can play this chord progression on an instrument, and a detailed harmony analysis based on the database can be provided.
+
+## Project Requirements
+The project requires a large database of generated chord progressions with an overarching structure of phrases and clear assignment of tonalities.
+
+## Backend Logic
+The database contains many chord progressions formed according to the rules for phrases. Each phrase has a marked “START” in the database. Each phrase has a starting chord (e.g., Cm) and a suitable follow-up chord from the offered list (e.g., G). Then, a key field is formed with the user-selected chord progression (e.g., Cm_G). Subsequently, in the database, in the phrase models, the appropriate follow-up chord is searched for the appropriate key field (e.g., Key Field: Cm_G --> Follow-up Chord: G7). This process can be continued by the user until the template phrase in the database is marked with “END.”
+
 # Next Steps
 1) integration Analyzing Levels (background, middleground); edit in txt: show/hide L1, L2, roman numeral is always visible
 2) create MIDI file using music21 (roman numeral to key) --> melody harmonization: provide 3-4 possible melody notes based on the generated patterns
