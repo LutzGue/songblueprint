@@ -279,8 +279,9 @@ Another feature will be the development of a GUI with a graphical input medium a
 The project aims to develop a Python code that generates chord progressions based on user input. The user selects a chord, and the code suggests the appropriate follow-up chord. The end result is a chord progression that adheres to the rules of phrases and stays within clearly defined tonalities. The user can play this chord progression on an instrument, and a detailed harmony analysis based on the database can be provided.
 
 ## Benefit für the user
+- This step-by-step process provides the user with the best possible support in finding the most suitable phrase blueprint for them and offers them the maximum possible individual choice.
 - In order to best support the user in finding the most suitable phrase blueprint for them and to provide maximum individual choice, the database must contain many chord progressions formed according to the rules for phrases.
-- Even while selecting the chords, the user can be inspired and develop melodies and lyrics for them.
+- Even while selecting the chords, the user can be inspired and develop melodies and lyrics for them and assists with the songwriting process.
 - The database can be used as SQLite for a Raspberry Pi and a hardware input device can be developed.
 
 ## Project Requirements
