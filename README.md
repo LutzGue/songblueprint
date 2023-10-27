@@ -291,7 +291,7 @@ The project requires a large database of generated chord progressions with an ov
 The database contains many chord progressions formed according to the rules for phrases. Each phrase has a marked “START” in the database. Each phrase has a starting chord (e.g., Cm) and a suitable follow-up chord from the offered list (e.g., G). Then, a key field is formed with the user-selected chord progression (e.g., Cm_G). Subsequently, in the database, in the phrase models, the appropriate follow-up chord is searched for the appropriate key field (e.g., Key Field: Cm_G --> Follow-up Chord: G7). This process can be continued by the user until the template phrase in the database is marked with “END.”
 
 ### EXAMPLE process:
-Database:
+Database of generated phrases
 ```
 [START C Dm ...]
 [START C B° ...]
@@ -332,8 +332,13 @@ search in database for follow-up chords:
 ```
 process ends til ```END``` was choosen by user.
 
-
-
+# Development of a control panel for a hardware device
+Design ideas for "PHRASENDRESCHER":
+![example6](https://github.com/LutzGue/songblueprint/blob/main/img/phrasendrescher_1.jpg)
+![example6](https://github.com/LutzGue/songblueprint/blob/main/img/phrasendrescher_2.jpg)
+![example6](https://github.com/LutzGue/songblueprint/blob/main/img/phrasendrescher_3.jpg)
+![example6](https://github.com/LutzGue/songblueprint/blob/main/img/phrasendrescher_4.jpg)
+![example6](https://github.com/LutzGue/songblueprint/blob/main/img/phrasendrescher_5.jpg)
 # Next Steps
 1) integration Analyzing Levels (background, middleground); edit in txt: show/hide L1, L2, roman numeral is always visible
 2) create MIDI file using music21 (roman numeral to key) --> melody harmonization: provide 3-4 possible melody notes based on the generated patterns
