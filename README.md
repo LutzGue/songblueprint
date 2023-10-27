@@ -273,6 +273,9 @@ The generated training data can also be used to harmonize or reharmonize given m
 Another feature will be the development of a GUI with a graphical input medium and an integrated SATB-voicing generator. The user can directly paint the shape of the melody form in the soprano or bass voice in the GUI. Rising and falling courses, parallel or contrasting between soprano and bass, are conceivable. Alto and bass can also be drawn as static lines. An algorithm evaluates the results of curve fitting and then presents the most suitable SATB-voicing variants for the given chord progression. The voicings can be designed for different instruments (E-bass, Rhodes, Pad, piano) and played directly in the GUI and exported as WAV / MP3 / MIDI. Subsequently, individual voices can be further embellished as MIDI in the DAW, as described in the "innovation tool" section, by adding auxiliary, passing notes, and other embellishments.
 
 # Chord Suggestor -- Project Description
+
+![example6](https://github.com/LutzGue/songblueprint/blob/main/img/chord_suggestor_1.jpg)
+
 The project aims to develop a Python code that generates chord progressions based on user input. The user selects a chord, and the code suggests the appropriate follow-up chord. The end result is a chord progression that adheres to the rules of phrases and stays within clearly defined tonalities. The user can play this chord progression on an instrument, and a detailed harmony analysis based on the database can be provided.
 
 ## Project Requirements
