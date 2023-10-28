@@ -334,10 +334,13 @@ process ends til ```END``` was choosen by user.
 
 # Development of a control panel for a hardware device
 ## Design ideas for "PHRASENDRESCHER":
+
 ![example6](https://github.com/LutzGue/songblueprint/blob/main/img/phrasendrescher_10.PNG)
+
 The picture is an image of a control panel for a music synthesizer. The panel is black with white and red text. The panel has a number of buttons and knobs. The top row of buttons ans LED lamps are labeled “NEW”, “PRE”, “STATIC”, “DYNAM”, “CONN”, “CADEN”. The second row of red seven segment LED are labeled “POS”, “CHORD” and “KEY”. The third row of buttons are labeled the inversions “R 1 2 3”, “VARIATION”, “START FROM BEGINNING”, “PLAY CHORD”, “PREVIOUS CHORD”. The bottom row of buttons are labeled “SELECT VARIATION”, “MIDI OUT”. The panel has a red digital displays e.g. “08 C Ab”.
 
 ## Other inspirations (generated "prototypes"):
+
 ![example6](https://github.com/LutzGue/songblueprint/blob/main/img/phrasendrescher_1.jpg)
 ![example6](https://github.com/LutzGue/songblueprint/blob/main/img/phrasendrescher_2.jpg)
 ![example6](https://github.com/LutzGue/songblueprint/blob/main/img/phrasendrescher_3.jpg)
