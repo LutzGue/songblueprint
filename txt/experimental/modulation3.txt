@@ -1,0 +1,66 @@
+$ source: Wolf - Harmonielehre
+$ Lutz Menzel
+$ 2023, Berlin
+
+$ -- variables --
+
+$ key
+TONART
+    F,10
+    C,10
+    G,10
+    a,10
+    d,10
+    e,10
+
+$ mini cadence
+MC_major
+    type
+        V,10
+        V7,10
+    type
+        V
+        V7
+    I
+
+MC_minor
+    type
+        V,10
+        V7,10
+    type
+        V
+        V7
+    i
+
+mini_cadence
+    x,,1,1
+    {MC_major}
+    x,,1,1
+
+$ modulation
+SECTION
+    TONART_A
+        {mini_cadence}
+    TONART_N,,0,4
+        {TONART}
+        PV
+        x,,1,1
+        {mini_cadence}
+        x,,1,1
+    TONART_A
+        PV
+        x,,1,1
+        {mini_cadence}
+        x,,1,1
+
+$ -- Song --
+song
+    META
+        TONART_A
+            {TONART}
+    START_S
+    PREDOM
+    {SECTION}
+    CONN
+    CAD
+    END_S

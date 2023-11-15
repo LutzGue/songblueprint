@@ -35,8 +35,11 @@ def json_to_tree(json_obj):
     return tree_str
 
 # Load the data from the JSON file
-###with open('json\\output_generate.json', 'r') as f:
 with open('json\\output_generate.json', 'r') as f:
+#with open('json\\secondary1\\2023\\11\\11\\2023_11_11T18_38_43\\05_generate\\output-generate-1-2.json', 'r') as f:
+#with open('json\\modulation4\\2023\\11\\15\\2023_11_15T17_46_40\\03_replicate\\output-replicate-1.json', 'r') as f:
+
+# with open('json\\output_generate.json', 'r') as f:
     json_obj = json.load(f)
 
 for obj in json_obj:

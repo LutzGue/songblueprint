@@ -1,0 +1,4449 @@
+[
+    {
+        "description": "inv_3k",
+        "isreplacecandidate": false,
+        "isreplaced": false,
+        "value": -1,
+        "isprobability": false,
+        "generatemin": -1,
+        "generatemax": -1,
+        "isreplicated": false,
+        "clonenr": 1,
+        "isreplicatecandidate": false,
+        "isoriginal": true,
+        "children": [
+            {
+                "description": "35",
+                "isreplacecandidate": false,
+                "isreplaced": false,
+                "value": 10,
+                "isprobability": true,
+                "generatemin": -1,
+                "generatemax": -1,
+                "isreplicated": false,
+                "clonenr": 1,
+                "isreplicatecandidate": false,
+                "isoriginal": false
+            },
+            {
+                "description": "6",
+                "isreplacecandidate": false,
+                "isreplaced": false,
+                "value": 10,
+                "isprobability": true,
+                "generatemin": -1,
+                "generatemax": -1,
+                "isreplicated": false,
+                "clonenr": 1,
+                "isreplicatecandidate": false,
+                "isoriginal": false
+            },
+            {
+                "description": "46",
+                "isreplacecandidate": false,
+                "isreplaced": false,
+                "value": 10,
+                "isprobability": true,
+                "generatemin": -1,
+                "generatemax": -1,
+                "isreplicated": false,
+                "clonenr": 1,
+                "isreplicatecandidate": false,
+                "isoriginal": false
+            }
+        ]
+    },
+    {
+        "description": "inv_4k",
+        "isreplacecandidate": false,
+        "isreplaced": false,
+        "value": -1,
+        "isprobability": false,
+        "generatemin": -1,
+        "generatemax": -1,
+        "isreplicated": false,
+        "clonenr": 1,
+        "isreplicatecandidate": false,
+        "isoriginal": true,
+        "children": [
+            {
+                "description": "7",
+                "isreplacecandidate": false,
+                "isreplaced": false,
+                "value": 10,
+                "isprobability": true,
+                "generatemin": -1,
+                "generatemax": -1,
+                "isreplicated": false,
+                "clonenr": 1,
+                "isreplicatecandidate": false,
+                "isoriginal": false
+            },
+            {
+                "description": "56",
+                "isreplacecandidate": false,
+                "isreplaced": false,
+                "value": 10,
+                "isprobability": true,
+                "generatemin": -1,
+                "generatemax": -1,
+                "isreplicated": false,
+                "clonenr": 1,
+                "isreplicatecandidate": false,
+                "isoriginal": false
+            },
+            {
+                "description": "34",
+                "isreplacecandidate": false,
+                "isreplaced": false,
+                "value": 10,
+                "isprobability": true,
+                "generatemin": -1,
+                "generatemax": -1,
+                "isreplicated": false,
+                "clonenr": 1,
+                "isreplicatecandidate": false,
+                "isoriginal": false
+            },
+            {
+                "description": "2",
+                "isreplacecandidate": false,
+                "isreplaced": false,
+                "value": 10,
+                "isprobability": true,
+                "generatemin": -1,
+                "generatemax": -1,
+                "isreplicated": false,
+                "clonenr": 1,
+                "isreplicatecandidate": false,
+                "isoriginal": false
+            }
+        ]
+    },
+    {
+        "description": "inv_3k_4k",
+        "isreplacecandidate": false,
+        "isreplaced": false,
+        "value": -1,
+        "isprobability": false,
+        "generatemin": -1,
+        "generatemax": -1,
+        "isreplicated": false,
+        "clonenr": 1,
+        "isreplicatecandidate": false,
+        "isoriginal": true,
+        "children": [
+            {
+                "description": "inv_3k",
+                "isreplacecandidate": true,
+                "isreplaced": false,
+                "value": 10,
+                "isprobability": true,
+                "generatemin": -1,
+                "generatemax": -1,
+                "isreplicated": false,
+                "clonenr": 1,
+                "isreplicatecandidate": false,
+                "isoriginal": false
+            },
+            {
+                "description": "inv_4k",
+                "isreplacecandidate": true,
+                "isreplaced": false,
+                "value": 10,
+                "isprobability": true,
+                "generatemin": -1,
+                "generatemax": -1,
+                "isreplicated": false,
+                "clonenr": 1,
+                "isreplicatecandidate": false,
+                "isoriginal": false
+            }
+        ]
+    },
+    {
+        "description": "I_borr",
+        "isreplacecandidate": false,
+        "isreplaced": false,
+        "value": -1,
+        "isprobability": false,
+        "generatemin": -1,
+        "generatemax": -1,
+        "isreplicated": false,
+        "clonenr": 1,
+        "isreplicatecandidate": false,
+        "isoriginal": true,
+        "children": [
+            {
+                "description": "i",
+                "isreplacecandidate": false,
+                "isreplaced": false,
+                "value": 10,
+                "isprobability": true,
+                "generatemin": -1,
+                "generatemax": -1,
+                "isreplicated": false,
+                "clonenr": 1,
+                "isreplicatecandidate": false,
+                "isoriginal": false,
+                "children": [
+                    {
+                        "description": "inv_3k",
+                        "isreplacecandidate": true,
+                        "isreplaced": false,
+                        "value": -1,
+                        "isprobability": false,
+                        "generatemin": -1,
+                        "generatemax": -1,
+                        "isreplicated": false,
+                        "clonenr": 1,
+                        "isreplicatecandidate": false,
+                        "isoriginal": false
+                    }
+                ]
+            },
+            {
+                "description": "i\u00c2\u00b0",
+                "isreplacecandidate": false,
+                "isreplaced": false,
+                "value": 10,
+                "isprobability": true,
+                "generatemin": -1,
+                "generatemax": -1,
+                "isreplicated": false,
+                "clonenr": 1,
+                "isreplicatecandidate": false,
+                "isoriginal": false,
+                "children": [
+                    {
+                        "description": "inv_3k",
+                        "isreplacecandidate": true,
+                        "isreplaced": false,
+                        "value": -1,
+                        "isprobability": false,
+                        "generatemin": -1,
+                        "generatemax": -1,
+                        "isreplicated": false,
+                        "clonenr": 1,
+                        "isreplicatecandidate": false,
+                        "isoriginal": false
+                    }
+                ]
+            },
+            {
+                "description": "I+",
+                "isreplacecandidate": false,
+                "isreplaced": false,
+                "value": 10,
+                "isprobability": true,
+                "generatemin": -1,
+                "generatemax": -1,
+                "isreplicated": false,
+                "clonenr": 1,
+                "isreplicatecandidate": false,
+                "isoriginal": false,
+                "children": [
+                    {
+                        "description": "inv_3k",
+                        "isreplacecandidate": true,
+                        "isreplaced": false,
+                        "value": -1,
+                        "isprobability": false,
+                        "generatemin": -1,
+                        "generatemax": -1,
+                        "isreplicated": false,
+                        "clonenr": 1,
+                        "isreplicatecandidate": false,
+                        "isoriginal": false
+                    }
+                ]
+            },
+            {
+                "description": "Isus2",
+                "isreplacecandidate": false,
+                "isreplaced": false,
+                "value": 10,
+                "isprobability": true,
+                "generatemin": -1,
+                "generatemax": -1,
+                "isreplicated": false,
+                "clonenr": 1,
+                "isreplicatecandidate": false,
+                "isoriginal": false
+            },
+            {
+                "description": "Isus4",
+                "isreplacecandidate": false,
+                "isreplaced": false,
+                "value": 10,
+                "isprobability": true,
+                "generatemin": -1,
+                "generatemax": -1,
+                "isreplicated": false,
+                "clonenr": 1,
+                "isreplicatecandidate": false,
+                "isoriginal": false
+            },
+            {
+                "description": "type",
+                "isreplacecandidate": false,
+                "isreplaced": false,
+                "value": 10,
+                "isprobability": true,
+                "generatemin": -1,
+                "generatemax": -1,
+                "isreplicated": false,
+                "clonenr": 1,
+                "isreplicatecandidate": false,
+                "isoriginal": false,
+                "children": [
+                    {
+                        "description": "bI",
+                        "isreplacecandidate": false,
+                        "isreplaced": false,
+                        "value": 10,
+                        "isprobability": true,
+                        "generatemin": -1,
+                        "generatemax": -1,
+                        "isreplicated": false,
+                        "clonenr": 1,
+                        "isreplicatecandidate": false,
+                        "isoriginal": false,
+                        "children": [
+                            {
+                                "description": "inv_3k",
+                                "isreplacecandidate": true,
+                                "isreplaced": false,
+                                "value": -1,
+                                "isprobability": false,
+                                "generatemin": -1,
+                                "generatemax": -1,
+                                "isreplicated": false,
+                                "clonenr": 1,
+                                "isreplicatecandidate": false,
+                                "isoriginal": false
+                            }
+                        ]
+                    },
+                    {
+                        "description": "#I",
+                        "isreplacecandidate": false,
+                        "isreplaced": false,
+                        "value": 10,
+                        "isprobability": true,
+                        "generatemin": -1,
+                        "generatemax": -1,
+                        "isreplicated": false,
+                        "clonenr": 1,
+                        "isreplicatecandidate": false,
+                        "isoriginal": false,
+                        "children": [
+                            {
+                                "description": "inv_3k",
+                                "isreplacecandidate": true,
+                                "isreplaced": false,
+                                "value": -1,
+                                "isprobability": false,
+                                "generatemin": -1,
+                                "generatemax": -1,
+                                "isreplicated": false,
+                                "clonenr": 1,
+                                "isreplicatecandidate": false,
+                                "isoriginal": false
+                            }
+                        ]
+                    },
+                    {
+                        "description": "bi",
+                        "isreplacecandidate": false,
+                        "isreplaced": false,
+                        "value": 10,
+                        "isprobability": true,
+                        "generatemin": -1,
+                        "generatemax": -1,
+                        "isreplicated": false,
+                        "clonenr": 1,
+                        "isreplicatecandidate": false,
+                        "isoriginal": false,
+                        "children": [
+                            {
+                                "description": "inv_3k",
+                                "isreplacecandidate": true,
+                                "isreplaced": false,
+                                "value": -1,
+                                "isprobability": false,
+                                "generatemin": -1,
+                                "generatemax": -1,
+                                "isreplicated": false,
+                                "clonenr": 1,
+                                "isreplicatecandidate": false,
+                                "isoriginal": false
+                            }
+                        ]
+                    },
+                    {
+                        "description": "#i",
+                        "isreplacecandidate": false,
+                        "isreplaced": false,
+                        "value": 10,
+                        "isprobability": true,
+                        "generatemin": -1,
+                        "generatemax": -1,
+                        "isreplicated": false,
+                        "clonenr": 1,
+                        "isreplicatecandidate": false,
+                        "isoriginal": false,
+                        "children": [
+                            {
+                                "description": "inv_3k",
+                                "isreplacecandidate": true,
+                                "isreplaced": false,
+                                "value": -1,
+                                "isprobability": false,
+                                "generatemin": -1,
+                                "generatemax": -1,
+                                "isreplicated": false,
+                                "clonenr": 1,
+                                "isreplicatecandidate": false,
+                                "isoriginal": false
+                            }
+                        ]
+                    },
+                    {
+                        "description": "bI+",
+                        "isreplacecandidate": false,
+                        "isreplaced": false,
+                        "value": 10,
+                        "isprobability": true,
+                        "generatemin": -1,
+                        "generatemax": -1,
+                        "isreplicated": false,
+                        "clonenr": 1,
+                        "isreplicatecandidate": false,
+                        "isoriginal": false,
+                        "children": [
+                            {
+                                "description": "inv_3k",
+                                "isreplacecandidate": true,
+                                "isreplaced": false,
+                                "value": -1,
+                                "isprobability": false,
+                                "generatemin": -1,
+                                "generatemax": -1,
+                                "isreplicated": false,
+                                "clonenr": 1,
+                                "isreplicatecandidate": false,
+                                "isoriginal": false
+                            }
+                        ]
+                    },
+                    {
+                        "description": "#I+",
+                        "isreplacecandidate": false,
+                        "isreplaced": false,
+                        "value": 10,
+                        "isprobability": true,
+                        "generatemin": -1,
+                        "generatemax": -1,
+                        "isreplicated": false,
+                        "clonenr": 1,
+                        "isreplicatecandidate": false,
+                        "isoriginal": false,
+                        "children": [
+                            {
+                                "description": "inv_3k",
+                                "isreplacecandidate": true,
+                                "isreplaced": false,
+                                "value": -1,
+                                "isprobability": false,
+                                "generatemin": -1,
+                                "generatemax": -1,
+                                "isreplicated": false,
+                                "clonenr": 1,
+                                "isreplicatecandidate": false,
+                                "isoriginal": false
+                            }
+                        ]
+                    },
+                    {
+                        "description": "bi\u00c2\u00b0",
+                        "isreplacecandidate": false,
+                        "isreplaced": false,
+                        "value": 10,
+                        "isprobability": true,
+                        "generatemin": -1,
+                        "generatemax": -1,
+                        "isreplicated": false,
+                        "clonenr": 1,
+                        "isreplicatecandidate": false,
+                        "isoriginal": false,
+                        "children": [
+                            {
+                                "description": "inv_3k",
+                                "isreplacecandidate": true,
+                                "isreplaced": false,
+                                "value": -1,
+                                "isprobability": false,
+                                "generatemin": -1,
+                                "generatemax": -1,
+                                "isreplicated": false,
+                                "clonenr": 1,
+                                "isreplicatecandidate": false,
+                                "isoriginal": false
+                            }
+                        ]
+                    },
+                    {
+                        "description": "#i\u00c2\u00b0",
+                        "isreplacecandidate": false,
+                        "isreplaced": false,
+                        "value": 10,
+                        "isprobability": true,
+                        "generatemin": -1,
+                        "generatemax": -1,
+                        "isreplicated": false,
+                        "clonenr": 1,
+                        "isreplicatecandidate": false,
+                        "isoriginal": false,
+                        "children": [
+                            {
+                                "description": "inv_3k",
+                                "isreplacecandidate": true,
+                                "isreplaced": false,
+                                "value": -1,
+                                "isprobability": false,
+                                "generatemin": -1,
+                                "generatemax": -1,
+                                "isreplicated": false,
+                                "clonenr": 1,
+                                "isreplicatecandidate": false,
+                                "isoriginal": false
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "description": "iii_borr",
+        "isreplacecandidate": false,
+        "isreplaced": false,
+        "value": -1,
+        "isprobability": false,
+        "generatemin": -1,
+        "generatemax": -1,
+        "isreplicated": false,
+        "clonenr": 1,
+        "isreplicatecandidate": false,
+        "isoriginal": true,
+        "children": [
+            {
+                "description": "III",
+                "isreplacecandidate": false,
+                "isreplaced": false,
+                "value": 10,
+                "isprobability": true,
+                "generatemin": -1,
+                "generatemax": -1,
+                "isreplicated": false,
+                "clonenr": 1,
+                "isreplicatecandidate": false,
+                "isoriginal": false,
+                "children": [
+                    {
+                        "description": "inv_3k",
+                        "isreplacecandidate": true,
+                        "isreplaced": false,
+                        "value": -1,
+                        "isprobability": false,
+                        "generatemin": -1,
+                        "generatemax": -1,
+                        "isreplicated": false,
+                        "clonenr": 1,
+                        "isreplicatecandidate": false,
+                        "isoriginal": false
+                    }
+                ]
+            },
+            {
+                "description": "III+",
+                "isreplacecandidate": false,
+                "isreplaced": false,
+                "value": 10,
+                "isprobability": true,
+                "generatemin": -1,
+                "generatemax": -1,
+                "isreplicated": false,
+                "clonenr": 1,
+                "isreplicatecandidate": false,
+                "isoriginal": false,
+                "children": [
+                    {
+                        "description": "inv_3k",
+                        "isreplacecandidate": true,
+                        "isreplaced": false,
+                        "value": -1,
+                        "isprobability": false,
+                        "generatemin": -1,
+                        "generatemax": -1,
+                        "isreplicated": false,
+                        "clonenr": 1,
+                        "isreplicatecandidate": false,
+                        "isoriginal": false
+                    }
+                ]
+            },
+            {
+                "description": "iii\u00c2\u00b0",
+                "isreplacecandidate": false,
+                "isreplaced": false,
+                "value": 10,
+                "isprobability": true,
+                "generatemin": -1,
+                "generatemax": -1,
+                "isreplicated": false,
+                "clonenr": 1,
+                "isreplicatecandidate": false,
+                "isoriginal": false,
+                "children": [
+                    {
+                        "description": "inv_3k",
+                        "isreplacecandidate": true,
+                        "isreplaced": false,
+                        "value": -1,
+                        "isprobability": false,
+                        "generatemin": -1,
+                        "generatemax": -1,
+                        "isreplicated": false,
+                        "clonenr": 1,
+                        "isreplicatecandidate": false,
+                        "isoriginal": false
+                    }
+                ]
+            },
+            {
+                "description": "IIIsus2",
+                "isreplacecandidate": false,
+                "isreplaced": false,
+                "value": 10,
+                "isprobability": true,
+                "generatemin": -1,
+                "generatemax": -1,
+                "isreplicated": false,
+                "clonenr": 1,
+                "isreplicatecandidate": false,
+                "isoriginal": false
+            },
+            {
+                "description": "IIIsus4",
+                "isreplacecandidate": false,
+                "isreplaced": false,
+                "value": 10,
+                "isprobability": true,
+                "generatemin": -1,
+                "generatemax": -1,
+                "isreplicated": false,
+                "clonenr": 1,
+                "isreplicatecandidate": false,
+                "isoriginal": false
+            },
+            {
+                "description": "type",
+                "isreplacecandidate": false,
+                "isreplaced": false,
+                "value": 10,
+                "isprobability": true,
+                "generatemin": -1,
+                "generatemax": -1,
+                "isreplicated": false,
+                "clonenr": 1,
+                "isreplicatecandidate": false,
+                "isoriginal": false,
+                "children": [
+                    {
+                        "description": "bIII",
+                        "isreplacecandidate": false,
+                        "isreplaced": false,
+                        "value": 10,
+                        "isprobability": true,
+                        "generatemin": -1,
+                        "generatemax": -1,
+                        "isreplicated": false,
+                        "clonenr": 1,
+                        "isreplicatecandidate": false,
+                        "isoriginal": false,
+                        "children": [
+                            {
+                                "description": "inv_3k",
+                                "isreplacecandidate": true,
+                                "isreplaced": false,
+                                "value": -1,
+                                "isprobability": false,
+                                "generatemin": -1,
+                                "generatemax": -1,
+                                "isreplicated": false,
+                                "clonenr": 1,
+                                "isreplicatecandidate": false,
+                                "isoriginal": false
+                            }
+                        ]
+                    },
+                    {
+                        "description": "#III",
+                        "isreplacecandidate": false,
+                        "isreplaced": false,
+                        "value": 10,
+                        "isprobability": true,
+                        "generatemin": -1,
+                        "generatemax": -1,
+                        "isreplicated": false,
+                        "clonenr": 1,
+                        "isreplicatecandidate": false,
+                        "isoriginal": false,
+                        "children": [
+                            {
+                                "description": "inv_3k",
+                                "isreplacecandidate": true,
+                                "isreplaced": false,
+                                "value": -1,
+                                "isprobability": false,
+                                "generatemin": -1,
+                                "generatemax": -1,
+                                "isreplicated": false,
+                                "clonenr": 1,
+                                "isreplicatecandidate": false,
+                                "isoriginal": false
+                            }
+                        ]
+                    },
+                    {
+                        "description": "biii",
+                        "isreplacecandidate": false,
+                        "isreplaced": false,
+                        "value": 10,
+                        "isprobability": true,
+                        "generatemin": -1,
+                        "generatemax": -1,
+                        "isreplicated": false,
+                        "clonenr": 1,
+                        "isreplicatecandidate": false,
+                        "isoriginal": false,
+                        "children": [
+                            {
+                                "description": "inv_3k",
+                                "isreplacecandidate": true,
+                                "isreplaced": false,
+                                "value": -1,
+                                "isprobability": false,
+                                "generatemin": -1,
+                                "generatemax": -1,
+                                "isreplicated": false,
+                                "clonenr": 1,
+                                "isreplicatecandidate": false,
+                                "isoriginal": false
+                            }
+                        ]
+                    },
+                    {
+                        "description": "#iii",
+                        "isreplacecandidate": false,
+                        "isreplaced": false,
+                        "value": 10,
+                        "isprobability": true,
+                        "generatemin": -1,
+                        "generatemax": -1,
+                        "isreplicated": false,
+                        "clonenr": 1,
+                        "isreplicatecandidate": false,
+                        "isoriginal": false,
+                        "children": [
+                            {
+                                "description": "inv_3k",
+                                "isreplacecandidate": true,
+                                "isreplaced": false,
+                                "value": -1,
+                                "isprobability": false,
+                                "generatemin": -1,
+                                "generatemax": -1,
+                                "isreplicated": false,
+                                "clonenr": 1,
+                                "isreplicatecandidate": false,
+                                "isoriginal": false
+                            }
+                        ]
+                    },
+                    {
+                        "description": "bIII+",
+                        "isreplacecandidate": false,
+                        "isreplaced": false,
+                        "value": 10,
+                        "isprobability": true,
+                        "generatemin": -1,
+                        "generatemax": -1,
+                        "isreplicated": false,
+                        "clonenr": 1,
+                        "isreplicatecandidate": false,
+                        "isoriginal": false,
+                        "children": [
+                            {
+                                "description": "inv_3k",
+                                "isreplacecandidate": true,
+                                "isreplaced": false,
+                                "value": -1,
+                                "isprobability": false,
+                                "generatemin": -1,
+                                "generatemax": -1,
+                                "isreplicated": false,
+                                "clonenr": 1,
+                                "isreplicatecandidate": false,
+                                "isoriginal": false
+                            }
+                        ]
+                    },
+                    {
+                        "description": "#III+",
+                        "isreplacecandidate": false,
+                        "isreplaced": false,
+                        "value": 10,
+                        "isprobability": true,
+                        "generatemin": -1,
+                        "generatemax": -1,
+                        "isreplicated": false,
+                        "clonenr": 1,
+                        "isreplicatecandidate": false,
+                        "isoriginal": false,
+                        "children": [
+                            {
+                                "description": "inv_3k",
+                                "isreplacecandidate": true,
+                                "isreplaced": false,
+                                "value": -1,
+                                "isprobability": false,
+                                "generatemin": -1,
+                                "generatemax": -1,
+                                "isreplicated": false,
+                                "clonenr": 1,
+                                "isreplicatecandidate": false,
+                                "isoriginal": false
+                            }
+                        ]
+                    },
+                    {
+                        "description": "biii\u00c2\u00b0",
+                        "isreplacecandidate": false,
+                        "isreplaced": false,
+                        "value": 10,
+                        "isprobability": true,
+                        "generatemin": -1,
+                        "generatemax": -1,
+                        "isreplicated": false,
+                        "clonenr": 1,
+                        "isreplicatecandidate": false,
+                        "isoriginal": false,
+                        "children": [
+                            {
+                                "description": "inv_3k",
+                                "isreplacecandidate": true,
+                                "isreplaced": false,
+                                "value": -1,
+                                "isprobability": false,
+                                "generatemin": -1,
+                                "generatemax": -1,
+                                "isreplicated": false,
+                                "clonenr": 1,
+                                "isreplicatecandidate": false,
+                                "isoriginal": false
+                            }
+                        ]
+                    },
+                    {
+                        "description": "#iii\u00c2\u00b0",
+                        "isreplacecandidate": false,
+                        "isreplaced": false,
+                        "value": 10,
+                        "isprobability": true,
+                        "generatemin": -1,
+                        "generatemax": -1,
+                        "isreplicated": false,
+                        "clonenr": 1,
+                        "isreplicatecandidate": false,
+                        "isoriginal": false,
+                        "children": [
+                            {
+                                "description": "inv_3k",
+                                "isreplacecandidate": true,
+                                "isreplaced": false,
+                                "value": -1,
+                                "isprobability": false,
+                                "generatemin": -1,
+                                "generatemax": -1,
+                                "isreplicated": false,
+                                "clonenr": 1,
+                                "isreplicatecandidate": false,
+                                "isoriginal": false
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "description": "vi_borr",
+        "isreplacecandidate": false,
+        "isreplaced": false,
+        "value": -1,
+        "isprobability": false,
+        "generatemin": -1,
+        "generatemax": -1,
+        "isreplicated": false,
+        "clonenr": 1,
+        "isreplicatecandidate": false,
+        "isoriginal": true,
+        "children": [
+            {
+                "description": "VI",
+                "isreplacecandidate": false,
+                "isreplaced": false,
+                "value": 10,
+                "isprobability": true,
+                "generatemin": -1,
+                "generatemax": -1,
+                "isreplicated": false,
+                "clonenr": 1,
+                "isreplicatecandidate": false,
+                "isoriginal": false,
+                "children": [
+                    {
+                        "description": "inv_3k",
+                        "isreplacecandidate": true,
+                        "isreplaced": false,
+                        "value": -1,
+                        "isprobability": false,
+                        "generatemin": -1,
+                        "generatemax": -1,
+                        "isreplicated": false,
+                        "clonenr": 1,
+                        "isreplicatecandidate": false,
+                        "isoriginal": false
+                    }
+                ]
+            },
+            {
+                "description": "VI+",
+                "isreplacecandidate": false,
+                "isreplaced": false,
+                "value": 10,
+                "isprobability": true,
+                "generatemin": -1,
+                "generatemax": -1,
+                "isreplicated": false,
+                "clonenr": 1,
+                "isreplicatecandidate": false,
+                "isoriginal": false,
+                "children": [
+                    {
+                        "description": "inv_3k",
+                        "isreplacecandidate": true,
+                        "isreplaced": false,
+                        "value": -1,
+                        "isprobability": false,
+                        "generatemin": -1,
+                        "generatemax": -1,
+                        "isreplicated": false,
+                        "clonenr": 1,
+                        "isreplicatecandidate": false,
+                        "isoriginal": false
+                    }
+                ]
+            },
+            {
+                "description": "vi\u00c2\u00b0",
+                "isreplacecandidate": false,
+                "isreplaced": false,
+                "value": 10,
+                "isprobability": true,
+                "generatemin": -1,
+                "generatemax": -1,
+                "isreplicated": false,
+                "clonenr": 1,
+                "isreplicatecandidate": false,
+                "isoriginal": false,
+                "children": [
+                    {
+                        "description": "inv_3k",
+                        "isreplacecandidate": true,
+                        "isreplaced": false,
+                        "value": -1,
+                        "isprobability": false,
+                        "generatemin": -1,
+                        "generatemax": -1,
+                        "isreplicated": false,
+                        "clonenr": 1,
+                        "isreplicatecandidate": false,
+                        "isoriginal": false
+                    }
+                ]
+            },
+            {
+                "description": "VIsus2",
+                "isreplacecandidate": false,
+                "isreplaced": false,
+                "value": 10,
+                "isprobability": true,
+                "generatemin": -1,
+                "generatemax": -1,
+                "isreplicated": false,
+                "clonenr": 1,
+                "isreplicatecandidate": false,
+                "isoriginal": false
+            },
+            {
+                "description": "VIsus4",
+                "isreplacecandidate": false,
+                "isreplaced": false,
+                "value": 10,
+                "isprobability": true,
+                "generatemin": -1,
+                "generatemax": -1,
+                "isreplicated": false,
+                "clonenr": 1,
+                "isreplicatecandidate": false,
+                "isoriginal": false
+            },
+            {
+                "description": "type",
+                "isreplacecandidate": false,
+                "isreplaced": false,
+                "value": 10,
+                "isprobability": true,
+                "generatemin": -1,
+                "generatemax": -1,
+                "isreplicated": false,
+                "clonenr": 1,
+                "isreplicatecandidate": false,
+                "isoriginal": false,
+                "children": [
+                    {
+                        "description": "bVI",
+                        "isreplacecandidate": false,
+                        "isreplaced": false,
+                        "value": 10,
+                        "isprobability": true,
+                        "generatemin": -1,
+                        "generatemax": -1,
+                        "isreplicated": false,
+                        "clonenr": 1,
+                        "isreplicatecandidate": false,
+                        "isoriginal": false,
+                        "children": [
+                            {
+                                "description": "inv_3k",
+                                "isreplacecandidate": true,
+                                "isreplaced": false,
+                                "value": -1,
+                                "isprobability": false,
+                                "generatemin": -1,
+                                "generatemax": -1,
+                                "isreplicated": false,
+                                "clonenr": 1,
+                                "isreplicatecandidate": false,
+                                "isoriginal": false
+                            }
+                        ]
+                    },
+                    {
+                        "description": "#VI",
+                        "isreplacecandidate": false,
+                        "isreplaced": false,
+                        "value": 10,
+                        "isprobability": true,
+                        "generatemin": -1,
+                        "generatemax": -1,
+                        "isreplicated": false,
+                        "clonenr": 1,
+                        "isreplicatecandidate": false,
+                        "isoriginal": false,
+                        "children": [
+                            {
+                                "description": "inv_3k",
+                                "isreplacecandidate": true,
+                                "isreplaced": false,
+                                "value": -1,
+                                "isprobability": false,
+                                "generatemin": -1,
+                                "generatemax": -1,
+                                "isreplicated": false,
+                                "clonenr": 1,
+                                "isreplicatecandidate": false,
+                                "isoriginal": false
+                            }
+                        ]
+                    },
+                    {
+                        "description": "bvi",
+                        "isreplacecandidate": false,
+                        "isreplaced": false,
+                        "value": 10,
+                        "isprobability": true,
+                        "generatemin": -1,
+                        "generatemax": -1,
+                        "isreplicated": false,
+                        "clonenr": 1,
+                        "isreplicatecandidate": false,
+                        "isoriginal": false,
+                        "children": [
+                            {
+                                "description": "inv_3k",
+                                "isreplacecandidate": true,
+                                "isreplaced": false,
+                                "value": -1,
+                                "isprobability": false,
+                                "generatemin": -1,
+                                "generatemax": -1,
+                                "isreplicated": false,
+                                "clonenr": 1,
+                                "isreplicatecandidate": false,
+                                "isoriginal": false
+                            }
+                        ]
+                    },
+                    {
+                        "description": "#vi",
+                        "isreplacecandidate": false,
+                        "isreplaced": false,
+                        "value": 10,
+                        "isprobability": true,
+                        "generatemin": -1,
+                        "generatemax": -1,
+                        "isreplicated": false,
+                        "clonenr": 1,
+                        "isreplicatecandidate": false,
+                        "isoriginal": false,
+                        "children": [
+                            {
+                                "description": "inv_3k",
+                                "isreplacecandidate": true,
+                                "isreplaced": false,
+                                "value": -1,
+                                "isprobability": false,
+                                "generatemin": -1,
+                                "generatemax": -1,
+                                "isreplicated": false,
+                                "clonenr": 1,
+                                "isreplicatecandidate": false,
+                                "isoriginal": false
+                            }
+                        ]
+                    },
+                    {
+                        "description": "bVI+",
+                        "isreplacecandidate": false,
+                        "isreplaced": false,
+                        "value": 10,
+                        "isprobability": true,
+                        "generatemin": -1,
+                        "generatemax": -1,
+                        "isreplicated": false,
+                        "clonenr": 1,
+                        "isreplicatecandidate": false,
+                        "isoriginal": false,
+                        "children": [
+                            {
+                                "description": "inv_3k",
+                                "isreplacecandidate": true,
+                                "isreplaced": false,
+                                "value": -1,
+                                "isprobability": false,
+                                "generatemin": -1,
+                                "generatemax": -1,
+                                "isreplicated": false,
+                                "clonenr": 1,
+                                "isreplicatecandidate": false,
+                                "isoriginal": false
+                            }
+                        ]
+                    },
+                    {
+                        "description": "#VI+",
+                        "isreplacecandidate": false,
+                        "isreplaced": false,
+                        "value": 10,
+                        "isprobability": true,
+                        "generatemin": -1,
+                        "generatemax": -1,
+                        "isreplicated": false,
+                        "clonenr": 1,
+                        "isreplicatecandidate": false,
+                        "isoriginal": false,
+                        "children": [
+                            {
+                                "description": "inv_3k",
+                                "isreplacecandidate": true,
+                                "isreplaced": false,
+                                "value": -1,
+                                "isprobability": false,
+                                "generatemin": -1,
+                                "generatemax": -1,
+                                "isreplicated": false,
+                                "clonenr": 1,
+                                "isreplicatecandidate": false,
+                                "isoriginal": false
+                            }
+                        ]
+                    },
+                    {
+                        "description": "bvi\u00c2\u00b0",
+                        "isreplacecandidate": false,
+                        "isreplaced": false,
+                        "value": 10,
+                        "isprobability": true,
+                        "generatemin": -1,
+                        "generatemax": -1,
+                        "isreplicated": false,
+                        "clonenr": 1,
+                        "isreplicatecandidate": false,
+                        "isoriginal": false,
+                        "children": [
+                            {
+                                "description": "inv_3k",
+                                "isreplacecandidate": true,
+                                "isreplaced": false,
+                                "value": -1,
+                                "isprobability": false,
+                                "generatemin": -1,
+                                "generatemax": -1,
+                                "isreplicated": false,
+                                "clonenr": 1,
+                                "isreplicatecandidate": false,
+                                "isoriginal": false
+                            }
+                        ]
+                    },
+                    {
+                        "description": "#vi\u00c2\u00b0",
+                        "isreplacecandidate": false,
+                        "isreplaced": false,
+                        "value": 10,
+                        "isprobability": true,
+                        "generatemin": -1,
+                        "generatemax": -1,
+                        "isreplicated": false,
+                        "clonenr": 1,
+                        "isreplicatecandidate": false,
+                        "isoriginal": false,
+                        "children": [
+                            {
+                                "description": "inv_3k",
+                                "isreplacecandidate": true,
+                                "isreplaced": false,
+                                "value": -1,
+                                "isprobability": false,
+                                "generatemin": -1,
+                                "generatemax": -1,
+                                "isreplicated": false,
+                                "clonenr": 1,
+                                "isreplicatecandidate": false,
+                                "isoriginal": false
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "description": "IV_borr",
+        "isreplacecandidate": false,
+        "isreplaced": false,
+        "value": -1,
+        "isprobability": false,
+        "generatemin": -1,
+        "generatemax": -1,
+        "isreplicated": false,
+        "clonenr": 1,
+        "isreplicatecandidate": false,
+        "isoriginal": true,
+        "children": [
+            {
+                "description": "iv",
+                "isreplacecandidate": false,
+                "isreplaced": false,
+                "value": 10,
+                "isprobability": true,
+                "generatemin": -1,
+                "generatemax": -1,
+                "isreplicated": false,
+                "clonenr": 1,
+                "isreplicatecandidate": false,
+                "isoriginal": false,
+                "children": [
+                    {
+                        "description": "inv_3k",
+                        "isreplacecandidate": true,
+                        "isreplaced": false,
+                        "value": -1,
+                        "isprobability": false,
+                        "generatemin": -1,
+                        "generatemax": -1,
+                        "isreplicated": false,
+                        "clonenr": 1,
+                        "isreplicatecandidate": false,
+                        "isoriginal": false
+                    }
+                ]
+            },
+            {
+                "description": "IV+",
+                "isreplacecandidate": false,
+                "isreplaced": false,
+                "value": 10,
+                "isprobability": true,
+                "generatemin": -1,
+                "generatemax": -1,
+                "isreplicated": false,
+                "clonenr": 1,
+                "isreplicatecandidate": false,
+                "isoriginal": false,
+                "children": [
+                    {
+                        "description": "inv_3k",
+                        "isreplacecandidate": true,
+                        "isreplaced": false,
+                        "value": -1,
+                        "isprobability": false,
+                        "generatemin": -1,
+                        "generatemax": -1,
+                        "isreplicated": false,
+                        "clonenr": 1,
+                        "isreplicatecandidate": false,
+                        "isoriginal": false
+                    }
+                ]
+            },
+            {
+                "description": "iv\u00c2\u00b0",
+                "isreplacecandidate": false,
+                "isreplaced": false,
+                "value": 10,
+                "isprobability": true,
+                "generatemin": -1,
+                "generatemax": -1,
+                "isreplicated": false,
+                "clonenr": 1,
+                "isreplicatecandidate": false,
+                "isoriginal": false,
+                "children": [
+                    {
+                        "description": "inv_3k",
+                        "isreplacecandidate": true,
+                        "isreplaced": false,
+                        "value": -1,
+                        "isprobability": false,
+                        "generatemin": -1,
+                        "generatemax": -1,
+                        "isreplicated": false,
+                        "clonenr": 1,
+                        "isreplicatecandidate": false,
+                        "isoriginal": false
+                    }
+                ]
+            },
+            {
+                "description": "IVsus2",
+                "isreplacecandidate": false,
+                "isreplaced": false,
+                "value": 10,
+                "isprobability": true,
+                "generatemin": -1,
+                "generatemax": -1,
+                "isreplicated": false,
+                "clonenr": 1,
+                "isreplicatecandidate": false,
+                "isoriginal": false
+            },
+            {
+                "description": "IVsus4",
+                "isreplacecandidate": false,
+                "isreplaced": false,
+                "value": 10,
+                "isprobability": true,
+                "generatemin": -1,
+                "generatemax": -1,
+                "isreplicated": false,
+                "clonenr": 1,
+                "isreplicatecandidate": false,
+                "isoriginal": false
+            },
+            {
+                "description": "type",
+                "isreplacecandidate": false,
+                "isreplaced": false,
+                "value": 10,
+                "isprobability": true,
+                "generatemin": -1,
+                "generatemax": -1,
+                "isreplicated": false,
+                "clonenr": 1,
+                "isreplicatecandidate": false,
+                "isoriginal": false,
+                "children": [
+                    {
+                        "description": "bIV",
+                        "isreplacecandidate": false,
+                        "isreplaced": false,
+                        "value": 10,
+                        "isprobability": true,
+                        "generatemin": -1,
+                        "generatemax": -1,
+                        "isreplicated": false,
+                        "clonenr": 1,
+                        "isreplicatecandidate": false,
+                        "isoriginal": false,
+                        "children": [
+                            {
+                                "description": "inv_3k",
+                                "isreplacecandidate": true,
+                                "isreplaced": false,
+                                "value": -1,
+                                "isprobability": false,
+                                "generatemin": -1,
+                                "generatemax": -1,
+                                "isreplicated": false,
+                                "clonenr": 1,
+                                "isreplicatecandidate": false,
+                                "isoriginal": false
+                            }
+                        ]
+                    },
+                    {
+                        "description": "#IV",
+                        "isreplacecandidate": false,
+                        "isreplaced": false,
+                        "value": 10,
+                        "isprobability": true,
+                        "generatemin": -1,
+                        "generatemax": -1,
+                        "isreplicated": false,
+                        "clonenr": 1,
+                        "isreplicatecandidate": false,
+                        "isoriginal": false,
+                        "children": [
+                            {
+                                "description": "inv_3k",
+                                "isreplacecandidate": true,
+                                "isreplaced": false,
+                                "value": -1,
+                                "isprobability": false,
+                                "generatemin": -1,
+                                "generatemax": -1,
+                                "isreplicated": false,
+                                "clonenr": 1,
+                                "isreplicatecandidate": false,
+                                "isoriginal": false
+                            }
+                        ]
+                    },
+                    {
+                        "description": "biv",
+                        "isreplacecandidate": false,
+                        "isreplaced": false,
+                        "value": 10,
+                        "isprobability": true,
+                        "generatemin": -1,
+                        "generatemax": -1,
+                        "isreplicated": false,
+                        "clonenr": 1,
+                        "isreplicatecandidate": false,
+                        "isoriginal": false,
+                        "children": [
+                            {
+                                "description": "inv_3k",
+                                "isreplacecandidate": true,
+                                "isreplaced": false,
+                                "value": -1,
+                                "isprobability": false,
+                                "generatemin": -1,
+                                "generatemax": -1,
+                                "isreplicated": false,
+                                "clonenr": 1,
+                                "isreplicatecandidate": false,
+                                "isoriginal": false
+                            }
+                        ]
+                    },
+                    {
+                        "description": "#iv",
+                        "isreplacecandidate": false,
+                        "isreplaced": false,
+                        "value": 10,
+                        "isprobability": true,
+                        "generatemin": -1,
+                        "generatemax": -1,
+                        "isreplicated": false,
+                        "clonenr": 1,
+                        "isreplicatecandidate": false,
+                        "isoriginal": false,
+                        "children": [
+                            {
+                                "description": "inv_3k",
+                                "isreplacecandidate": true,
+                                "isreplaced": false,
+                                "value": -1,
+                                "isprobability": false,
+                                "generatemin": -1,
+                                "generatemax": -1,
+                                "isreplicated": false,
+                                "clonenr": 1,
+                                "isreplicatecandidate": false,
+                                "isoriginal": false
+                            }
+                        ]
+                    },
+                    {
+                        "description": "bIV+",
+                        "isreplacecandidate": false,
+                        "isreplaced": false,
+                        "value": 10,
+                        "isprobability": true,
+                        "generatemin": -1,
+                        "generatemax": -1,
+                        "isreplicated": false,
+                        "clonenr": 1,
+                        "isreplicatecandidate": false,
+                        "isoriginal": false,
+                        "children": [
+                            {
+                                "description": "inv_3k",
+                                "isreplacecandidate": true,
+                                "isreplaced": false,
+                                "value": -1,
+                                "isprobability": false,
+                                "generatemin": -1,
+                                "generatemax": -1,
+                                "isreplicated": false,
+                                "clonenr": 1,
+                                "isreplicatecandidate": false,
+                                "isoriginal": false
+                            }
+                        ]
+                    },
+                    {
+                        "description": "#IV+",
+                        "isreplacecandidate": false,
+                        "isreplaced": false,
+                        "value": 10,
+                        "isprobability": true,
+                        "generatemin": -1,
+                        "generatemax": -1,
+                        "isreplicated": false,
+                        "clonenr": 1,
+                        "isreplicatecandidate": false,
+                        "isoriginal": false,
+                        "children": [
+                            {
+                                "description": "inv_3k",
+                                "isreplacecandidate": true,
+                                "isreplaced": false,
+                                "value": -1,
+                                "isprobability": false,
+                                "generatemin": -1,
+                                "generatemax": -1,
+                                "isreplicated": false,
+                                "clonenr": 1,
+                                "isreplicatecandidate": false,
+                                "isoriginal": false
+                            }
+                        ]
+                    },
+                    {
+                        "description": "biv\u00c2\u00b0",
+                        "isreplacecandidate": false,
+                        "isreplaced": false,
+                        "value": 10,
+                        "isprobability": true,
+                        "generatemin": -1,
+                        "generatemax": -1,
+                        "isreplicated": false,
+                        "clonenr": 1,
+                        "isreplicatecandidate": false,
+                        "isoriginal": false,
+                        "children": [
+                            {
+                                "description": "inv_3k",
+                                "isreplacecandidate": true,
+                                "isreplaced": false,
+                                "value": -1,
+                                "isprobability": false,
+                                "generatemin": -1,
+                                "generatemax": -1,
+                                "isreplicated": false,
+                                "clonenr": 1,
+                                "isreplicatecandidate": false,
+                                "isoriginal": false
+                            }
+                        ]
+                    },
+                    {
+                        "description": "#iv\u00c2\u00b0",
+                        "isreplacecandidate": false,
+                        "isreplaced": false,
+                        "value": 10,
+                        "isprobability": true,
+                        "generatemin": -1,
+                        "generatemax": -1,
+                        "isreplicated": false,
+                        "clonenr": 1,
+                        "isreplicatecandidate": false,
+                        "isoriginal": false,
+                        "children": [
+                            {
+                                "description": "inv_3k",
+                                "isreplacecandidate": true,
+                                "isreplaced": false,
+                                "value": -1,
+                                "isprobability": false,
+                                "generatemin": -1,
+                                "generatemax": -1,
+                                "isreplicated": false,
+                                "clonenr": 1,
+                                "isreplicatecandidate": false,
+                                "isoriginal": false
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "description": "ii_borr",
+        "isreplacecandidate": false,
+        "isreplaced": false,
+        "value": -1,
+        "isprobability": false,
+        "generatemin": -1,
+        "generatemax": -1,
+        "isreplicated": false,
+        "clonenr": 1,
+        "isreplicatecandidate": false,
+        "isoriginal": true,
+        "children": [
+            {
+                "description": "II",
+                "isreplacecandidate": false,
+                "isreplaced": false,
+                "value": 10,
+                "isprobability": true,
+                "generatemin": -1,
+                "generatemax": -1,
+                "isreplicated": false,
+                "clonenr": 1,
+                "isreplicatecandidate": false,
+                "isoriginal": false,
+                "children": [
+                    {
+                        "description": "inv_3k",
+                        "isreplacecandidate": true,
+                        "isreplaced": false,
+                        "value": -1,
+                        "isprobability": false,
+                        "generatemin": -1,
+                        "generatemax": -1,
+                        "isreplicated": false,
+                        "clonenr": 1,
+                        "isreplicatecandidate": false,
+                        "isoriginal": false
+                    }
+                ]
+            },
+            {
+                "description": "II+",
+                "isreplacecandidate": false,
+                "isreplaced": false,
+                "value": 10,
+                "isprobability": true,
+                "generatemin": -1,
+                "generatemax": -1,
+                "isreplicated": false,
+                "clonenr": 1,
+                "isreplicatecandidate": false,
+                "isoriginal": false,
+                "children": [
+                    {
+                        "description": "inv_3k",
+                        "isreplacecandidate": true,
+                        "isreplaced": false,
+                        "value": -1,
+                        "isprobability": false,
+                        "generatemin": -1,
+                        "generatemax": -1,
+                        "isreplicated": false,
+                        "clonenr": 1,
+                        "isreplicatecandidate": false,
+                        "isoriginal": false
+                    }
+                ]
+            },
+            {
+                "description": "ii\u00c2\u00b0",
+                "isreplacecandidate": false,
+                "isreplaced": false,
+                "value": 10,
+                "isprobability": true,
+                "generatemin": -1,
+                "generatemax": -1,
+                "isreplicated": false,
+                "clonenr": 1,
+                "isreplicatecandidate": false,
+                "isoriginal": false,
+                "children": [
+                    {
+                        "description": "inv_3k",
+                        "isreplacecandidate": true,
+                        "isreplaced": false,
+                        "value": -1,
+                        "isprobability": false,
+                        "generatemin": -1,
+                        "generatemax": -1,
+                        "isreplicated": false,
+                        "clonenr": 1,
+                        "isreplicatecandidate": false,
+                        "isoriginal": false
+                    }
+                ]
+            },
+            {
+                "description": "IIsus2",
+                "isreplacecandidate": false,
+                "isreplaced": false,
+                "value": 10,
+                "isprobability": true,
+                "generatemin": -1,
+                "generatemax": -1,
+                "isreplicated": false,
+                "clonenr": 1,
+                "isreplicatecandidate": false,
+                "isoriginal": false
+            },
+            {
+                "description": "IIsus4",
+                "isreplacecandidate": false,
+                "isreplaced": false,
+                "value": 10,
+                "isprobability": true,
+                "generatemin": -1,
+                "generatemax": -1,
+                "isreplicated": false,
+                "clonenr": 1,
+                "isreplicatecandidate": false,
+                "isoriginal": false
+            },
+            {
+                "description": "type",
+                "isreplacecandidate": false,
+                "isreplaced": false,
+                "value": 10,
+                "isprobability": true,
+                "generatemin": -1,
+                "generatemax": -1,
+                "isreplicated": false,
+                "clonenr": 1,
+                "isreplicatecandidate": false,
+                "isoriginal": false,
+                "children": [
+                    {
+                        "description": "bII",
+                        "isreplacecandidate": false,
+                        "isreplaced": false,
+                        "value": 10,
+                        "isprobability": true,
+                        "generatemin": -1,
+                        "generatemax": -1,
+                        "isreplicated": false,
+                        "clonenr": 1,
+                        "isreplicatecandidate": false,
+                        "isoriginal": false,
+                        "children": [
+                            {
+                                "description": "inv_3k",
+                                "isreplacecandidate": true,
+                                "isreplaced": false,
+                                "value": -1,
+                                "isprobability": false,
+                                "generatemin": -1,
+                                "generatemax": -1,
+                                "isreplicated": false,
+                                "clonenr": 1,
+                                "isreplicatecandidate": false,
+                                "isoriginal": false
+                            }
+                        ]
+                    },
+                    {
+                        "description": "#II",
+                        "isreplacecandidate": false,
+                        "isreplaced": false,
+                        "value": 10,
+                        "isprobability": true,
+                        "generatemin": -1,
+                        "generatemax": -1,
+                        "isreplicated": false,
+                        "clonenr": 1,
+                        "isreplicatecandidate": false,
+                        "isoriginal": false,
+                        "children": [
+                            {
+                                "description": "inv_3k",
+                                "isreplacecandidate": true,
+                                "isreplaced": false,
+                                "value": -1,
+                                "isprobability": false,
+                                "generatemin": -1,
+                                "generatemax": -1,
+                                "isreplicated": false,
+                                "clonenr": 1,
+                                "isreplicatecandidate": false,
+                                "isoriginal": false
+                            }
+                        ]
+                    },
+                    {
+                        "description": "bii",
+                        "isreplacecandidate": false,
+                        "isreplaced": false,
+                        "value": 10,
+                        "isprobability": true,
+                        "generatemin": -1,
+                        "generatemax": -1,
+                        "isreplicated": false,
+                        "clonenr": 1,
+                        "isreplicatecandidate": false,
+                        "isoriginal": false,
+                        "children": [
+                            {
+                                "description": "inv_3k",
+                                "isreplacecandidate": true,
+                                "isreplaced": false,
+                                "value": -1,
+                                "isprobability": false,
+                                "generatemin": -1,
+                                "generatemax": -1,
+                                "isreplicated": false,
+                                "clonenr": 1,
+                                "isreplicatecandidate": false,
+                                "isoriginal": false
+                            }
+                        ]
+                    },
+                    {
+                        "description": "#ii",
+                        "isreplacecandidate": false,
+                        "isreplaced": false,
+                        "value": 10,
+                        "isprobability": true,
+                        "generatemin": -1,
+                        "generatemax": -1,
+                        "isreplicated": false,
+                        "clonenr": 1,
+                        "isreplicatecandidate": false,
+                        "isoriginal": false,
+                        "children": [
+                            {
+                                "description": "inv_3k",
+                                "isreplacecandidate": true,
+                                "isreplaced": false,
+                                "value": -1,
+                                "isprobability": false,
+                                "generatemin": -1,
+                                "generatemax": -1,
+                                "isreplicated": false,
+                                "clonenr": 1,
+                                "isreplicatecandidate": false,
+                                "isoriginal": false
+                            }
+                        ]
+                    },
+                    {
+                        "description": "bII+",
+                        "isreplacecandidate": false,
+                        "isreplaced": false,
+                        "value": 10,
+                        "isprobability": true,
+                        "generatemin": -1,
+                        "generatemax": -1,
+                        "isreplicated": false,
+                        "clonenr": 1,
+                        "isreplicatecandidate": false,
+                        "isoriginal": false,
+                        "children": [
+                            {
+                                "description": "inv_3k",
+                                "isreplacecandidate": true,
+                                "isreplaced": false,
+                                "value": -1,
+                                "isprobability": false,
+                                "generatemin": -1,
+                                "generatemax": -1,
+                                "isreplicated": false,
+                                "clonenr": 1,
+                                "isreplicatecandidate": false,
+                                "isoriginal": false
+                            }
+                        ]
+                    },
+                    {
+                        "description": "#II+",
+                        "isreplacecandidate": false,
+                        "isreplaced": false,
+                        "value": 10,
+                        "isprobability": true,
+                        "generatemin": -1,
+                        "generatemax": -1,
+                        "isreplicated": false,
+                        "clonenr": 1,
+                        "isreplicatecandidate": false,
+                        "isoriginal": false,
+                        "children": [
+                            {
+                                "description": "inv_3k",
+                                "isreplacecandidate": true,
+                                "isreplaced": false,
+                                "value": -1,
+                                "isprobability": false,
+                                "generatemin": -1,
+                                "generatemax": -1,
+                                "isreplicated": false,
+                                "clonenr": 1,
+                                "isreplicatecandidate": false,
+                                "isoriginal": false
+                            }
+                        ]
+                    },
+                    {
+                        "description": "bii\u00c2\u00b0",
+                        "isreplacecandidate": false,
+                        "isreplaced": false,
+                        "value": 10,
+                        "isprobability": true,
+                        "generatemin": -1,
+                        "generatemax": -1,
+                        "isreplicated": false,
+                        "clonenr": 1,
+                        "isreplicatecandidate": false,
+                        "isoriginal": false,
+                        "children": [
+                            {
+                                "description": "inv_3k",
+                                "isreplacecandidate": true,
+                                "isreplaced": false,
+                                "value": -1,
+                                "isprobability": false,
+                                "generatemin": -1,
+                                "generatemax": -1,
+                                "isreplicated": false,
+                                "clonenr": 1,
+                                "isreplicatecandidate": false,
+                                "isoriginal": false
+                            }
+                        ]
+                    },
+                    {
+                        "description": "#ii\u00c2\u00b0",
+                        "isreplacecandidate": false,
+                        "isreplaced": false,
+                        "value": 10,
+                        "isprobability": true,
+                        "generatemin": -1,
+                        "generatemax": -1,
+                        "isreplicated": false,
+                        "clonenr": 1,
+                        "isreplicatecandidate": false,
+                        "isoriginal": false,
+                        "children": [
+                            {
+                                "description": "inv_3k",
+                                "isreplacecandidate": true,
+                                "isreplaced": false,
+                                "value": -1,
+                                "isprobability": false,
+                                "generatemin": -1,
+                                "generatemax": -1,
+                                "isreplicated": false,
+                                "clonenr": 1,
+                                "isreplicatecandidate": false,
+                                "isoriginal": false
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "description": "V_borr",
+        "isreplacecandidate": false,
+        "isreplaced": false,
+        "value": -1,
+        "isprobability": false,
+        "generatemin": -1,
+        "generatemax": -1,
+        "isreplicated": false,
+        "clonenr": 1,
+        "isreplicatecandidate": false,
+        "isoriginal": true,
+        "children": [
+            {
+                "description": "v",
+                "isreplacecandidate": false,
+                "isreplaced": false,
+                "value": 10,
+                "isprobability": true,
+                "generatemin": -1,
+                "generatemax": -1,
+                "isreplicated": false,
+                "clonenr": 1,
+                "isreplicatecandidate": false,
+                "isoriginal": false,
+                "children": [
+                    {
+                        "description": "inv_3k",
+                        "isreplacecandidate": true,
+                        "isreplaced": false,
+                        "value": -1,
+                        "isprobability": false,
+                        "generatemin": -1,
+                        "generatemax": -1,
+                        "isreplicated": false,
+                        "clonenr": 1,
+                        "isreplicatecandidate": false,
+                        "isoriginal": false
+                    }
+                ]
+            },
+            {
+                "description": "v\u00c2\u00b0",
+                "isreplacecandidate": false,
+                "isreplaced": false,
+                "value": 10,
+                "isprobability": true,
+                "generatemin": -1,
+                "generatemax": -1,
+                "isreplicated": false,
+                "clonenr": 1,
+                "isreplicatecandidate": false,
+                "isoriginal": false,
+                "children": [
+                    {
+                        "description": "inv_3k",
+                        "isreplacecandidate": true,
+                        "isreplaced": false,
+                        "value": -1,
+                        "isprobability": false,
+                        "generatemin": -1,
+                        "generatemax": -1,
+                        "isreplicated": false,
+                        "clonenr": 1,
+                        "isreplicatecandidate": false,
+                        "isoriginal": false
+                    }
+                ]
+            },
+            {
+                "description": "V+",
+                "isreplacecandidate": false,
+                "isreplaced": false,
+                "value": 10,
+                "isprobability": true,
+                "generatemin": -1,
+                "generatemax": -1,
+                "isreplicated": false,
+                "clonenr": 1,
+                "isreplicatecandidate": false,
+                "isoriginal": false,
+                "children": [
+                    {
+                        "description": "inv_3k",
+                        "isreplacecandidate": true,
+                        "isreplaced": false,
+                        "value": -1,
+                        "isprobability": false,
+                        "generatemin": -1,
+                        "generatemax": -1,
+                        "isreplicated": false,
+                        "clonenr": 1,
+                        "isreplicatecandidate": false,
+                        "isoriginal": false
+                    }
+                ]
+            },
+            {
+                "description": "Vsus2",
+                "isreplacecandidate": false,
+                "isreplaced": false,
+                "value": 10,
+                "isprobability": true,
+                "generatemin": -1,
+                "generatemax": -1,
+                "isreplicated": false,
+                "clonenr": 1,
+                "isreplicatecandidate": false,
+                "isoriginal": false
+            },
+            {
+                "description": "Vsus4",
+                "isreplacecandidate": false,
+                "isreplaced": false,
+                "value": 10,
+                "isprobability": true,
+                "generatemin": -1,
+                "generatemax": -1,
+                "isreplicated": false,
+                "clonenr": 1,
+                "isreplicatecandidate": false,
+                "isoriginal": false
+            },
+            {
+                "description": "type",
+                "isreplacecandidate": false,
+                "isreplaced": false,
+                "value": 10,
+                "isprobability": true,
+                "generatemin": -1,
+                "generatemax": -1,
+                "isreplicated": false,
+                "clonenr": 1,
+                "isreplicatecandidate": false,
+                "isoriginal": false,
+                "children": [
+                    {
+                        "description": "bV",
+                        "isreplacecandidate": false,
+                        "isreplaced": false,
+                        "value": 10,
+                        "isprobability": true,
+                        "generatemin": -1,
+                        "generatemax": -1,
+                        "isreplicated": false,
+                        "clonenr": 1,
+                        "isreplicatecandidate": false,
+                        "isoriginal": false,
+                        "children": [
+                            {
+                                "description": "inv_3k",
+                                "isreplacecandidate": true,
+                                "isreplaced": false,
+                                "value": -1,
+                                "isprobability": false,
+                                "generatemin": -1,
+                                "generatemax": -1,
+                                "isreplicated": false,
+                                "clonenr": 1,
+                                "isreplicatecandidate": false,
+                                "isoriginal": false
+                            }
+                        ]
+                    },
+                    {
+                        "description": "#V",
+                        "isreplacecandidate": false,
+                        "isreplaced": false,
+                        "value": 10,
+                        "isprobability": true,
+                        "generatemin": -1,
+                        "generatemax": -1,
+                        "isreplicated": false,
+                        "clonenr": 1,
+                        "isreplicatecandidate": false,
+                        "isoriginal": false,
+                        "children": [
+                            {
+                                "description": "inv_3k",
+                                "isreplacecandidate": true,
+                                "isreplaced": false,
+                                "value": -1,
+                                "isprobability": false,
+                                "generatemin": -1,
+                                "generatemax": -1,
+                                "isreplicated": false,
+                                "clonenr": 1,
+                                "isreplicatecandidate": false,
+                                "isoriginal": false
+                            }
+                        ]
+                    },
+                    {
+                        "description": "bv",
+                        "isreplacecandidate": false,
+                        "isreplaced": false,
+                        "value": 10,
+                        "isprobability": true,
+                        "generatemin": -1,
+                        "generatemax": -1,
+                        "isreplicated": false,
+                        "clonenr": 1,
+                        "isreplicatecandidate": false,
+                        "isoriginal": false,
+                        "children": [
+                            {
+                                "description": "inv_3k",
+                                "isreplacecandidate": true,
+                                "isreplaced": false,
+                                "value": -1,
+                                "isprobability": false,
+                                "generatemin": -1,
+                                "generatemax": -1,
+                                "isreplicated": false,
+                                "clonenr": 1,
+                                "isreplicatecandidate": false,
+                                "isoriginal": false
+                            }
+                        ]
+                    },
+                    {
+                        "description": "#v",
+                        "isreplacecandidate": false,
+                        "isreplaced": false,
+                        "value": 10,
+                        "isprobability": true,
+                        "generatemin": -1,
+                        "generatemax": -1,
+                        "isreplicated": false,
+                        "clonenr": 1,
+                        "isreplicatecandidate": false,
+                        "isoriginal": false,
+                        "children": [
+                            {
+                                "description": "inv_3k",
+                                "isreplacecandidate": true,
+                                "isreplaced": false,
+                                "value": -1,
+                                "isprobability": false,
+                                "generatemin": -1,
+                                "generatemax": -1,
+                                "isreplicated": false,
+                                "clonenr": 1,
+                                "isreplicatecandidate": false,
+                                "isoriginal": false
+                            }
+                        ]
+                    },
+                    {
+                        "description": "bV+",
+                        "isreplacecandidate": false,
+                        "isreplaced": false,
+                        "value": 10,
+                        "isprobability": true,
+                        "generatemin": -1,
+                        "generatemax": -1,
+                        "isreplicated": false,
+                        "clonenr": 1,
+                        "isreplicatecandidate": false,
+                        "isoriginal": false,
+                        "children": [
+                            {
+                                "description": "inv_3k",
+                                "isreplacecandidate": true,
+                                "isreplaced": false,
+                                "value": -1,
+                                "isprobability": false,
+                                "generatemin": -1,
+                                "generatemax": -1,
+                                "isreplicated": false,
+                                "clonenr": 1,
+                                "isreplicatecandidate": false,
+                                "isoriginal": false
+                            }
+                        ]
+                    },
+                    {
+                        "description": "#V+",
+                        "isreplacecandidate": false,
+                        "isreplaced": false,
+                        "value": 10,
+                        "isprobability": true,
+                        "generatemin": -1,
+                        "generatemax": -1,
+                        "isreplicated": false,
+                        "clonenr": 1,
+                        "isreplicatecandidate": false,
+                        "isoriginal": false,
+                        "children": [
+                            {
+                                "description": "inv_3k",
+                                "isreplacecandidate": true,
+                                "isreplaced": false,
+                                "value": -1,
+                                "isprobability": false,
+                                "generatemin": -1,
+                                "generatemax": -1,
+                                "isreplicated": false,
+                                "clonenr": 1,
+                                "isreplicatecandidate": false,
+                                "isoriginal": false
+                            }
+                        ]
+                    },
+                    {
+                        "description": "bv\u00c2\u00b0",
+                        "isreplacecandidate": false,
+                        "isreplaced": false,
+                        "value": 10,
+                        "isprobability": true,
+                        "generatemin": -1,
+                        "generatemax": -1,
+                        "isreplicated": false,
+                        "clonenr": 1,
+                        "isreplicatecandidate": false,
+                        "isoriginal": false,
+                        "children": [
+                            {
+                                "description": "inv_3k",
+                                "isreplacecandidate": true,
+                                "isreplaced": false,
+                                "value": -1,
+                                "isprobability": false,
+                                "generatemin": -1,
+                                "generatemax": -1,
+                                "isreplicated": false,
+                                "clonenr": 1,
+                                "isreplicatecandidate": false,
+                                "isoriginal": false
+                            }
+                        ]
+                    },
+                    {
+                        "description": "#v\u00c2\u00b0",
+                        "isreplacecandidate": false,
+                        "isreplaced": false,
+                        "value": 10,
+                        "isprobability": true,
+                        "generatemin": -1,
+                        "generatemax": -1,
+                        "isreplicated": false,
+                        "clonenr": 1,
+                        "isreplicatecandidate": false,
+                        "isoriginal": false,
+                        "children": [
+                            {
+                                "description": "inv_3k",
+                                "isreplacecandidate": true,
+                                "isreplaced": false,
+                                "value": -1,
+                                "isprobability": false,
+                                "generatemin": -1,
+                                "generatemax": -1,
+                                "isreplicated": false,
+                                "clonenr": 1,
+                                "isreplicatecandidate": false,
+                                "isoriginal": false
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "description": "vii\u00c2\u00b0_borr",
+        "isreplacecandidate": false,
+        "isreplaced": false,
+        "value": -1,
+        "isprobability": false,
+        "generatemin": -1,
+        "generatemax": -1,
+        "isreplicated": false,
+        "clonenr": 1,
+        "isreplicatecandidate": false,
+        "isoriginal": true,
+        "children": [
+            {
+                "description": "VII",
+                "isreplacecandidate": false,
+                "isreplaced": false,
+                "value": 10,
+                "isprobability": true,
+                "generatemin": -1,
+                "generatemax": -1,
+                "isreplicated": false,
+                "clonenr": 1,
+                "isreplicatecandidate": false,
+                "isoriginal": false,
+                "children": [
+                    {
+                        "description": "inv_3k",
+                        "isreplacecandidate": true,
+                        "isreplaced": false,
+                        "value": -1,
+                        "isprobability": false,
+                        "generatemin": -1,
+                        "generatemax": -1,
+                        "isreplicated": false,
+                        "clonenr": 1,
+                        "isreplicatecandidate": false,
+                        "isoriginal": false
+                    }
+                ]
+            },
+            {
+                "description": "VII+",
+                "isreplacecandidate": false,
+                "isreplaced": false,
+                "value": 10,
+                "isprobability": true,
+                "generatemin": -1,
+                "generatemax": -1,
+                "isreplicated": false,
+                "clonenr": 1,
+                "isreplicatecandidate": false,
+                "isoriginal": false,
+                "children": [
+                    {
+                        "description": "inv_3k",
+                        "isreplacecandidate": true,
+                        "isreplaced": false,
+                        "value": -1,
+                        "isprobability": false,
+                        "generatemin": -1,
+                        "generatemax": -1,
+                        "isreplicated": false,
+                        "clonenr": 1,
+                        "isreplicatecandidate": false,
+                        "isoriginal": false
+                    }
+                ]
+            },
+            {
+                "description": "vii",
+                "isreplacecandidate": false,
+                "isreplaced": false,
+                "value": 10,
+                "isprobability": true,
+                "generatemin": -1,
+                "generatemax": -1,
+                "isreplicated": false,
+                "clonenr": 1,
+                "isreplicatecandidate": false,
+                "isoriginal": false,
+                "children": [
+                    {
+                        "description": "inv_3k",
+                        "isreplacecandidate": true,
+                        "isreplaced": false,
+                        "value": -1,
+                        "isprobability": false,
+                        "generatemin": -1,
+                        "generatemax": -1,
+                        "isreplicated": false,
+                        "clonenr": 1,
+                        "isreplicatecandidate": false,
+                        "isoriginal": false
+                    }
+                ]
+            },
+            {
+                "description": "VIIsus2",
+                "isreplacecandidate": false,
+                "isreplaced": false,
+                "value": 10,
+                "isprobability": true,
+                "generatemin": -1,
+                "generatemax": -1,
+                "isreplicated": false,
+                "clonenr": 1,
+                "isreplicatecandidate": false,
+                "isoriginal": false
+            },
+            {
+                "description": "VIIsus4",
+                "isreplacecandidate": false,
+                "isreplaced": false,
+                "value": 10,
+                "isprobability": true,
+                "generatemin": -1,
+                "generatemax": -1,
+                "isreplicated": false,
+                "clonenr": 1,
+                "isreplicatecandidate": false,
+                "isoriginal": false
+            },
+            {
+                "description": "type",
+                "isreplacecandidate": false,
+                "isreplaced": false,
+                "value": 10,
+                "isprobability": true,
+                "generatemin": -1,
+                "generatemax": -1,
+                "isreplicated": false,
+                "clonenr": 1,
+                "isreplicatecandidate": false,
+                "isoriginal": false,
+                "children": [
+                    {
+                        "description": "bVII",
+                        "isreplacecandidate": false,
+                        "isreplaced": false,
+                        "value": 10,
+                        "isprobability": true,
+                        "generatemin": -1,
+                        "generatemax": -1,
+                        "isreplicated": false,
+                        "clonenr": 1,
+                        "isreplicatecandidate": false,
+                        "isoriginal": false,
+                        "children": [
+                            {
+                                "description": "inv_3k",
+                                "isreplacecandidate": true,
+                                "isreplaced": false,
+                                "value": -1,
+                                "isprobability": false,
+                                "generatemin": -1,
+                                "generatemax": -1,
+                                "isreplicated": false,
+                                "clonenr": 1,
+                                "isreplicatecandidate": false,
+                                "isoriginal": false
+                            }
+                        ]
+                    },
+                    {
+                        "description": "#VII",
+                        "isreplacecandidate": false,
+                        "isreplaced": false,
+                        "value": 10,
+                        "isprobability": true,
+                        "generatemin": -1,
+                        "generatemax": -1,
+                        "isreplicated": false,
+                        "clonenr": 1,
+                        "isreplicatecandidate": false,
+                        "isoriginal": false,
+                        "children": [
+                            {
+                                "description": "inv_3k",
+                                "isreplacecandidate": true,
+                                "isreplaced": false,
+                                "value": -1,
+                                "isprobability": false,
+                                "generatemin": -1,
+                                "generatemax": -1,
+                                "isreplicated": false,
+                                "clonenr": 1,
+                                "isreplicatecandidate": false,
+                                "isoriginal": false
+                            }
+                        ]
+                    },
+                    {
+                        "description": "bvii",
+                        "isreplacecandidate": false,
+                        "isreplaced": false,
+                        "value": 10,
+                        "isprobability": true,
+                        "generatemin": -1,
+                        "generatemax": -1,
+                        "isreplicated": false,
+                        "clonenr": 1,
+                        "isreplicatecandidate": false,
+                        "isoriginal": false,
+                        "children": [
+                            {
+                                "description": "inv_3k",
+                                "isreplacecandidate": true,
+                                "isreplaced": false,
+                                "value": -1,
+                                "isprobability": false,
+                                "generatemin": -1,
+                                "generatemax": -1,
+                                "isreplicated": false,
+                                "clonenr": 1,
+                                "isreplicatecandidate": false,
+                                "isoriginal": false
+                            }
+                        ]
+                    },
+                    {
+                        "description": "#vii",
+                        "isreplacecandidate": false,
+                        "isreplaced": false,
+                        "value": 10,
+                        "isprobability": true,
+                        "generatemin": -1,
+                        "generatemax": -1,
+                        "isreplicated": false,
+                        "clonenr": 1,
+                        "isreplicatecandidate": false,
+                        "isoriginal": false,
+                        "children": [
+                            {
+                                "description": "inv_3k",
+                                "isreplacecandidate": true,
+                                "isreplaced": false,
+                                "value": -1,
+                                "isprobability": false,
+                                "generatemin": -1,
+                                "generatemax": -1,
+                                "isreplicated": false,
+                                "clonenr": 1,
+                                "isreplicatecandidate": false,
+                                "isoriginal": false
+                            }
+                        ]
+                    },
+                    {
+                        "description": "bVII+",
+                        "isreplacecandidate": false,
+                        "isreplaced": false,
+                        "value": 10,
+                        "isprobability": true,
+                        "generatemin": -1,
+                        "generatemax": -1,
+                        "isreplicated": false,
+                        "clonenr": 1,
+                        "isreplicatecandidate": false,
+                        "isoriginal": false,
+                        "children": [
+                            {
+                                "description": "inv_3k",
+                                "isreplacecandidate": true,
+                                "isreplaced": false,
+                                "value": -1,
+                                "isprobability": false,
+                                "generatemin": -1,
+                                "generatemax": -1,
+                                "isreplicated": false,
+                                "clonenr": 1,
+                                "isreplicatecandidate": false,
+                                "isoriginal": false
+                            }
+                        ]
+                    },
+                    {
+                        "description": "#VII+",
+                        "isreplacecandidate": false,
+                        "isreplaced": false,
+                        "value": 10,
+                        "isprobability": true,
+                        "generatemin": -1,
+                        "generatemax": -1,
+                        "isreplicated": false,
+                        "clonenr": 1,
+                        "isreplicatecandidate": false,
+                        "isoriginal": false,
+                        "children": [
+                            {
+                                "description": "inv_3k",
+                                "isreplacecandidate": true,
+                                "isreplaced": false,
+                                "value": -1,
+                                "isprobability": false,
+                                "generatemin": -1,
+                                "generatemax": -1,
+                                "isreplicated": false,
+                                "clonenr": 1,
+                                "isreplicatecandidate": false,
+                                "isoriginal": false
+                            }
+                        ]
+                    },
+                    {
+                        "description": "bvii\u00c2\u00b0",
+                        "isreplacecandidate": false,
+                        "isreplaced": false,
+                        "value": 10,
+                        "isprobability": true,
+                        "generatemin": -1,
+                        "generatemax": -1,
+                        "isreplicated": false,
+                        "clonenr": 1,
+                        "isreplicatecandidate": false,
+                        "isoriginal": false,
+                        "children": [
+                            {
+                                "description": "inv_3k",
+                                "isreplacecandidate": true,
+                                "isreplaced": false,
+                                "value": -1,
+                                "isprobability": false,
+                                "generatemin": -1,
+                                "generatemax": -1,
+                                "isreplicated": false,
+                                "clonenr": 1,
+                                "isreplicatecandidate": false,
+                                "isoriginal": false
+                            }
+                        ]
+                    },
+                    {
+                        "description": "#vii\u00c2\u00b0",
+                        "isreplacecandidate": false,
+                        "isreplaced": false,
+                        "value": 10,
+                        "isprobability": true,
+                        "generatemin": -1,
+                        "generatemax": -1,
+                        "isreplicated": false,
+                        "clonenr": 1,
+                        "isreplicatecandidate": false,
+                        "isoriginal": false,
+                        "children": [
+                            {
+                                "description": "inv_3k",
+                                "isreplacecandidate": true,
+                                "isreplaced": false,
+                                "value": -1,
+                                "isprobability": false,
+                                "generatemin": -1,
+                                "generatemax": -1,
+                                "isreplicated": false,
+                                "clonenr": 1,
+                                "isreplicatecandidate": false,
+                                "isoriginal": false
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "description": "T_major",
+        "isreplacecandidate": false,
+        "isreplaced": false,
+        "value": -1,
+        "isprobability": false,
+        "generatemin": -1,
+        "generatemax": -1,
+        "isreplicated": false,
+        "clonenr": 1,
+        "isreplicatecandidate": false,
+        "isoriginal": true,
+        "children": [
+            {
+                "description": "I",
+                "isreplacecandidate": false,
+                "isreplaced": false,
+                "value": 10,
+                "isprobability": true,
+                "generatemin": -1,
+                "generatemax": -1,
+                "isreplicated": false,
+                "clonenr": 1,
+                "isreplicatecandidate": false,
+                "isoriginal": false,
+                "children": [
+                    {
+                        "description": "inv_3k",
+                        "isreplacecandidate": true,
+                        "isreplaced": false,
+                        "value": -1,
+                        "isprobability": false,
+                        "generatemin": -1,
+                        "generatemax": -1,
+                        "isreplicated": false,
+                        "clonenr": 1,
+                        "isreplicatecandidate": false,
+                        "isoriginal": false
+                    }
+                ]
+            },
+            {
+                "description": "iii",
+                "isreplacecandidate": false,
+                "isreplaced": false,
+                "value": 10,
+                "isprobability": true,
+                "generatemin": -1,
+                "generatemax": -1,
+                "isreplicated": false,
+                "clonenr": 1,
+                "isreplicatecandidate": false,
+                "isoriginal": false,
+                "children": [
+                    {
+                        "description": "inv_3k",
+                        "isreplacecandidate": true,
+                        "isreplaced": false,
+                        "value": -1,
+                        "isprobability": false,
+                        "generatemin": -1,
+                        "generatemax": -1,
+                        "isreplicated": false,
+                        "clonenr": 1,
+                        "isreplicatecandidate": false,
+                        "isoriginal": false
+                    }
+                ]
+            },
+            {
+                "description": "vi",
+                "isreplacecandidate": false,
+                "isreplaced": false,
+                "value": 10,
+                "isprobability": true,
+                "generatemin": -1,
+                "generatemax": -1,
+                "isreplicated": false,
+                "clonenr": 1,
+                "isreplicatecandidate": false,
+                "isoriginal": false,
+                "children": [
+                    {
+                        "description": "inv_3k",
+                        "isreplacecandidate": true,
+                        "isreplaced": false,
+                        "value": -1,
+                        "isprobability": false,
+                        "generatemin": -1,
+                        "generatemax": -1,
+                        "isreplicated": false,
+                        "clonenr": 1,
+                        "isreplicatecandidate": false,
+                        "isoriginal": false
+                    }
+                ]
+            },
+            {
+                "description": "I_borr",
+                "isreplacecandidate": true,
+                "isreplaced": false,
+                "value": 10,
+                "isprobability": true,
+                "generatemin": -1,
+                "generatemax": -1,
+                "isreplicated": false,
+                "clonenr": 1,
+                "isreplicatecandidate": false,
+                "isoriginal": false
+            },
+            {
+                "description": "iii_borr",
+                "isreplacecandidate": true,
+                "isreplaced": false,
+                "value": 10,
+                "isprobability": true,
+                "generatemin": -1,
+                "generatemax": -1,
+                "isreplicated": false,
+                "clonenr": 1,
+                "isreplicatecandidate": false,
+                "isoriginal": false
+            },
+            {
+                "description": "vi_borr",
+                "isreplacecandidate": true,
+                "isreplaced": false,
+                "value": 10,
+                "isprobability": true,
+                "generatemin": -1,
+                "generatemax": -1,
+                "isreplicated": false,
+                "clonenr": 1,
+                "isreplicatecandidate": false,
+                "isoriginal": false
+            },
+            {
+                "description": "type",
+                "isreplacecandidate": false,
+                "isreplaced": false,
+                "value": 10,
+                "isprobability": true,
+                "generatemin": -1,
+                "generatemax": -1,
+                "isreplicated": false,
+                "clonenr": 1,
+                "isreplicatecandidate": false,
+                "isoriginal": false,
+                "children": [
+                    {
+                        "description": "type",
+                        "isreplacecandidate": false,
+                        "isreplaced": false,
+                        "value": -1,
+                        "isprobability": false,
+                        "generatemin": -1,
+                        "generatemax": -1,
+                        "isreplicated": false,
+                        "clonenr": 1,
+                        "isreplicatecandidate": false,
+                        "isoriginal": false,
+                        "children": [
+                            {
+                                "description": "V/I",
+                                "isreplacecandidate": false,
+                                "isreplaced": false,
+                                "value": 10,
+                                "isprobability": true,
+                                "generatemin": -1,
+                                "generatemax": -1,
+                                "isreplicated": false,
+                                "clonenr": 1,
+                                "isreplicatecandidate": false,
+                                "isoriginal": false,
+                                "children": [
+                                    {
+                                        "description": "inv_3k",
+                                        "isreplacecandidate": true,
+                                        "isreplaced": false,
+                                        "value": -1,
+                                        "isprobability": false,
+                                        "generatemin": -1,
+                                        "generatemax": -1,
+                                        "isreplicated": false,
+                                        "clonenr": 1,
+                                        "isreplicatecandidate": false,
+                                        "isoriginal": false
+                                    }
+                                ]
+                            },
+                            {
+                                "description": "V7/I",
+                                "isreplacecandidate": false,
+                                "isreplaced": false,
+                                "value": 10,
+                                "isprobability": true,
+                                "generatemin": -1,
+                                "generatemax": -1,
+                                "isreplicated": false,
+                                "clonenr": 1,
+                                "isreplicatecandidate": false,
+                                "isoriginal": false,
+                                "children": [
+                                    {
+                                        "description": "inv_4k",
+                                        "isreplacecandidate": true,
+                                        "isreplaced": false,
+                                        "value": -1,
+                                        "isprobability": false,
+                                        "generatemin": -1,
+                                        "generatemax": -1,
+                                        "isreplicated": false,
+                                        "clonenr": 1,
+                                        "isreplicatecandidate": false,
+                                        "isoriginal": false
+                                    }
+                                ]
+                            },
+                            {
+                                "description": "vii\u00c2\u00b0/I",
+                                "isreplacecandidate": false,
+                                "isreplaced": false,
+                                "value": 10,
+                                "isprobability": true,
+                                "generatemin": -1,
+                                "generatemax": -1,
+                                "isreplicated": false,
+                                "clonenr": 1,
+                                "isreplicatecandidate": false,
+                                "isoriginal": false,
+                                "children": [
+                                    {
+                                        "description": "inv_3k",
+                                        "isreplacecandidate": true,
+                                        "isreplaced": false,
+                                        "value": -1,
+                                        "isprobability": false,
+                                        "generatemin": -1,
+                                        "generatemax": -1,
+                                        "isreplicated": false,
+                                        "clonenr": 1,
+                                        "isreplicatecandidate": false,
+                                        "isoriginal": false
+                                    }
+                                ]
+                            },
+                            {
+                                "description": "vii\u00c2\u00b07/I",
+                                "isreplacecandidate": false,
+                                "isreplaced": false,
+                                "value": 10,
+                                "isprobability": true,
+                                "generatemin": -1,
+                                "generatemax": -1,
+                                "isreplicated": false,
+                                "clonenr": 1,
+                                "isreplicatecandidate": false,
+                                "isoriginal": false,
+                                "children": [
+                                    {
+                                        "description": "inv_4k",
+                                        "isreplacecandidate": true,
+                                        "isreplaced": false,
+                                        "value": -1,
+                                        "isprobability": false,
+                                        "generatemin": -1,
+                                        "generatemax": -1,
+                                        "isreplicated": false,
+                                        "clonenr": 1,
+                                        "isreplicatecandidate": false,
+                                        "isoriginal": false
+                                    }
+                                ]
+                            },
+                            {
+                                "description": "bi\u00c2\u00b0",
+                                "isreplacecandidate": false,
+                                "isreplaced": false,
+                                "value": 10,
+                                "isprobability": true,
+                                "generatemin": -1,
+                                "generatemax": -1,
+                                "isreplicated": false,
+                                "clonenr": 1,
+                                "isreplicatecandidate": false,
+                                "isoriginal": false,
+                                "children": [
+                                    {
+                                        "description": "inv_3k",
+                                        "isreplacecandidate": true,
+                                        "isreplaced": false,
+                                        "value": -1,
+                                        "isprobability": false,
+                                        "generatemin": -1,
+                                        "generatemax": -1,
+                                        "isreplicated": false,
+                                        "clonenr": 1,
+                                        "isreplicatecandidate": false,
+                                        "isoriginal": false
+                                    }
+                                ]
+                            },
+                            {
+                                "description": "bi\u00c2\u00b07",
+                                "isreplacecandidate": false,
+                                "isreplaced": false,
+                                "value": 10,
+                                "isprobability": true,
+                                "generatemin": -1,
+                                "generatemax": -1,
+                                "isreplicated": false,
+                                "clonenr": 1,
+                                "isreplicatecandidate": false,
+                                "isoriginal": false,
+                                "children": [
+                                    {
+                                        "description": "inv_4k",
+                                        "isreplacecandidate": true,
+                                        "isreplaced": false,
+                                        "value": -1,
+                                        "isprobability": false,
+                                        "generatemin": -1,
+                                        "generatemax": -1,
+                                        "isreplicated": false,
+                                        "clonenr": 1,
+                                        "isreplicatecandidate": false,
+                                        "isoriginal": false
+                                    }
+                                ]
+                            },
+                            {
+                                "description": "#i\u00c2\u00b0",
+                                "isreplacecandidate": false,
+                                "isreplaced": false,
+                                "value": 10,
+                                "isprobability": true,
+                                "generatemin": -1,
+                                "generatemax": -1,
+                                "isreplicated": false,
+                                "clonenr": 1,
+                                "isreplicatecandidate": false,
+                                "isoriginal": false,
+                                "children": [
+                                    {
+                                        "description": "inv_3k",
+                                        "isreplacecandidate": true,
+                                        "isreplaced": false,
+                                        "value": -1,
+                                        "isprobability": false,
+                                        "generatemin": -1,
+                                        "generatemax": -1,
+                                        "isreplicated": false,
+                                        "clonenr": 1,
+                                        "isreplicatecandidate": false,
+                                        "isoriginal": false
+                                    }
+                                ]
+                            },
+                            {
+                                "description": "#i\u00c2\u00b07",
+                                "isreplacecandidate": false,
+                                "isreplaced": false,
+                                "value": 10,
+                                "isprobability": true,
+                                "generatemin": -1,
+                                "generatemax": -1,
+                                "isreplicated": false,
+                                "clonenr": 1,
+                                "isreplicatecandidate": false,
+                                "isoriginal": false,
+                                "children": [
+                                    {
+                                        "description": "inv_4k",
+                                        "isreplacecandidate": true,
+                                        "isreplaced": false,
+                                        "value": -1,
+                                        "isprobability": false,
+                                        "generatemin": -1,
+                                        "generatemax": -1,
+                                        "isreplicated": false,
+                                        "clonenr": 1,
+                                        "isreplicatecandidate": false,
+                                        "isoriginal": false
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "description": "type",
+                        "isreplacecandidate": false,
+                        "isreplaced": false,
+                        "value": -1,
+                        "isprobability": false,
+                        "generatemin": -1,
+                        "generatemax": -1,
+                        "isreplicated": false,
+                        "clonenr": 1,
+                        "isreplicatecandidate": false,
+                        "isoriginal": false,
+                        "children": [
+                            {
+                                "description": "I",
+                                "isreplacecandidate": false,
+                                "isreplaced": false,
+                                "value": 10,
+                                "isprobability": true,
+                                "generatemin": -1,
+                                "generatemax": -1,
+                                "isreplicated": false,
+                                "clonenr": 1,
+                                "isreplicatecandidate": false,
+                                "isoriginal": false,
+                                "children": [
+                                    {
+                                        "description": "inv_3k",
+                                        "isreplacecandidate": true,
+                                        "isreplaced": false,
+                                        "value": -1,
+                                        "isprobability": false,
+                                        "generatemin": -1,
+                                        "generatemax": -1,
+                                        "isreplicated": false,
+                                        "clonenr": 1,
+                                        "isreplicatecandidate": false,
+                                        "isoriginal": false
+                                    }
+                                ]
+                            },
+                            {
+                                "description": "I_borr",
+                                "isreplacecandidate": true,
+                                "isreplaced": false,
+                                "value": 10,
+                                "isprobability": true,
+                                "generatemin": -1,
+                                "generatemax": -1,
+                                "isreplicated": false,
+                                "clonenr": 1,
+                                "isreplicatecandidate": false,
+                                "isoriginal": false
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "description": "type",
+                "isreplacecandidate": false,
+                "isreplaced": false,
+                "value": 10,
+                "isprobability": true,
+                "generatemin": -1,
+                "generatemax": -1,
+                "isreplicated": false,
+                "clonenr": 1,
+                "isreplicatecandidate": false,
+                "isoriginal": false,
+                "children": [
+                    {
+                        "description": "type",
+                        "isreplacecandidate": false,
+                        "isreplaced": false,
+                        "value": -1,
+                        "isprobability": false,
+                        "generatemin": -1,
+                        "generatemax": -1,
+                        "isreplicated": false,
+                        "clonenr": 1,
+                        "isreplicatecandidate": false,
+                        "isoriginal": false,
+                        "children": [
+                            {
+                                "description": "V/iii",
+                                "isreplacecandidate": false,
+                                "isreplaced": false,
+                                "value": 10,
+                                "isprobability": true,
+                                "generatemin": -1,
+                                "generatemax": -1,
+                                "isreplicated": false,
+                                "clonenr": 1,
+                                "isreplicatecandidate": false,
+                                "isoriginal": false,
+                                "children": [
+                                    {
+                                        "description": "inv_3k",
+                                        "isreplacecandidate": true,
+                                        "isreplaced": false,
+                                        "value": -1,
+                                        "isprobability": false,
+                                        "generatemin": -1,
+                                        "generatemax": -1,
+                                        "isreplicated": false,
+                                        "clonenr": 1,
+                                        "isreplicatecandidate": false,
+                                        "isoriginal": false
+                                    }
+                                ]
+                            },
+                            {
+                                "description": "V7/iii",
+                                "isreplacecandidate": false,
+                                "isreplaced": false,
+                                "value": 10,
+                                "isprobability": true,
+                                "generatemin": -1,
+                                "generatemax": -1,
+                                "isreplicated": false,
+                                "clonenr": 1,
+                                "isreplicatecandidate": false,
+                                "isoriginal": false,
+                                "children": [
+                                    {
+                                        "description": "inv_4k",
+                                        "isreplacecandidate": true,
+                                        "isreplaced": false,
+                                        "value": -1,
+                                        "isprobability": false,
+                                        "generatemin": -1,
+                                        "generatemax": -1,
+                                        "isreplicated": false,
+                                        "clonenr": 1,
+                                        "isreplicatecandidate": false,
+                                        "isoriginal": false
+                                    }
+                                ]
+                            },
+                            {
+                                "description": "vii\u00c2\u00b0/iii",
+                                "isreplacecandidate": false,
+                                "isreplaced": false,
+                                "value": 10,
+                                "isprobability": true,
+                                "generatemin": -1,
+                                "generatemax": -1,
+                                "isreplicated": false,
+                                "clonenr": 1,
+                                "isreplicatecandidate": false,
+                                "isoriginal": false,
+                                "children": [
+                                    {
+                                        "description": "inv_3k",
+                                        "isreplacecandidate": true,
+                                        "isreplaced": false,
+                                        "value": -1,
+                                        "isprobability": false,
+                                        "generatemin": -1,
+                                        "generatemax": -1,
+                                        "isreplicated": false,
+                                        "clonenr": 1,
+                                        "isreplicatecandidate": false,
+                                        "isoriginal": false
+                                    }
+                                ]
+                            },
+                            {
+                                "description": "vii\u00c2\u00b07/iii",
+                                "isreplacecandidate": false,
+                                "isreplaced": false,
+                                "value": 10,
+                                "isprobability": true,
+                                "generatemin": -1,
+                                "generatemax": -1,
+                                "isreplicated": false,
+                                "clonenr": 1,
+                                "isreplicatecandidate": false,
+                                "isoriginal": false,
+                                "children": [
+                                    {
+                                        "description": "inv_4k",
+                                        "isreplacecandidate": true,
+                                        "isreplaced": false,
+                                        "value": -1,
+                                        "isprobability": false,
+                                        "generatemin": -1,
+                                        "generatemax": -1,
+                                        "isreplicated": false,
+                                        "clonenr": 1,
+                                        "isreplicatecandidate": false,
+                                        "isoriginal": false
+                                    }
+                                ]
+                            },
+                            {
+                                "description": "biii\u00c2\u00b0",
+                                "isreplacecandidate": false,
+                                "isreplaced": false,
+                                "value": 10,
+                                "isprobability": true,
+                                "generatemin": -1,
+                                "generatemax": -1,
+                                "isreplicated": false,
+                                "clonenr": 1,
+                                "isreplicatecandidate": false,
+                                "isoriginal": false,
+                                "children": [
+                                    {
+                                        "description": "inv_3k",
+                                        "isreplacecandidate": true,
+                                        "isreplaced": false,
+                                        "value": -1,
+                                        "isprobability": false,
+                                        "generatemin": -1,
+                                        "generatemax": -1,
+                                        "isreplicated": false,
+                                        "clonenr": 1,
+                                        "isreplicatecandidate": false,
+                                        "isoriginal": false
+                                    }
+                                ]
+                            },
+                            {
+                                "description": "biii\u00c2\u00b07",
+                                "isreplacecandidate": false,
+                                "isreplaced": false,
+                                "value": 10,
+                                "isprobability": true,
+                                "generatemin": -1,
+                                "generatemax": -1,
+                                "isreplicated": false,
+                                "clonenr": 1,
+                                "isreplicatecandidate": false,
+                                "isoriginal": false,
+                                "children": [
+                                    {
+                                        "description": "inv_4k",
+                                        "isreplacecandidate": true,
+                                        "isreplaced": false,
+                                        "value": -1,
+                                        "isprobability": false,
+                                        "generatemin": -1,
+                                        "generatemax": -1,
+                                        "isreplicated": false,
+                                        "clonenr": 1,
+                                        "isreplicatecandidate": false,
+                                        "isoriginal": false
+                                    }
+                                ]
+                            },
+                            {
+                                "description": "#iii\u00c2\u00b0",
+                                "isreplacecandidate": false,
+                                "isreplaced": false,
+                                "value": 10,
+                                "isprobability": true,
+                                "generatemin": -1,
+                                "generatemax": -1,
+                                "isreplicated": false,
+                                "clonenr": 1,
+                                "isreplicatecandidate": false,
+                                "isoriginal": false,
+                                "children": [
+                                    {
+                                        "description": "inv_3k",
+                                        "isreplacecandidate": true,
+                                        "isreplaced": false,
+                                        "value": -1,
+                                        "isprobability": false,
+                                        "generatemin": -1,
+                                        "generatemax": -1,
+                                        "isreplicated": false,
+                                        "clonenr": 1,
+                                        "isreplicatecandidate": false,
+                                        "isoriginal": false
+                                    }
+                                ]
+                            },
+                            {
+                                "description": "#iii\u00c2\u00b07",
+                                "isreplacecandidate": false,
+                                "isreplaced": false,
+                                "value": 10,
+                                "isprobability": true,
+                                "generatemin": -1,
+                                "generatemax": -1,
+                                "isreplicated": false,
+                                "clonenr": 1,
+                                "isreplicatecandidate": false,
+                                "isoriginal": false,
+                                "children": [
+                                    {
+                                        "description": "inv_4k",
+                                        "isreplacecandidate": true,
+                                        "isreplaced": false,
+                                        "value": -1,
+                                        "isprobability": false,
+                                        "generatemin": -1,
+                                        "generatemax": -1,
+                                        "isreplicated": false,
+                                        "clonenr": 1,
+                                        "isreplicatecandidate": false,
+                                        "isoriginal": false
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "description": "type",
+                        "isreplacecandidate": false,
+                        "isreplaced": false,
+                        "value": -1,
+                        "isprobability": false,
+                        "generatemin": -1,
+                        "generatemax": -1,
+                        "isreplicated": false,
+                        "clonenr": 1,
+                        "isreplicatecandidate": false,
+                        "isoriginal": false,
+                        "children": [
+                            {
+                                "description": "iii",
+                                "isreplacecandidate": false,
+                                "isreplaced": false,
+                                "value": 10,
+                                "isprobability": true,
+                                "generatemin": -1,
+                                "generatemax": -1,
+                                "isreplicated": false,
+                                "clonenr": 1,
+                                "isreplicatecandidate": false,
+                                "isoriginal": false,
+                                "children": [
+                                    {
+                                        "description": "inv_3k",
+                                        "isreplacecandidate": true,
+                                        "isreplaced": false,
+                                        "value": -1,
+                                        "isprobability": false,
+                                        "generatemin": -1,
+                                        "generatemax": -1,
+                                        "isreplicated": false,
+                                        "clonenr": 1,
+                                        "isreplicatecandidate": false,
+                                        "isoriginal": false
+                                    }
+                                ]
+                            },
+                            {
+                                "description": "iii_borr",
+                                "isreplacecandidate": true,
+                                "isreplaced": false,
+                                "value": 10,
+                                "isprobability": true,
+                                "generatemin": -1,
+                                "generatemax": -1,
+                                "isreplicated": false,
+                                "clonenr": 1,
+                                "isreplicatecandidate": false,
+                                "isoriginal": false
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "description": "type",
+                "isreplacecandidate": false,
+                "isreplaced": false,
+                "value": 10,
+                "isprobability": true,
+                "generatemin": -1,
+                "generatemax": -1,
+                "isreplicated": false,
+                "clonenr": 1,
+                "isreplicatecandidate": false,
+                "isoriginal": false,
+                "children": [
+                    {
+                        "description": "type",
+                        "isreplacecandidate": false,
+                        "isreplaced": false,
+                        "value": -1,
+                        "isprobability": false,
+                        "generatemin": -1,
+                        "generatemax": -1,
+                        "isreplicated": false,
+                        "clonenr": 1,
+                        "isreplicatecandidate": false,
+                        "isoriginal": false,
+                        "children": [
+                            {
+                                "description": "V/vi",
+                                "isreplacecandidate": false,
+                                "isreplaced": false,
+                                "value": 10,
+                                "isprobability": true,
+                                "generatemin": -1,
+                                "generatemax": -1,
+                                "isreplicated": false,
+                                "clonenr": 1,
+                                "isreplicatecandidate": false,
+                                "isoriginal": false,
+                                "children": [
+                                    {
+                                        "description": "inv_3k",
+                                        "isreplacecandidate": true,
+                                        "isreplaced": false,
+                                        "value": -1,
+                                        "isprobability": false,
+                                        "generatemin": -1,
+                                        "generatemax": -1,
+                                        "isreplicated": false,
+                                        "clonenr": 1,
+                                        "isreplicatecandidate": false,
+                                        "isoriginal": false
+                                    }
+                                ]
+                            },
+                            {
+                                "description": "V7/vi",
+                                "isreplacecandidate": false,
+                                "isreplaced": false,
+                                "value": 10,
+                                "isprobability": true,
+                                "generatemin": -1,
+                                "generatemax": -1,
+                                "isreplicated": false,
+                                "clonenr": 1,
+                                "isreplicatecandidate": false,
+                                "isoriginal": false,
+                                "children": [
+                                    {
+                                        "description": "inv_4k",
+                                        "isreplacecandidate": true,
+                                        "isreplaced": false,
+                                        "value": -1,
+                                        "isprobability": false,
+                                        "generatemin": -1,
+                                        "generatemax": -1,
+                                        "isreplicated": false,
+                                        "clonenr": 1,
+                                        "isreplicatecandidate": false,
+                                        "isoriginal": false
+                                    }
+                                ]
+                            },
+                            {
+                                "description": "vii\u00c2\u00b0/vi",
+                                "isreplacecandidate": false,
+                                "isreplaced": false,
+                                "value": 10,
+                                "isprobability": true,
+                                "generatemin": -1,
+                                "generatemax": -1,
+                                "isreplicated": false,
+                                "clonenr": 1,
+                                "isreplicatecandidate": false,
+                                "isoriginal": false,
+                                "children": [
+                                    {
+                                        "description": "inv_3k",
+                                        "isreplacecandidate": true,
+                                        "isreplaced": false,
+                                        "value": -1,
+                                        "isprobability": false,
+                                        "generatemin": -1,
+                                        "generatemax": -1,
+                                        "isreplicated": false,
+                                        "clonenr": 1,
+                                        "isreplicatecandidate": false,
+                                        "isoriginal": false
+                                    }
+                                ]
+                            },
+                            {
+                                "description": "vii\u00c2\u00b07/vi",
+                                "isreplacecandidate": false,
+                                "isreplaced": false,
+                                "value": 10,
+                                "isprobability": true,
+                                "generatemin": -1,
+                                "generatemax": -1,
+                                "isreplicated": false,
+                                "clonenr": 1,
+                                "isreplicatecandidate": false,
+                                "isoriginal": false,
+                                "children": [
+                                    {
+                                        "description": "inv_4k",
+                                        "isreplacecandidate": true,
+                                        "isreplaced": false,
+                                        "value": -1,
+                                        "isprobability": false,
+                                        "generatemin": -1,
+                                        "generatemax": -1,
+                                        "isreplicated": false,
+                                        "clonenr": 1,
+                                        "isreplicatecandidate": false,
+                                        "isoriginal": false
+                                    }
+                                ]
+                            },
+                            {
+                                "description": "bvi\u00c2\u00b0",
+                                "isreplacecandidate": false,
+                                "isreplaced": false,
+                                "value": 10,
+                                "isprobability": true,
+                                "generatemin": -1,
+                                "generatemax": -1,
+                                "isreplicated": false,
+                                "clonenr": 1,
+                                "isreplicatecandidate": false,
+                                "isoriginal": false,
+                                "children": [
+                                    {
+                                        "description": "inv_3k",
+                                        "isreplacecandidate": true,
+                                        "isreplaced": false,
+                                        "value": -1,
+                                        "isprobability": false,
+                                        "generatemin": -1,
+                                        "generatemax": -1,
+                                        "isreplicated": false,
+                                        "clonenr": 1,
+                                        "isreplicatecandidate": false,
+                                        "isoriginal": false
+                                    }
+                                ]
+                            },
+                            {
+                                "description": "bvi\u00c2\u00b07",
+                                "isreplacecandidate": false,
+                                "isreplaced": false,
+                                "value": 10,
+                                "isprobability": true,
+                                "generatemin": -1,
+                                "generatemax": -1,
+                                "isreplicated": false,
+                                "clonenr": 1,
+                                "isreplicatecandidate": false,
+                                "isoriginal": false,
+                                "children": [
+                                    {
+                                        "description": "inv_4k",
+                                        "isreplacecandidate": true,
+                                        "isreplaced": false,
+                                        "value": -1,
+                                        "isprobability": false,
+                                        "generatemin": -1,
+                                        "generatemax": -1,
+                                        "isreplicated": false,
+                                        "clonenr": 1,
+                                        "isreplicatecandidate": false,
+                                        "isoriginal": false
+                                    }
+                                ]
+                            },
+                            {
+                                "description": "#vi\u00c2\u00b0",
+                                "isreplacecandidate": false,
+                                "isreplaced": false,
+                                "value": 10,
+                                "isprobability": true,
+                                "generatemin": -1,
+                                "generatemax": -1,
+                                "isreplicated": false,
+                                "clonenr": 1,
+                                "isreplicatecandidate": false,
+                                "isoriginal": false,
+                                "children": [
+                                    {
+                                        "description": "inv_3k",
+                                        "isreplacecandidate": true,
+                                        "isreplaced": false,
+                                        "value": -1,
+                                        "isprobability": false,
+                                        "generatemin": -1,
+                                        "generatemax": -1,
+                                        "isreplicated": false,
+                                        "clonenr": 1,
+                                        "isreplicatecandidate": false,
+                                        "isoriginal": false
+                                    }
+                                ]
+                            },
+                            {
+                                "description": "#vi\u00c2\u00b07",
+                                "isreplacecandidate": false,
+                                "isreplaced": false,
+                                "value": 10,
+                                "isprobability": true,
+                                "generatemin": -1,
+                                "generatemax": -1,
+                                "isreplicated": false,
+                                "clonenr": 1,
+                                "isreplicatecandidate": false,
+                                "isoriginal": false,
+                                "children": [
+                                    {
+                                        "description": "inv_4k",
+                                        "isreplacecandidate": true,
+                                        "isreplaced": false,
+                                        "value": -1,
+                                        "isprobability": false,
+                                        "generatemin": -1,
+                                        "generatemax": -1,
+                                        "isreplicated": false,
+                                        "clonenr": 1,
+                                        "isreplicatecandidate": false,
+                                        "isoriginal": false
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "description": "type",
+                        "isreplacecandidate": false,
+                        "isreplaced": false,
+                        "value": -1,
+                        "isprobability": false,
+                        "generatemin": -1,
+                        "generatemax": -1,
+                        "isreplicated": false,
+                        "clonenr": 1,
+                        "isreplicatecandidate": false,
+                        "isoriginal": false,
+                        "children": [
+                            {
+                                "description": "vi",
+                                "isreplacecandidate": false,
+                                "isreplaced": false,
+                                "value": 10,
+                                "isprobability": true,
+                                "generatemin": -1,
+                                "generatemax": -1,
+                                "isreplicated": false,
+                                "clonenr": 1,
+                                "isreplicatecandidate": false,
+                                "isoriginal": false,
+                                "children": [
+                                    {
+                                        "description": "inv_3k",
+                                        "isreplacecandidate": true,
+                                        "isreplaced": false,
+                                        "value": -1,
+                                        "isprobability": false,
+                                        "generatemin": -1,
+                                        "generatemax": -1,
+                                        "isreplicated": false,
+                                        "clonenr": 1,
+                                        "isreplicatecandidate": false,
+                                        "isoriginal": false
+                                    }
+                                ]
+                            },
+                            {
+                                "description": "vi_borr",
+                                "isreplacecandidate": true,
+                                "isreplaced": false,
+                                "value": 10,
+                                "isprobability": true,
+                                "generatemin": -1,
+                                "generatemax": -1,
+                                "isreplicated": false,
+                                "clonenr": 1,
+                                "isreplicatecandidate": false,
+                                "isoriginal": false
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "description": "S_major",
+        "isreplacecandidate": false,
+        "isreplaced": false,
+        "value": -1,
+        "isprobability": false,
+        "generatemin": -1,
+        "generatemax": -1,
+        "isreplicated": false,
+        "clonenr": 1,
+        "isreplicatecandidate": false,
+        "isoriginal": true,
+        "children": [
+            {
+                "description": "IV",
+                "isreplacecandidate": false,
+                "isreplaced": false,
+                "value": 10,
+                "isprobability": true,
+                "generatemin": -1,
+                "generatemax": -1,
+                "isreplicated": false,
+                "clonenr": 1,
+                "isreplicatecandidate": false,
+                "isoriginal": false
+            },
+            {
+                "description": "ii",
+                "isreplacecandidate": false,
+                "isreplaced": false,
+                "value": 10,
+                "isprobability": true,
+                "generatemin": -1,
+                "generatemax": -1,
+                "isreplicated": false,
+                "clonenr": 1,
+                "isreplicatecandidate": false,
+                "isoriginal": false
+            },
+            {
+                "description": "N",
+                "isreplacecandidate": false,
+                "isreplaced": false,
+                "value": 10,
+                "isprobability": true,
+                "generatemin": -1,
+                "generatemax": -1,
+                "isreplicated": false,
+                "clonenr": 1,
+                "isreplicatecandidate": false,
+                "isoriginal": false
+            },
+            {
+                "description": "type1",
+                "isreplacecandidate": false,
+                "isreplaced": false,
+                "value": 10,
+                "isprobability": true,
+                "generatemin": -1,
+                "generatemax": -1,
+                "isreplicated": false,
+                "clonenr": 1,
+                "isreplicatecandidate": false,
+                "isoriginal": false,
+                "children": [
+                    {
+                        "description": "V/IV",
+                        "isreplacecandidate": false,
+                        "isreplaced": false,
+                        "value": -1,
+                        "isprobability": false,
+                        "generatemin": -1,
+                        "generatemax": -1,
+                        "isreplicated": false,
+                        "clonenr": 1,
+                        "isreplicatecandidate": false,
+                        "isoriginal": false
+                    },
+                    {
+                        "description": "IV",
+                        "isreplacecandidate": false,
+                        "isreplaced": false,
+                        "value": -1,
+                        "isprobability": false,
+                        "generatemin": -1,
+                        "generatemax": -1,
+                        "isreplicated": false,
+                        "clonenr": 1,
+                        "isreplicatecandidate": false,
+                        "isoriginal": false
+                    }
+                ]
+            },
+            {
+                "description": "type2",
+                "isreplacecandidate": false,
+                "isreplaced": false,
+                "value": 10,
+                "isprobability": true,
+                "generatemin": -1,
+                "generatemax": -1,
+                "isreplicated": false,
+                "clonenr": 1,
+                "isreplicatecandidate": false,
+                "isoriginal": false,
+                "children": [
+                    {
+                        "description": "V7/IV",
+                        "isreplacecandidate": false,
+                        "isreplaced": false,
+                        "value": -1,
+                        "isprobability": false,
+                        "generatemin": -1,
+                        "generatemax": -1,
+                        "isreplicated": false,
+                        "clonenr": 1,
+                        "isreplicatecandidate": false,
+                        "isoriginal": false
+                    },
+                    {
+                        "description": "IV",
+                        "isreplacecandidate": false,
+                        "isreplaced": false,
+                        "value": -1,
+                        "isprobability": false,
+                        "generatemin": -1,
+                        "generatemax": -1,
+                        "isreplicated": false,
+                        "clonenr": 1,
+                        "isreplicatecandidate": false,
+                        "isoriginal": false
+                    }
+                ]
+            },
+            {
+                "description": "type1",
+                "isreplacecandidate": false,
+                "isreplaced": false,
+                "value": 10,
+                "isprobability": true,
+                "generatemin": -1,
+                "generatemax": -1,
+                "isreplicated": false,
+                "clonenr": 1,
+                "isreplicatecandidate": false,
+                "isoriginal": false,
+                "children": [
+                    {
+                        "description": "vii\u00c2\u00b0/IV",
+                        "isreplacecandidate": false,
+                        "isreplaced": false,
+                        "value": -1,
+                        "isprobability": false,
+                        "generatemin": -1,
+                        "generatemax": -1,
+                        "isreplicated": false,
+                        "clonenr": 1,
+                        "isreplicatecandidate": false,
+                        "isoriginal": false
+                    },
+                    {
+                        "description": "IV",
+                        "isreplacecandidate": false,
+                        "isreplaced": false,
+                        "value": -1,
+                        "isprobability": false,
+                        "generatemin": -1,
+                        "generatemax": -1,
+                        "isreplicated": false,
+                        "clonenr": 1,
+                        "isreplicatecandidate": false,
+                        "isoriginal": false
+                    }
+                ]
+            },
+            {
+                "description": "type2",
+                "isreplacecandidate": false,
+                "isreplaced": false,
+                "value": 10,
+                "isprobability": true,
+                "generatemin": -1,
+                "generatemax": -1,
+                "isreplicated": false,
+                "clonenr": 1,
+                "isreplicatecandidate": false,
+                "isoriginal": false,
+                "children": [
+                    {
+                        "description": "vii\u00c2\u00b07/IV",
+                        "isreplacecandidate": false,
+                        "isreplaced": false,
+                        "value": -1,
+                        "isprobability": false,
+                        "generatemin": -1,
+                        "generatemax": -1,
+                        "isreplicated": false,
+                        "clonenr": 1,
+                        "isreplicatecandidate": false,
+                        "isoriginal": false
+                    },
+                    {
+                        "description": "IV",
+                        "isreplacecandidate": false,
+                        "isreplaced": false,
+                        "value": -1,
+                        "isprobability": false,
+                        "generatemin": -1,
+                        "generatemax": -1,
+                        "isreplicated": false,
+                        "clonenr": 1,
+                        "isreplicatecandidate": false,
+                        "isoriginal": false
+                    }
+                ]
+            },
+            {
+                "description": "type3",
+                "isreplacecandidate": false,
+                "isreplaced": false,
+                "value": 10,
+                "isprobability": true,
+                "generatemin": -1,
+                "generatemax": -1,
+                "isreplicated": false,
+                "clonenr": 1,
+                "isreplicatecandidate": false,
+                "isoriginal": false,
+                "children": [
+                    {
+                        "description": "V/ii",
+                        "isreplacecandidate": false,
+                        "isreplaced": false,
+                        "value": -1,
+                        "isprobability": false,
+                        "generatemin": -1,
+                        "generatemax": -1,
+                        "isreplicated": false,
+                        "clonenr": 1,
+                        "isreplicatecandidate": false,
+                        "isoriginal": false
+                    },
+                    {
+                        "description": "ii",
+                        "isreplacecandidate": false,
+                        "isreplaced": false,
+                        "value": -1,
+                        "isprobability": false,
+                        "generatemin": -1,
+                        "generatemax": -1,
+                        "isreplicated": false,
+                        "clonenr": 1,
+                        "isreplicatecandidate": false,
+                        "isoriginal": false
+                    }
+                ]
+            },
+            {
+                "description": "type4",
+                "isreplacecandidate": false,
+                "isreplaced": false,
+                "value": 10,
+                "isprobability": true,
+                "generatemin": -1,
+                "generatemax": -1,
+                "isreplicated": false,
+                "clonenr": 1,
+                "isreplicatecandidate": false,
+                "isoriginal": false,
+                "children": [
+                    {
+                        "description": "V7/ii",
+                        "isreplacecandidate": false,
+                        "isreplaced": false,
+                        "value": -1,
+                        "isprobability": false,
+                        "generatemin": -1,
+                        "generatemax": -1,
+                        "isreplicated": false,
+                        "clonenr": 1,
+                        "isreplicatecandidate": false,
+                        "isoriginal": false
+                    },
+                    {
+                        "description": "ii",
+                        "isreplacecandidate": false,
+                        "isreplaced": false,
+                        "value": -1,
+                        "isprobability": false,
+                        "generatemin": -1,
+                        "generatemax": -1,
+                        "isreplicated": false,
+                        "clonenr": 1,
+                        "isreplicatecandidate": false,
+                        "isoriginal": false
+                    }
+                ]
+            },
+            {
+                "description": "type3",
+                "isreplacecandidate": false,
+                "isreplaced": false,
+                "value": 10,
+                "isprobability": true,
+                "generatemin": -1,
+                "generatemax": -1,
+                "isreplicated": false,
+                "clonenr": 1,
+                "isreplicatecandidate": false,
+                "isoriginal": false,
+                "children": [
+                    {
+                        "description": "vii\u00c2\u00b0/ii",
+                        "isreplacecandidate": false,
+                        "isreplaced": false,
+                        "value": -1,
+                        "isprobability": false,
+                        "generatemin": -1,
+                        "generatemax": -1,
+                        "isreplicated": false,
+                        "clonenr": 1,
+                        "isreplicatecandidate": false,
+                        "isoriginal": false
+                    },
+                    {
+                        "description": "ii",
+                        "isreplacecandidate": false,
+                        "isreplaced": false,
+                        "value": -1,
+                        "isprobability": false,
+                        "generatemin": -1,
+                        "generatemax": -1,
+                        "isreplicated": false,
+                        "clonenr": 1,
+                        "isreplicatecandidate": false,
+                        "isoriginal": false
+                    }
+                ]
+            },
+            {
+                "description": "type4",
+                "isreplacecandidate": false,
+                "isreplaced": false,
+                "value": 10,
+                "isprobability": true,
+                "generatemin": -1,
+                "generatemax": -1,
+                "isreplicated": false,
+                "clonenr": 1,
+                "isreplicatecandidate": false,
+                "isoriginal": false,
+                "children": [
+                    {
+                        "description": "vii\u00c2\u00b07/ii",
+                        "isreplacecandidate": false,
+                        "isreplaced": false,
+                        "value": -1,
+                        "isprobability": false,
+                        "generatemin": -1,
+                        "generatemax": -1,
+                        "isreplicated": false,
+                        "clonenr": 1,
+                        "isreplicatecandidate": false,
+                        "isoriginal": false
+                    },
+                    {
+                        "description": "ii",
+                        "isreplacecandidate": false,
+                        "isreplaced": false,
+                        "value": -1,
+                        "isprobability": false,
+                        "generatemin": -1,
+                        "generatemax": -1,
+                        "isreplicated": false,
+                        "clonenr": 1,
+                        "isreplicatecandidate": false,
+                        "isoriginal": false
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "description": "D_major",
+        "isreplacecandidate": false,
+        "isreplaced": false,
+        "value": -1,
+        "isprobability": false,
+        "generatemin": -1,
+        "generatemax": -1,
+        "isreplicated": false,
+        "clonenr": 1,
+        "isreplicatecandidate": false,
+        "isoriginal": true,
+        "children": [
+            {
+                "description": "V",
+                "isreplacecandidate": false,
+                "isreplaced": false,
+                "value": 10,
+                "isprobability": true,
+                "generatemin": -1,
+                "generatemax": -1,
+                "isreplicated": false,
+                "clonenr": 1,
+                "isreplicatecandidate": false,
+                "isoriginal": false
+            },
+            {
+                "description": "vii\u00c2\u00b0",
+                "isreplacecandidate": false,
+                "isreplaced": false,
+                "value": 10,
+                "isprobability": true,
+                "generatemin": -1,
+                "generatemax": -1,
+                "isreplicated": false,
+                "clonenr": 1,
+                "isreplicatecandidate": false,
+                "isoriginal": false
+            },
+            {
+                "description": "type1",
+                "isreplacecandidate": false,
+                "isreplaced": false,
+                "value": 10,
+                "isprobability": true,
+                "generatemin": -1,
+                "generatemax": -1,
+                "isreplicated": false,
+                "clonenr": 1,
+                "isreplicatecandidate": false,
+                "isoriginal": false,
+                "children": [
+                    {
+                        "description": "V/V",
+                        "isreplacecandidate": false,
+                        "isreplaced": false,
+                        "value": -1,
+                        "isprobability": false,
+                        "generatemin": -1,
+                        "generatemax": -1,
+                        "isreplicated": false,
+                        "clonenr": 1,
+                        "isreplicatecandidate": false,
+                        "isoriginal": false
+                    },
+                    {
+                        "description": "V",
+                        "isreplacecandidate": false,
+                        "isreplaced": false,
+                        "value": -1,
+                        "isprobability": false,
+                        "generatemin": -1,
+                        "generatemax": -1,
+                        "isreplicated": false,
+                        "clonenr": 1,
+                        "isreplicatecandidate": false,
+                        "isoriginal": false
+                    }
+                ]
+            },
+            {
+                "description": "type1",
+                "isreplacecandidate": false,
+                "isreplaced": false,
+                "value": 10,
+                "isprobability": true,
+                "generatemin": -1,
+                "generatemax": -1,
+                "isreplicated": false,
+                "clonenr": 1,
+                "isreplicatecandidate": false,
+                "isoriginal": false,
+                "children": [
+                    {
+                        "description": "V7/V",
+                        "isreplacecandidate": false,
+                        "isreplaced": false,
+                        "value": -1,
+                        "isprobability": false,
+                        "generatemin": -1,
+                        "generatemax": -1,
+                        "isreplicated": false,
+                        "clonenr": 1,
+                        "isreplicatecandidate": false,
+                        "isoriginal": false
+                    },
+                    {
+                        "description": "V",
+                        "isreplacecandidate": false,
+                        "isreplaced": false,
+                        "value": -1,
+                        "isprobability": false,
+                        "generatemin": -1,
+                        "generatemax": -1,
+                        "isreplicated": false,
+                        "clonenr": 1,
+                        "isreplicatecandidate": false,
+                        "isoriginal": false
+                    }
+                ]
+            },
+            {
+                "description": "type1",
+                "isreplacecandidate": false,
+                "isreplaced": false,
+                "value": 10,
+                "isprobability": true,
+                "generatemin": -1,
+                "generatemax": -1,
+                "isreplicated": false,
+                "clonenr": 1,
+                "isreplicatecandidate": false,
+                "isoriginal": false,
+                "children": [
+                    {
+                        "description": "vii\u00c2\u00b0/V",
+                        "isreplacecandidate": false,
+                        "isreplaced": false,
+                        "value": -1,
+                        "isprobability": false,
+                        "generatemin": -1,
+                        "generatemax": -1,
+                        "isreplicated": false,
+                        "clonenr": 1,
+                        "isreplicatecandidate": false,
+                        "isoriginal": false
+                    },
+                    {
+                        "description": "V",
+                        "isreplacecandidate": false,
+                        "isreplaced": false,
+                        "value": -1,
+                        "isprobability": false,
+                        "generatemin": -1,
+                        "generatemax": -1,
+                        "isreplicated": false,
+                        "clonenr": 1,
+                        "isreplicatecandidate": false,
+                        "isoriginal": false
+                    }
+                ]
+            },
+            {
+                "description": "type1",
+                "isreplacecandidate": false,
+                "isreplaced": false,
+                "value": 10,
+                "isprobability": true,
+                "generatemin": -1,
+                "generatemax": -1,
+                "isreplicated": false,
+                "clonenr": 1,
+                "isreplicatecandidate": false,
+                "isoriginal": false,
+                "children": [
+                    {
+                        "description": "vii\u00c2\u00b07/V",
+                        "isreplacecandidate": false,
+                        "isreplaced": false,
+                        "value": -1,
+                        "isprobability": false,
+                        "generatemin": -1,
+                        "generatemax": -1,
+                        "isreplicated": false,
+                        "clonenr": 1,
+                        "isreplicatecandidate": false,
+                        "isoriginal": false
+                    },
+                    {
+                        "description": "V",
+                        "isreplacecandidate": false,
+                        "isreplaced": false,
+                        "value": -1,
+                        "isprobability": false,
+                        "generatemin": -1,
+                        "generatemax": -1,
+                        "isreplicated": false,
+                        "clonenr": 1,
+                        "isreplicatecandidate": false,
+                        "isoriginal": false
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "description": "song",
+        "isreplacecandidate": false,
+        "isreplaced": false,
+        "value": -1,
+        "isprobability": false,
+        "generatemin": -1,
+        "generatemax": -1,
+        "isreplicated": false,
+        "clonenr": 1,
+        "isreplicatecandidate": false,
+        "isoriginal": true,
+        "children": [
+            {
+                "description": "major",
+                "isreplacecandidate": false,
+                "isreplaced": false,
+                "value": 10,
+                "isprobability": true,
+                "generatemin": -1,
+                "generatemax": -1,
+                "isreplicated": false,
+                "clonenr": 1,
+                "isreplicatecandidate": false,
+                "isoriginal": false,
+                "children": [
+                    {
+                        "description": "T_major",
+                        "isreplacecandidate": true,
+                        "isreplaced": false,
+                        "value": -1,
+                        "isprobability": false,
+                        "generatemin": 1,
+                        "generatemax": 8,
+                        "isreplicated": false,
+                        "clonenr": 1,
+                        "isreplicatecandidate": true,
+                        "isoriginal": false
+                    },
+                    {
+                        "description": "S_minor",
+                        "isreplacecandidate": false,
+                        "isreplaced": false,
+                        "value": -1,
+                        "isprobability": false,
+                        "generatemin": 1,
+                        "generatemax": 1,
+                        "isreplicated": false,
+                        "clonenr": 1,
+                        "isreplicatecandidate": true,
+                        "isoriginal": false
+                    },
+                    {
+                        "description": "D_minor",
+                        "isreplacecandidate": false,
+                        "isreplaced": false,
+                        "value": -1,
+                        "isprobability": false,
+                        "generatemin": 1,
+                        "generatemax": 1,
+                        "isreplicated": false,
+                        "clonenr": 1,
+                        "isreplicatecandidate": true,
+                        "isoriginal": false
+                    }
+                ]
+            },
+            {
+                "description": "minor",
+                "isreplacecandidate": false,
+                "isreplaced": false,
+                "value": 0,
+                "isprobability": true,
+                "generatemin": -1,
+                "generatemax": -1,
+                "isreplicated": false,
+                "clonenr": 1,
+                "isreplicatecandidate": false,
+                "isoriginal": false
+            }
+        ]
+    }
+]

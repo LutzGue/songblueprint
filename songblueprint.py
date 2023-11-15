@@ -49,7 +49,7 @@ parameters = {
 
             # path and filename to TXT file to parse and convert to JSON
             # e.g.: "./txt/experimental/modulation1.txt"
-            "input_file": "./txt/experimental/modulation1.txt",
+            "input_file": "./txt/experimental/modulation4.txt",
 
             # "DEFAULT": <current project folder>/"output-txt_to_json.json"
             # "my file": user defined folder, e.g.: "./tmp/output_tmp1.json"
@@ -112,7 +112,7 @@ parameters = {
             "is_store_file": True,
 
             # number of files to generate (e.g.: 10)
-            "generate_count": 20
+            "generate_count": 2
         },
         "04_probability": {
             "input_file": "DEFAULT",
@@ -135,11 +135,13 @@ parameters = {
             "default_folder": "05_generate",
 
             # default: "output-generate.json"
-            "default_file": "",
+            "default_file": "output-generate.json",
 
             "is_excecute": True,
             "is_store_file": True,
-            "count": "DEFAULT"
+
+            # default: 1 or 2 ( = n * m )
+            "cartesian_count": 2
         },
     }
 }
@@ -232,16 +234,17 @@ if parameters["module"]["04_probability"]["is_excecute"]:
 #       --> repeat random process user defined m-times (e.g. 1, 2, 10, 20, 100, 1000, ...)
 
 # generate new
-if parameters["module"]["04_generate"]["is_excecute"]:
+if parameters["module"]["05_generate"]["is_excecute"]:
 
     # Call the function with your input and output file paths. generate different schemas.
-    for n in range(parameters["module"]["04_generate"]["generate_count"]):
-        input_filename_number = os.path.splitext(project["probability"]["input_file"])[0] + '-' + str(n+1) + os.path.splitext(project["probability"]["input_file"])[1]
-        output_filename_number = os.path.splitext(project["probability"]["output_file"])[0] + '-' + str(n+1) + os.path.splitext(project["probability"]["output_file"])[1]
-        metalanguage.process_probability(input_filename_number, output_filename_number, parameters["debug"]["is_active"])
+    for n in range(parameters["module"]["03_replicate"]["generate_count"]):
+        for m in range(parameters["module"]["05_generate"]["cartesian_count"]):
+            input_filename_number = os.path.splitext(project["probability"]["input_file"])[0] + '-' + str(n+1) + os.path.splitext(project["probability"]["input_file"])[1]
+            output_filename_number = os.path.splitext(project["generate"]["output_file"])[0] + '-' + str(n+1) + '-' + str(m+1) + os.path.splitext(project["generate"]["output_file"])[1]
+            metalanguage.process_probability(input_filename_number, output_filename_number, parameters["debug"]["is_active"])
 
-        if parameters["debug"]["is_active"]:
-            print("output_file:",output_filename_number, os.path.getsize(output_filename_number))
+            if parameters["debug"]["is_active"]:
+                print("output_file:",output_filename_number, os.path.getsize(output_filename_number))
 
 # --------------------------------
 # parsetree

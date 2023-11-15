@@ -292,7 +292,7 @@ def process_txt_to_json(file_path, is_mode_debugging = False):
       The first parameter is 'value'. the second parameter is 'generatemin' and the third is 
       'generatemax'. set 'isreplicated' = true. in case of missing values replace value with -1 
       and set 'isreplicated' = false and 'isreplicatecandidate' = true.
-    - 2023-10-17: Comment out sections in TXT using # character and ignoring blank lines in TXT.
+    - 2023-10-17: Comment out sections in TXT using $ character and ignoring blank lines in TXT.
 
     Parameters:
     - file_path (str): This is the path to the input text file that needs to be converted into 
@@ -320,7 +320,7 @@ def process_txt_to_json(file_path, is_mode_debugging = False):
             for line in f:
 
                 # Filter out comment lines and empty rows in TXT
-                if (len(line.strip()) > 0 and line.strip()[:1] != '#'):
+                if (len(line.strip()) > 0 and line.strip()[:1] != '$'):
 
                     # Determine the indentation level of the current line
                     indent = len(line) - len(line.lstrip())

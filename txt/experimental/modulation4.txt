@@ -1,0 +1,107 @@
+$ Mudulation module
+$ Lutz Menzel
+$ 2023, Berlin
+
+$ -- variables --
+
+$ main key
+key
+    C,10
+    G,10
+    F,10
+    a,10
+    d,10
+    e,10
+
+$ dynamic elements (alpha, beta, gamma, inversions)
+d
+    a,10
+    b,8
+    g,5
+    a',3
+    b',3
+    g',3
+
+to_rel_key
+    I,10
+    IV,10
+    V,10
+    ii,10
+    vi,10
+    iii,10
+
+$ pivot chord
+PV
+    {to_rel_key}
+    get_pv_chord
+
+MC
+    type
+        type,10
+            V7,10
+            V,10
+        type,10
+            V7
+            V
+    I/i
+    
+$ dynamic section
+DYN
+    {d},,1,2
+    {PV}
+    {d},,1,2
+    {MC}
+    {d},,1,2
+
+T_Prolong
+    T,,1,6
+
+D_Prolong
+    D,,1,2
+
+CON
+    ii,10
+    IV,10
+    [skip],5
+
+CAD
+    PAC,10
+    HC,7
+    IPC,7
+    DC,7
+    [skip],5
+
+$ -- song --
+
+SONG
+    start_in_KEY_A
+        {key}
+    PRE
+        {D_Prolong},10
+        [skip],5
+    SECTION,,1,2
+        STATIC
+            {T_Prolong},10
+            [skip],5
+        DYNAMIC
+            {DYN},10
+            [skip],5
+    end_in_KEY_A
+        type,10
+            STATIC
+                {T_Prolong},10
+                [skip],5
+            DYNAMIC
+                type,10
+                    {d},,1,2
+                    type
+                        KEY_A,10
+                        KEY_A_picardy,4
+                    get_pv_chord
+                    {d},,1,2
+                    {MC}
+                    {d},,1,2
+                [skip],5
+        [skip],5
+    {CON}
+    {CAD}

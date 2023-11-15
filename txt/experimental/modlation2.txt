@@ -1,0 +1,156 @@
+$ modulation 2
+$ Lutz Menzel
+$ 2023. Berlin
+
+$ modulations-typen
+
+tonart_dur
+    F,10
+    C,10
+    G,10
+tonart_moll
+    F,10
+    C,10
+    G,10
+
+kadenzialer_einschnitt
+
+kadenzmodelle_dur
+    type,10
+        T
+        S
+        T
+    type,10
+        T
+        D
+        T
+    type,10
+        T
+        s
+        T
+    type,10
+        T_prolong
+            1_T
+            3_T
+        S
+        T
+    type,10
+        T
+        3_D_7
+        T
+    type,10
+        T
+        S
+        D
+        T
+    type,10
+        T
+        s
+        D
+        T
+    type,10
+        T
+        D
+        S
+        T
+    type,10
+        T
+        D
+        3_S
+        3_D_7
+        T
+    type,10
+        T
+        s_N
+        D
+        T
+    type,10
+        T
+        D_prolong
+            3_D
+            3>_D
+            5._7_D
+            4._3_D7
+            3._7_D
+            3_DD7
+            7_D
+        3_T
+        S
+        T
+    type,10
+        T
+        s_prolong
+            4._s_56
+            3._s
+            ss
+            s_56
+        D_prolong
+            D_4
+            D_3
+        T
+
+kadenzmodelle_moll
+    type,10
+        t
+        s
+        t
+    type,10
+        s
+        D
+        t
+    type,10
+        t
+        S
+        t
+    type,10
+        t
+        s
+        D
+        t
+    type,10
+        t
+        S_prolong
+            S(?)
+            5_D\_7
+        t
+    type,10
+        t
+        s_N
+        D
+        t
+
+modulation
+
+schulmodulation
+    $ Start Modulation
+    START_M
+    modularischer_kern,,1,3
+        $ Ausgangs- und Zieltonart der Modulation
+        tonart
+            {tonart_dur},10
+            {tonart_moll},10
+        kadenzmodelle
+            {kadenzmodelle_dur},10
+            {kadenzmodelle_moll},10
+    $ Finale Zieltonart der Modulation
+    tonart
+        {tonart_dur},10
+        {tonart_moll},10 
+    $ Ende Modulation       
+    END_M
+
+rückung
+
+ausweichung
+
+
+$ größerer musikalischer Verlauf
+song
+    meta
+        {tonart_dur},10
+        {tonart_moll},10
+    START_S
+    tonale_ausgangsbasis
+    {schulmodulation}
+    tonale_ausgangsbasis
+    END_S

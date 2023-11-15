@@ -31,11 +31,11 @@ def process_node(node):
             process_node(child)
 
 # Load the data from the JSON file
-with open('json\\output_total.json', 'r') as f:
+with open('json\\modulation4\\2023\\11\\15\\2023_11_15T18_56_01\\04_probability\output-probability-1.json', 'r') as f:
     data = json.load(f)
 
 # Define the starting node
-starting_node = 'song'
+starting_node = 'SONG'
 
 # Find and keep only the element with the description matching the starting node
 data = [element for element in data if element['description'] == starting_node]
