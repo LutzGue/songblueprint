@@ -49,7 +49,7 @@ parameters = {
 
             # path and filename to TXT file to parse and convert to JSON
             # e.g.: "./txt/experimental/modulation1.txt"
-            "input_file": "./txt/experimental/modulation4.txt",
+            "input_file": "./txt/experimental/vanilla1.txt",
 
             # "DEFAULT": <current project folder>/"output-txt_to_json.json"
             # "my file": user defined folder, e.g.: "./tmp/output_tmp1.json"

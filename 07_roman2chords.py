@@ -1,3 +1,3 @@
-```
+"""
 In this function, the Roman numerals in the generated JSON are mapped to the corresponding chord names. This mapping is done backwards, because the key changes of cadences and mini-cadences have to be taken into account. The inversions are also indicated accordingly in the chord name. There are two ways of representing this: (1) as bass note with slash symbol or (2) with additional "a", "b", "c" suffixes. Additionally, the parsetree syntax is extended with the chord names and marked in color as the last node in the diagram, so that the layout is aligned at the bottom of the diagram. The advantage is that a piano or guitar player is able to play the generated chord progression more easily using chord symbols. There is no need to convert the roman numerals into the corresponding keys during the performance.
-```
+"""

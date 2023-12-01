@@ -1,0 +1,95 @@
+KEY
+    C,10
+    G,10
+    F,10
+    a,10
+    e,10
+    d,10
+KEY_REL
+    I,10
+    V,10
+    IV,10
+    ii,10
+    iii,10
+    iv,10
+MC
+    type,10
+        V
+        I/i
+    type,10
+        V7
+        I/i
+    type,10
+        V
+        V7
+        I/i
+PRE
+    [skip],5
+    {D_Prolong},10
+CON
+    [skip],5
+    ii,10
+    IV,10
+CAD
+    [skip],5
+    PAC,10
+    IC,10
+    DC,10
+    HC,10
+STATIC
+    [skip],5
+    {T_Prolong},10
+DYNAMIC
+    [skip],5
+    type,10
+        DYN,,2,4
+            without_PV,10
+                {ABY},,1,2
+            using_PV,10
+                {ABY},,0,2
+                PV
+                    {KEY_REL}
+                    get_pv_chord
+                {ABY},,0,2
+                {MC}
+                {ABY},,0,2
+ABY
+    a,10
+    b,10
+    y,10
+    a',10
+    b',10
+    y',10
+T_Prolong
+    T,,1,2
+D_Prolong
+    D,,1,2
+SECTION
+    {STATIC}
+    {DYNAMIC}
+T
+    I
+D
+    V
+SONG
+    START_S
+    START_KEY
+        {KEY}
+    {PRE}
+    {SECTION}
+    END_KEY
+        {ABY},,0,2
+        PV
+            back_to_start_key,10
+                GET_START_KEY
+            end_in_other_key,10
+                swap_start_key_min_maj,10
+                    START_KEY_SWAP_MIN_MAJ
+                end_in_new_key,10
+                    {KEY_REL}
+        get_pv_chord
+        {MC}
+        {ABY},,0,2
+    {CON}
+    {CAD}
+    END_S

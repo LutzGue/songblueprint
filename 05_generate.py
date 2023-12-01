@@ -31,7 +31,7 @@ def process_node(node):
             process_node(child)
 
 # Load the data from the JSON file
-with open('json\\modulation4\\2023\\11\\15\\2023_11_15T18_56_01\\04_probability\output-probability-1.json', 'r') as f:
+with open('json\\vanilla1\\2023\\11\\17\\2023_11_17T19_03_21\\04_probability\output-probability-1.json', 'r') as f:
     data = json.load(f)
 
 # Define the starting node
