@@ -1,0 +1,42 @@
+$ replace method 2
+
+I
+    type,10
+        {I}
+        {I}
+    type,10
+        {V}
+        {I}
+    final,10
+V
+    type,10
+        {ii}
+        {V}
+    type,10
+        V/V
+        {V}
+    final,10
+ii
+    type,10
+        {vi}
+        {ii}
+    final,10
+vi
+    type,10
+        V/vi
+        {vi}
+    final,10
+key
+    Ab,10
+    Eb,10
+    Bb,10
+    F,10
+    C,10
+    G,10
+    D,10
+    A,10
+SONG
+    {key}
+    type
+        {I}
+        {I}

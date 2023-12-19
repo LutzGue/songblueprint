@@ -1,0 +1,99 @@
+REL_KEY
+	I,10
+	IV,10
+	V,10
+	vi,10
+	ii,10
+	iii,10
+$ start keyword
+SONG
+	S{PHRASE},10
+PHRASE
+	$ split
+	{PHRASE}{PHRASE},3
+	$ phrase
+	[P{START}],10
+$ overal sections
+START
+	{PRE}{STAT}{DYN1}{CON1}{CAD1},10
+PRE
+	[PRE{DPR1}],10
+	,10
+STAT
+	[STAT{TPR1}],10
+	,10
+DYN1
+	[DYN{DYN2}],10
+	,10
+CON1
+	[CON{CON2}],10
+	,10
+CAD1
+	[CAD{CAD2}],10
+	,5
+TPR1
+	{TPR1}{TPR1},8
+	[TPR{TPR2}],10
+	[SOP{SOP}],2
+TPR2
+	[I x],10
+	[I x]{TPR3}[I x],10
+TPR3
+	$ split
+	{TPR3}{TPR3},20
+	$ inversions
+	[I6 x],10
+	[I46 x],10
+	[iii x],10
+	$ substitutions
+	[vi x],10
+	[V x],10
+	$ oscillations
+	[IV x],10
+	[ii x],10
+	[vii x],10
+SOP
+    [I][IV][V][I],10
+	[I][ii][V][I],10
+DPR1
+	{DPR1}{DPR1},10
+	[DPR{DPR2}],10
+DPR2
+	[V x],10
+	[V x]{DPR3}[V x],10
+DPR3
+	{DPR3}{DPR3},10
+	[ii x],10
+I
+	[I x],10
+V
+	{V}{V},5
+	[V x],10
+DYN2
+	{DYN2}{DYN2},30
+	{DYN3},20
+DYN3
+	{DYN4},10
+	[RKEY_{REL_KEY}{DYN4}],5
+DYN4
+	[I x],10
+	[ii x],10
+	[iii x],10
+	[IV x],10
+	[V x],10
+	[vi x],10
+	[vii x],10
+CON2
+	[ii x],10
+	[IV x],10
+CAD2
+	[PAC{PAC}],10
+	[HC{HC}],10
+	[DEC{DEC}],10
+	[IC],10
+PAC
+	[V x][I x],10
+HC
+	[V x],10
+DEC
+	[V x][vi x],10

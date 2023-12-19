@@ -1,0 +1,74 @@
+key
+	{key_maj}, 12 
+	{key_min}, 10
+	key_dorian, 3
+	key_phrygian, 3
+	key_lydian, 3
+	key_mixolydian, 3
+	key_locrian, 3
+key_maj
+	key_Bb{start_maj}, 5
+	key_F{start_maj}, 5
+	key_C{start_maj}, 5
+	key_G{start_maj}, 5
+	key_D{start_maj}, 5
+key_min
+	key_g{start_min}, 5
+	key_d{start_min}, 5
+	key_a{start_min}, 5
+	key_e{start_min}, 5
+	key_b{start_min}, 5
+rel_key_maj
+	key_I, 5
+	key_ii,5
+	key_iii,5
+	key_IV,5
+	key_V,5
+	key_vi,5
+	key_vii,5
+	key_bVII,5
+rel_key_min
+	key_i,5
+	key_II,5
+	key_bIII, 5
+	key_iv, 5
+	key_V,5
+	key_v, 5
+	key_VI, 5
+	key_vii,5
+start_maj
+	[I{I}][I{I}], 5
+	[V{V}][V{V}], 5
+start_min
+	[i{i}][i{i}], 5
+I
+	[V{V}][I x], 10
+	[V{V}][I{I}], 5
+	[I{I}][I{I}], 3
+	[{rel_key_maj}{I}], 5
+	 x, 5
+i
+	[V{V}][i x], 10
+	[V{V}][i{I}], 5
+	[i{I}][i{I}], 3
+	[{rel_key_min}{i}], 5
+	 x, 5
+V
+	[ii{ii}][V x], 10
+	[ii{ii}][V{V}], 5
+	[V/V{V/V}][V x], 10
+	[V/V{V/V}][V{V}], 5
+	[V{V}][V x], 10
+	[V{V}][V{V}], 5
+	[{rel_key_maj}{V}], 4
+	 x, 5
+ii
+	[vi{vi}][ii{ii}], 10
+	 x, 8
+vi
+	[V/vi][vi{vi}], 10
+	 x, 8
+V/V
+	[V/V/V x][V/V x], 10
+	[V/V/V x][V/V{V/V}], 5
+	 x, 8

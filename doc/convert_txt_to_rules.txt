@@ -1,0 +1,44 @@
+reads a text file with a specific hierarchical structure and converts it into a Python dictionary following a given structure.
+
+-----------------
+
+schreibe code in python:
+- in einer textdatei soll in hierarchischer form mit 2 ebenen folgendes vorgegeben werden. In der ersten ebene steht ein einzelner string (z.B. "key"). die zweiten ebene besteht aus einem string (z.B "{key_maj}" und einem integer (z.B. 12).
+
+beispiel text-datei "rules.txt":
+
+$ tonart
+key
+	{key_maj}, 12 
+	{key_min}, 10
+	key_dorian, 3
+$ tonart in dur
+key_maj
+	key_Bb{start_maj}, 5
+	key_F{start_maj}, 5
+	key_C{start_maj}, 5
+$ weiterer regeln
+
+- diese txt-datei "rules.txt" mit den regeln in hierarchischer struktur wird anschließend im python script eingelesen. dabei werden leere zeilen ignoriert und zeilen die mit einem $ zeichen beginnen werden ebenfalls ignoriert.
+- anschließend wird der vorgegebene text in die Python dictionary variable rules in der nachfolgenden struktur konvertiert. es ist zu beachten, dass elemente der ersten ebene aus einem einzelwert bestehen (z.B. "key"). In dem element aus der ersten Ebene sind mehrere elemente aus der zweiten ebene enthalten: (z.B. "key": [("{key_maj}", 12), ("{key_min}", 10), ("key_dorian", 3),).
+
+beispiel:
+
+rules = {
+    "key": [
+        ("{key_maj}", 12), 
+        ("{key_min}", 10), 
+        ("key_dorian", 3),
+        ("key_phrygian", 3),
+        ("key_lydian", 3),
+        ("key_mixolydian", 3),
+        ("key_locrian",  3)
+        ],
+    "key_maj": [
+        ("key_Bb{start_maj}", 5), 
+        ("key_F{start_maj}", 5),
+        ("key_C{start_maj}", 5), 
+        ("key_G{start_maj}", 5), 
+        ("key_D{start_maj}", 5)
+        ]
+}

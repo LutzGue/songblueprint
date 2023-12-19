@@ -1,0 +1,136 @@
+$ v006 -- 2023-12-15
+$ Phillip Magnuson -- Song Patterns
+SONG
+	S:KEY_{KEY}{PHRASE},10
+PHRASE
+	[P:KEY_I{Phrase_Start}],10
+	[P:KEY_I{Phrase_Start}][P:KEY_I{Phrase_Start}],0
+	[P:KEY_I{Phrase_Start}][P:KEY_{KEY_REL}{Phrase_Start}][P:KEY_I{Phrase_Start}],0
+	[P:KEY_I{Phrase_Start}][P:KEY_{KEY_REL}{Phrase_Start}][P:KEY_{KEY_REL}{Phrase_Start}][P:KEY_I{Phrase_Start}],0
+Phrase_Start
+	{Prolongations}{Connection}{Cadences},10
+KEY
+	{KEY_MAJ},10
+	{KEY_MIN},10
+KEY_MAJ
+	F,10
+	C,10
+	G,10
+KEY_MIN
+	d,10
+	a,10
+	e,10
+KEY_REL
+	I,10
+	V,10
+	IV,10
+	ii,10
+	iii,10
+Prolongations
+	$ without predominant V section
+	[PROL[TON:I{PROL1}]],10
+	$ with predominant V section
+	[PROL[PRE:V{PRE_V}][TON:I{PROL1}]],10
+PRE_V
+	{VAR_V},10
+	{VAR_V}{VAR_V},10
+PROL1
+	[I|i{VAR_I}],10
+	[I|i{VAR_I}]{PROL_I}[I|i{VAR_I}],10
+	[I|i{VAR_I}]{PROL_I}[I|i{VAR_I}]{PROL_I}[I|i{VAR_I}],10
+	[I|i{VAR_I}]{PROL_I}[I|i{VAR_I}]{PROL_I}[I|i{VAR_I}]{PROL_I}[I|i{VAR_I}],10
+	[I|i{VAR_I}]{PROL_I}[I|i{VAR_I}]{PROL_I}[I|i{VAR_I}]{PROL_I}[I|i{VAR_I}]{PROL_I}[I|i{VAR_I}],10
+	$ subordinate progression SOP
+	[I|i{SOP}],10
+PROL_I
+	$ I tonic
+	[(I|i){VAR_I}],10
+	[(I|i){VAR_I}{VAR_I}],10
+	[(I|i){VAR_I}{VAR_I}{VAR_I}],0
+	[(I|i){VAR_I}{VAR_I}{VAR_I}{VAR_I}],0
+	$ V dominant
+	[(V|V){VAR_V}],10
+	[(V|V){VAR_V}{VAR_V}],10
+	[(V|V){VAR_V}{VAR_V}{VAR_V}],0
+	[(V|V){VAR_V}{VAR_V}{VAR_V}{VAR_V}],0
+	$ secondary dominant
+	[(2.dom){SEC_DOM}],10
+MOD
+	$ modulation
+	=y:MOD_?,2
+	,10
+VAR_I
+	[I35|i35 x {MOD}],10
+	[I6|i6 x {MOD}],10
+	[I46|i46 x {MOD}],10
+	[sub{SUB_TON}],10
+SUB_TON
+	$ tonic substitutions
+	[vi|? x {MOD}],10
+	[IV6|? x {MOD}],10
+	[iii|? x {MOD}],10
+VAR_V
+	[V35|V35 x {MOD}],10
+	[V6|V6 x {MOD}],10
+	[V46|V46 x {MOD}],10
+	[V7|V7 x {MOD}],10
+	[V56|V56 x {MOD}],10
+	[V34|V34 x {MOD}],10
+	[V2|V2 x {MOD}],10
+	[sub{SUB_DOM}],10
+SUB_DOM
+	$ dominant substitutions
+	{VAR_viio},10
+	[iii6|? x {MOD}],10
+VAR_viio
+	[viio6|? x {MOD}],10
+	[viio7|? x {MOD}],10
+	[viio56|? x {MOD}],10
+	[viio34|? x {MOD}],10
+VAR_ii
+	[ii35|? x],10
+	[ii6|? x],10
+	[ii46|? x],10
+	[ii7|? x],10
+	[ii56|? x],10
+	[ii34|? x],10
+	[ii2|? x],10
+SOP
+	[SOP[I|i {VAR_I}][ii|? {VAR_ii}][V|? {VAR_V}][I|i {VAR_I}]],10
+	[IncSOP[ii|? {VAR_ii}][V|? {VAR_V}][I|i {VAR_I}]],10
+Connection
+	$ use connection
+	[conn{CON}],10
+	$ skip connection
+	,10
+CON
+	{VAR_ii},10
+	{SEC_DOM},10
+SEC_DOM
+	$ sekundäre dominanzen
+	[V35/--> x],10
+	[V6/--> x],10
+	[V46/--> x],10
+	[V7/--> x],10
+	[V56/--> x],10
+	[V34/--> x],10
+	[V2/--> x],10
+	[viio6/--> x],10
+	[viio7/--> x],10
+	[viio7o/--> x],10
+Cadences
+	[CAD{CAD1}],10
+CAD1
+	[CAD:V{CAD_V}][CAD:I{CAD_I}],10
+	[CAD:V{CAD_V}],10
+CAD_V
+	{VAR_V},10
+	[CAD_V64[V46|V46 x][V357|V357 x]],6
+	[CAD_V64[V46|V46 x][V35|V35 x]],4
+CAD_I
+	[I|i x],10
+	[vi|? x],10
+	[PLAG-TAG{PLAGTAG1}],10
+PLAGTAG1
+	[IV|? x][I|i x],10
+	[IV|? x][IV|? x][I|i x],10

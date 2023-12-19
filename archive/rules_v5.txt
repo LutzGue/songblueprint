@@ -1,0 +1,69 @@
+$ v005 -- 2023-12-13
+$ Phillip Magnuson -- Song Patterns
+SONG
+	S:KEY_{KEY}{Prolongations}{Cadences},10
+KEY
+	{KEY_MAJ},10
+	{KEY_MIN},10
+KEY_MAJ
+	F,10
+	C,10
+	G,10
+KEY_MIN
+	d,10
+	a,10
+	e,10
+KEY_REL
+	I,10
+	V,10
+	IV,10
+	ii,10
+	iii,10
+Prolongations
+	[PROL[I{PROL1}]],10
+PROL1
+	[I{VAR_I}],10
+	[I{VAR_I}]{PROL_I}[I{VAR_I}],10
+	[I{VAR_I}]{PROL_I}[I{VAR_I}]{PROL_I}[I{VAR_I}],10
+	[I{VAR_I}]{PROL_I}[I{VAR_I}]{PROL_I}[I{VAR_I}]{PROL_I}[I{VAR_I}],0
+	[I{VAR_I}]{PROL_I}[I{VAR_I}]{PROL_I}[I{VAR_I}]{PROL_I}[I{VAR_I}]{PROL_I}[I{VAR_I}],0
+PROL_I
+	[I{VAR_I}],10
+	[I{VAR_I}{VAR_I}],10
+	[I{VAR_I}{VAR_I}{VAR_I}],10
+	[I{VAR_I}{VAR_I}{VAR_I}{VAR_I}],10
+	[V{VAR_V}],10
+	[V{VAR_V}{VAR_V}],10
+	[V{VAR_V}{VAR_V}{VAR_V}],10
+	[V{VAR_V}{VAR_V}{VAR_V}{VAR_V}],10
+	[viio{VAR_viio}],10
+	[viio{VAR_viio}{VAR_viio}],10
+	[viio{VAR_viio}{VAR_viio}{VAR_viio}],10
+	[viio{VAR_viio}{VAR_viio}{VAR_viio}{VAR_viio}],10
+VAR_I
+	[I35 x],10
+	[I6 x],10
+	[I46 x],10
+VAR_V
+	[V35 x],10
+	[V6 x],10
+	[V46 x],10
+	[V7 x],10
+	[V56 x],10
+	[V34 x],10
+	[V2 x],10
+VAR_viio
+	[viio6 x],10
+Cadences
+	[CAD{CAD1}],10
+CAD1
+	[V{CAD_V}][I{CAD_I}],10
+	[V{CAD_V}],10
+CAD_V
+	[V x],10
+	[V7 x],10
+CAD_I
+	[I x],10
+	[PLAG-TAG{PLAGTAG1}],10
+PLAGTAG1
+	[IV x],10

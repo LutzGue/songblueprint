@@ -1,0 +1,70 @@
+folgender code in python sei gegeben.
+ein feature soll implementiert werden.
+im falle, dass aufeinanderfolgende sich wiederholende sequenzen vorliegen sollen die nachfolgenden entfernt werden.
+
+Beispiel Nr. 1:
+original vor bereinigung:
+[key_D[I[V[V/V][V[V/V[V/V/V][V/V[V/V/V][V/V[V/V/V][V/V[V/V/V][V/V]]]]][V]]][I]][I[V[ii][V[ii[vi[V/vi][vi]][ii]][V]]][I]]]
+nach bereinigung:
+[key_D[I[V[V/V][V[V/V[V/V/V][V/V]][V]]][I]][I[V[ii][V[ii[vi[V/vi][vi]][ii]][V]]][I]]]
+
+Beispiel Nr. 2:
+original vor bereinigung:
+[key_G[I[V][I]][I[V[V/V[V/V/V][V/V[V/V/V][V/V]]][V[V/V][V[V/V][V[ii][V[V/V[V/V/V][V/V[V/V/V][V/V]]][V]]]]]][I]]]
+nach bereinigung:
+[key_G[I[V][I]][I[V[V/V[V/V/V][V/V[V/V]]][V[V[V/V][V[ii][V[V/V[V/V/V][V/V[V/V]]][V]]]]]][I]]]
+
+code in python:
+
+import random
+
+class MelodyGenerator:
+    def __init__(self, rules):
+        self.rules = rules
+        self.max_iterations = 1000
+
+    def apply_rules(self, text):
+        iterations = 0
+        while "{" in text and iterations < self.max_iterations:
+            start = text.find("{")
+            end = text.find("}", start)
+            if start != -1 and end != -1:
+                search_term = text[start + 1:end]
+                if search_term in self.rules:
+                    replacement, probability = random.choice(self.rules[search_term])
+                    text = text[:start] + replacement + text[end + 1:]
+            iterations += 1
+        return text
+    
+    def generate_melodies(self, initial_text, num_melodies):
+        melodies = []
+        for _ in range(num_melodies):
+            melody = initial_text
+            melody = self.apply_rules(melody)
+            melodies.append(melody)
+        return melodies
+
+# Beispielregeln
+rules = {
+    "key": [("key_C[I{I}][I{I}]", 10), ("key_G[I{I}][I{I}]", 5), ("key_D[I{I}][I{I}]", 5)],
+    "I": [("[V{V}][I]", 10), ("", 8)],
+    "V": [("[ii{ii}][V{V}]", 10), ("[V/V{V/V}][V{V}]", 10), ("", 8)],
+    "ii": [("[vi{vi}][ii]", 10), ("", 8)],
+    "vi": [("[V/vi][vi]", 10), ("", 8)],
+    "V/V": [("[V/V/V][V/V{V/V}]", 10), ("", 8)],
+    # Weitere Regeln hier hinzufügen
+}
+
+# Beispieltext
+initial_text = "[{key}]"
+
+# Anzahl der zu generierenden Melodien
+num_melodies = 5
+
+# MelodyGenerator erstellen und Melodien generieren
+melody_generator = MelodyGenerator(rules)
+generated_melodies = melody_generator.generate_melodies(initial_text, num_melodies)
+
+# Ausgabe der generierten Melodien
+for i, melody in enumerate(generated_melodies):
+    print(f"Generated Melody {i + 1}:", melody)
